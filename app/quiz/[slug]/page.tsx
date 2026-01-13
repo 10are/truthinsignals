@@ -28,9 +28,7 @@ interface Result {
 interface Quiz {
   id: string;
   title: string;
-  description: string;
   emoji: string;
-  category: string;
   questions: Question[];
   results: Result[];
 }
@@ -41,9 +39,7 @@ export default function QuizPage() {
 
   const [quiz, setQuiz] = useState<Quiz | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [answers, setAnswers] = useState<Option[]>([]);
-  const [showResult, setShowResult] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
 
   useEffect(() => {
@@ -53,19 +49,14 @@ export default function QuizPage() {
     }
   }, [slug]);
 
-  const handleOptionSelect = (index: number) => {
-    setSelectedOption(index);
-  };
-
-  const handleNext = () => {
-    if (selectedOption === null || !quiz) return;
-
-    const newAnswers = [...answers, quiz.questions[currentQuestion].options[selectedOption]];
+  const handleSelect = (option: Option) => {
+    const newAnswers = [...answers, option];
     setAnswers(newAnswers);
 
-    if (currentQuestion < quiz.questions.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
-      setSelectedOption(null);
+    if (currentQuestion < quiz!.questions.length - 1) {
+      setTimeout(() => {
+        setCurrentQuestion(currentQuestion + 1);
+      }, 150);
     } else {
       calculateResult(newAnswers);
     }
@@ -93,15 +84,11 @@ export default function QuizPage() {
       const matchedResult = quiz.results.find((r) => r.type === dominantType);
       setResult(matchedResult || null);
     }
-
-    setShowResult(true);
   };
 
-  const restartQuiz = () => {
+  const restart = () => {
     setCurrentQuestion(0);
-    setSelectedOption(null);
     setAnswers([]);
-    setShowResult(false);
     setResult(null);
   };
 
@@ -113,18 +100,17 @@ export default function QuizPage() {
             <Link href="/" className="logo">TruthInSignals</Link>
           </div>
         </nav>
-        <div className="quiz-container">
+        <div className="quiz-wrapper">
           <div className="result">
-            <div className="result-emoji">😢</div>
             <div className="result-title">Quiz not found</div>
-            <Link href="/" className="btn" style={{width: 'auto', display: 'inline-block'}}>Go Home</Link>
+            <Link href="/" className="btn">Go Home</Link>
           </div>
         </div>
       </>
     );
   }
 
-  if (showResult && result) {
+  if (result) {
     return (
       <>
         <nav className="navbar">
@@ -133,15 +119,14 @@ export default function QuizPage() {
           </div>
         </nav>
 
-        <div className="quiz-container">
+        <div className="quiz-wrapper">
           <div className="ad">Advertisement</div>
 
-          <div className="result">
-            <div className="result-emoji">{quiz.emoji}</div>
+          <div className="result fade-in">
             <div className="result-title">{result.title}</div>
             <div className="result-desc">{result.description}</div>
             <div className="result-actions">
-              <button onClick={restartQuiz} className="btn">Take Again</button>
+              <button onClick={restart} className="btn">Take Again</button>
               <Link href="/" className="btn btn-outline">More Quizzes</Link>
               <button
                 onClick={() => {
@@ -151,7 +136,7 @@ export default function QuizPage() {
                     navigator.share({ title: quiz.title, text, url: shareUrl });
                   } else {
                     navigator.clipboard.writeText(`${text} ${shareUrl}`);
-                    alert('Copied to clipboard!');
+                    alert('Copied!');
                   }
                 }}
                 className="btn btn-outline"
@@ -175,43 +160,32 @@ export default function QuizPage() {
       <nav className="navbar">
         <div className="navbar-inner">
           <Link href="/" className="logo">TruthInSignals</Link>
-          <span style={{color: '#999', fontSize: '14px'}}>{currentQuestion + 1}/{quiz.questions.length}</span>
+          <span className="quiz-counter">{currentQuestion + 1}/{quiz.questions.length}</span>
         </div>
       </nav>
 
-      <div className="quiz-container">
+      <div className="quiz-wrapper">
         <div className="ad">Advertisement</div>
 
-        <div className="quiz-header">
-          <div className="quiz-title">{quiz.title}</div>
-          <div className="quiz-progress">
-            <div className="progress-bar">
-              <div className="progress-fill" style={{ width: `${progress}%` }} />
-            </div>
+        <div className="progress">
+          <div className="progress-fill" style={{ width: `${progress}%` }} />
+        </div>
+
+        <div className="fade-in" key={currentQuestion}>
+          <div className="question">{question.text}</div>
+
+          <div className="options">
+            {question.options.map((option, index) => (
+              <button
+                key={index}
+                onClick={() => handleSelect(option)}
+                className="option"
+              >
+                {option.text}
+              </button>
+            ))}
           </div>
         </div>
-
-        <div className="question">{question.text}</div>
-
-        <div className="options">
-          {question.options.map((option, index) => (
-            <button
-              key={index}
-              onClick={() => handleOptionSelect(index)}
-              className={`option ${selectedOption === index ? 'selected' : ''}`}
-            >
-              {option.text}
-            </button>
-          ))}
-        </div>
-
-        <button
-          onClick={handleNext}
-          disabled={selectedOption === null}
-          className="btn"
-        >
-          {currentQuestion < quiz.questions.length - 1 ? 'Next' : 'See Result'}
-        </button>
 
         <div className="ad">Advertisement</div>
       </div>

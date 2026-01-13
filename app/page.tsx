@@ -17,8 +17,8 @@ export default function Home() {
           {quizData.quizzes.map((quiz) => (
             <Link href={`/quiz/${quiz.id}`} key={quiz.id}>
               <div className="quiz-card">
-                <div className="quiz-card-img">{quiz.emoji}</div>
-                <div className="quiz-card-body">
+                <div className="quiz-card-icon">{quiz.emoji}</div>
+                <div className="quiz-card-content">
                   <div className="quiz-card-title">{quiz.title}</div>
                   <div className="quiz-card-meta">{quiz.questions.length} questions</div>
                 </div>
@@ -29,9 +29,7 @@ export default function Home() {
 
         <div className="ad">Advertisement</div>
 
-        <div className="footer">
-          © 2025 TruthInSignals
-        </div>
+        <div className="footer">© 2025 TruthInSignals</div>
       </div>
     </>
   );
