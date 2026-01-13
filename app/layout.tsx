@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     title: "Truth In Signals - Fun Relationship Quizzes",
     description: "Discover the truth about your relationships with our fun, revealing quizzes!",
   },
+  other: {
+    "google-adsense-account": "ca-pub-2898264794440783",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
