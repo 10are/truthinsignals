@@ -1,0 +1,425 @@
+{
+  "quizzes": [
+    {
+      "id": "does-she-love-you",
+      "title": "Does She Really Love You?",
+      "description": "Find out the truth about her feelings with this revealing quiz",
+      "emoji": "💕",
+      "category": "love",
+      "questions": [
+        {
+          "id": 1,
+          "text": "When you text her, how long does she usually take to reply?",
+          "options": [
+            { "text": "Within minutes - she's always quick!", "points": 3 },
+            { "text": "A few hours, she's busy", "points": 2 },
+            { "text": "Sometimes days... or never", "points": 0 },
+            { "text": "It depends on what I say", "points": 1 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Does she remember small details about your life?",
+          "options": [
+            { "text": "Yes! She remembers everything", "points": 3 },
+            { "text": "The big stuff, mostly", "points": 2 },
+            { "text": "Not really, I have to remind her", "points": 1 },
+            { "text": "She barely knows my last name", "points": 0 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "How does she act when you're around her friends?",
+          "options": [
+            { "text": "Proudly introduces me to everyone", "points": 3 },
+            { "text": "Keeps me close but low-key", "points": 2 },
+            { "text": "Acts like we're just friends", "points": 1 },
+            { "text": "Pretends I don't exist", "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "When you're going through a hard time, she...",
+          "options": [
+            { "text": "Drops everything to be there for me", "points": 3 },
+            { "text": "Checks in and offers support", "points": 2 },
+            { "text": "Says 'that sucks' and changes topic", "points": 1 },
+            { "text": "Doesn't really notice or care", "points": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Does she make future plans that include you?",
+          "options": [
+            { "text": "All the time! We plan everything together", "points": 3 },
+            { "text": "Sometimes, for bigger events", "points": 2 },
+            { "text": "Only if I bring it up first", "points": 1 },
+            { "text": "Never - she keeps things vague", "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        {
+          "minScore": 0,
+          "maxScore": 4,
+          "title": "Red Flag Alert 🚩",
+          "description": "Based on your answers, it seems like she might not be as invested as you are. Her actions don't show the signs of someone truly in love. It might be time for an honest conversation about where this is going."
+        },
+        {
+          "minScore": 5,
+          "maxScore": 8,
+          "title": "Mixed Signals 🤔",
+          "description": "There are some positive signs, but also some concerning ones. She might be interested but holding back, or still figuring out her feelings. Keep your eyes open and watch for consistent patterns."
+        },
+        {
+          "minScore": 9,
+          "maxScore": 12,
+          "title": "Looking Promising! 💛",
+          "description": "Good news! She shows many signs of genuine care and interest. While nobody's perfect, she seems to value you and the relationship. Keep nurturing what you have!"
+        },
+        {
+          "minScore": 13,
+          "maxScore": 15,
+          "title": "She's Totally Into You! 💖",
+          "description": "Congratulations! All signs point to real, genuine love. She prioritizes you, remembers the little things, and sees you in her future. You've found something special - cherish it!"
+        }
+      ]
+    },
+    {
+      "id": "does-he-love-you",
+      "title": "Does He Really Love You?",
+      "description": "Discover the truth about his feelings once and for all",
+      "emoji": "💙",
+      "category": "love",
+      "questions": [
+        {
+          "id": 1,
+          "text": "When you need help with something, he...",
+          "options": [
+            { "text": "Shows up without me even asking", "points": 3 },
+            { "text": "Helps when I ask", "points": 2 },
+            { "text": "Sometimes helps if it's convenient", "points": 1 },
+            { "text": "Always has an excuse", "points": 0 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How does he talk about you to others?",
+          "options": [
+            { "text": "I'm 'my girlfriend/wife' with pride", "points": 3 },
+            { "text": "Mentions me sometimes", "points": 2 },
+            { "text": "Keeps our relationship private", "points": 1 },
+            { "text": "I'm not sure he tells people about me", "points": 0 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "During arguments, how does he handle it?",
+          "options": [
+            { "text": "Stays calm and wants to work it out", "points": 3 },
+            { "text": "Gets upset but apologizes later", "points": 2 },
+            { "text": "Shuts down and goes silent", "points": 1 },
+            { "text": "Gets mean or dismissive", "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Does he make effort to spend quality time together?",
+          "options": [
+            { "text": "Yes! He plans dates and activities", "points": 3 },
+            { "text": "We hang out regularly", "points": 2 },
+            { "text": "Only when nothing else is going on", "points": 1 },
+            { "text": "I always have to initiate", "points": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "How does he react when something good happens to you?",
+          "options": [
+            { "text": "Celebrates like it's his own win!", "points": 3 },
+            { "text": "Says congrats and seems happy", "points": 2 },
+            { "text": "A quick 'nice' and moves on", "points": 1 },
+            { "text": "Seems jealous or uninterested", "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        {
+          "minScore": 0,
+          "maxScore": 4,
+          "title": "Warning Signs 🚩",
+          "description": "Girl, the signs aren't great. His behavior suggests he's not putting in the effort a loving partner should. You deserve someone who shows up for you consistently."
+        },
+        {
+          "minScore": 5,
+          "maxScore": 8,
+          "title": "Hmm... Unclear 🤷‍♀️",
+          "description": "There's potential here, but also some concerning patterns. He might care but struggle to show it, or he might be unsure himself. Communication is key right now."
+        },
+        {
+          "minScore": 9,
+          "maxScore": 12,
+          "title": "He Cares! 💙",
+          "description": "Great news! He shows genuine signs of caring about you. He's not perfect (who is?), but his actions show that you matter to him. Keep building on this foundation!"
+        },
+        {
+          "minScore": 13,
+          "maxScore": 15,
+          "title": "He's In Love! 💕",
+          "description": "You've got a keeper! His actions consistently show love, respect, and care. He prioritizes you, supports your wins, and works through the tough stuff. This is the real deal!"
+        }
+      ]
+    },
+    {
+      "id": "is-your-relationship-toxic",
+      "title": "Is Your Relationship Toxic?",
+      "description": "Take this quiz to find out if your relationship is healthy or harmful",
+      "emoji": "☠️",
+      "category": "relationship",
+      "questions": [
+        {
+          "id": 1,
+          "text": "After spending time with your partner, you usually feel...",
+          "options": [
+            { "text": "Happy, energized, and loved", "points": 0 },
+            { "text": "Content, but sometimes drained", "points": 1 },
+            { "text": "Anxious or walking on eggshells", "points": 2 },
+            { "text": "Exhausted, sad, or worthless", "points": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "When you express your feelings or concerns, your partner...",
+          "options": [
+            { "text": "Listens and tries to understand", "points": 0 },
+            { "text": "Sometimes dismisses but usually comes around", "points": 1 },
+            { "text": "Gets defensive or turns it on me", "points": 2 },
+            { "text": "Mocks me or uses it against me later", "points": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "How often do you find yourself apologizing to keep the peace?",
+          "options": [
+            { "text": "Rarely - we both apologize when wrong", "points": 0 },
+            { "text": "Sometimes, even if I'm not sure why", "points": 1 },
+            { "text": "Often - it's easier than fighting", "points": 2 },
+            { "text": "Constantly - everything is my fault", "points": 3 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Does your partner try to control who you see or what you do?",
+          "options": [
+            { "text": "No, they trust and support my independence", "points": 0 },
+            { "text": "Occasionally asks too many questions", "points": 1 },
+            { "text": "Gets upset when I see certain people", "points": 2 },
+            { "text": "Yes - I've lost friends because of them", "points": 3 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "How do you feel about yourself since being in this relationship?",
+          "options": [
+            { "text": "More confident and happier", "points": 0 },
+            { "text": "About the same as before", "points": 1 },
+            { "text": "Less confident, more insecure", "points": 2 },
+            { "text": "I don't recognize myself anymore", "points": 3 }
+          ]
+        }
+      ],
+      "results": [
+        {
+          "minScore": 0,
+          "maxScore": 3,
+          "title": "Healthy Relationship 💚",
+          "description": "Great news! Your relationship shows healthy patterns. You both respect each other, communicate well, and support each other's growth. Keep nurturing this positive connection!"
+        },
+        {
+          "minScore": 4,
+          "maxScore": 7,
+          "title": "Some Yellow Flags 💛",
+          "description": "Your relationship has some areas that need attention. While not necessarily toxic, there are patterns that could become problematic. Open communication and possibly couples counseling could help."
+        },
+        {
+          "minScore": 8,
+          "maxScore": 11,
+          "title": "Concerning Patterns 🧡",
+          "description": "There are significant warning signs in your relationship. These patterns can be damaging to your mental health and self-esteem. Consider talking to a trusted friend or professional about what you're experiencing."
+        },
+        {
+          "minScore": 12,
+          "maxScore": 15,
+          "title": "Toxic Alert 🔴",
+          "description": "Your answers indicate serious toxic patterns. This relationship may be harmful to your wellbeing. Please consider reaching out to a counselor, therapist, or domestic support hotline. You deserve to be in a healthy, loving relationship."
+        }
+      ]
+    },
+    {
+      "id": "what-type-of-lover",
+      "title": "What Type of Lover Are You?",
+      "description": "Discover your unique love language and romantic personality",
+      "emoji": "🦋",
+      "category": "personality",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Your ideal date night would be...",
+          "options": [
+            { "text": "Deep conversations over candlelit dinner", "type": "emotional" },
+            { "text": "Adventure - hiking, concerts, something exciting!", "type": "passionate" },
+            { "text": "Cozy night in with movies and cuddles", "type": "nurturing" },
+            { "text": "Surprise me! I love spontaneity", "type": "free-spirit" }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "When you fall for someone, you typically...",
+          "options": [
+            { "text": "Fall slowly, after getting to know them deeply", "type": "emotional" },
+            { "text": "Fall fast and hard - when I know, I know!", "type": "passionate" },
+            { "text": "Focus on making them feel cared for", "type": "nurturing" },
+            { "text": "Keep things light until I'm really sure", "type": "free-spirit" }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "In relationships, you value most...",
+          "options": [
+            { "text": "Emotional connection and understanding", "type": "emotional" },
+            { "text": "Chemistry and physical attraction", "type": "passionate" },
+            { "text": "Stability and mutual support", "type": "nurturing" },
+            { "text": "Freedom and personal growth together", "type": "free-spirit" }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "When there's a problem in your relationship, you...",
+          "options": [
+            { "text": "Want to talk it through completely", "type": "emotional" },
+            { "text": "Address it head-on immediately", "type": "passionate" },
+            { "text": "Try to fix it by showing more love", "type": "nurturing" },
+            { "text": "Need some space to process first", "type": "free-spirit" }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Your friends would describe your love life as...",
+          "options": [
+            { "text": "Intense and meaningful", "type": "emotional" },
+            { "text": "Exciting and dramatic", "type": "passionate" },
+            { "text": "Sweet and devoted", "type": "nurturing" },
+            { "text": "Unpredictable but fun", "type": "free-spirit" }
+          ]
+        }
+      ],
+      "results": [
+        {
+          "type": "emotional",
+          "title": "The Deep Soul 🌙",
+          "description": "You love with your whole heart and crave emotional intimacy above all else. You need a partner who can match your depth and isn't afraid of vulnerability. When you love, it's profound and transformative."
+        },
+        {
+          "type": "passionate",
+          "title": "The Flame 🔥",
+          "description": "You love intensely and aren't afraid to show it! Chemistry is crucial for you, and you bring excitement and energy to your relationships. You need a partner who can keep up with your fiery spirit."
+        },
+        {
+          "type": "nurturing",
+          "title": "The Giver 🌸",
+          "description": "You show love through actions and care. Making your partner feel loved and supported is your superpower. You create a safe haven in your relationships but remember to let yourself receive too!"
+        },
+        {
+          "type": "free-spirit",
+          "title": "The Butterfly 🦋",
+          "description": "You love with freedom and authenticity. You need space to be yourself while also connecting deeply. The right partner will understand that your independence makes your love even more meaningful."
+        }
+      ]
+    },
+    {
+      "id": "are-you-ready-for-relationship",
+      "title": "Are You Ready for a Relationship?",
+      "description": "Find out if you're truly ready to commit or if you need more you-time",
+      "emoji": "🎯",
+      "category": "personality",
+      "questions": [
+        {
+          "id": 1,
+          "text": "How do you feel about being single right now?",
+          "options": [
+            { "text": "Desperate - I need someone ASAP", "points": 0 },
+            { "text": "Lonely sometimes, but I'm okay", "points": 2 },
+            { "text": "Content, but open to love", "points": 3 },
+            { "text": "Loving it! Not sure I want to change", "points": 1 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "What's your relationship with your ex(es)?",
+          "options": [
+            { "text": "Still not over them honestly", "points": 0 },
+            { "text": "Some unresolved feelings remain", "points": 1 },
+            { "text": "Learned from it and moved on", "points": 3 },
+            { "text": "What ex? I don't think about them", "points": 2 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "How would you describe your current mental/emotional state?",
+          "options": [
+            { "text": "Struggling - need someone to complete me", "points": 0 },
+            { "text": "Working on myself, some good and bad days", "points": 2 },
+            { "text": "In a good place, stable and growing", "points": 3 },
+            { "text": "Living my best life!", "points": 3 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Why do you want a relationship?",
+          "options": [
+            { "text": "Everyone else has one", "points": 0 },
+            { "text": "I'm tired of being alone", "points": 1 },
+            { "text": "I have love to give and share", "points": 3 },
+            { "text": "To have fun and see where it goes", "points": 2 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "How much time could you realistically give a partner?",
+          "options": [
+            { "text": "All of it - I have nothing else going on", "points": 1 },
+            { "text": "A lot, maybe too much", "points": 1 },
+            { "text": "Balanced - I have my own life too", "points": 3 },
+            { "text": "Honestly, not much right now", "points": 2 }
+          ]
+        }
+      ],
+      "results": [
+        {
+          "minScore": 0,
+          "maxScore": 5,
+          "title": "Focus on You First 💜",
+          "description": "Right now, you might benefit from spending more time on yourself before jumping into a relationship. Work on your healing, find your own happiness, and the right person will come when you're truly ready."
+        },
+        {
+          "minScore": 6,
+          "maxScore": 9,
+          "title": "Almost There! 🌱",
+          "description": "You're on the right track but might have a few things to work through first. Keep growing, stay open, and don't rush. You're closer to being ready than you think!"
+        },
+        {
+          "minScore": 10,
+          "maxScore": 12,
+          "title": "Ready to Mingle! 💕",
+          "description": "You're in a great place! You've done the work on yourself, you know what you want, and you're ready to share your life with someone. Get out there - love is waiting!"
+        },
+        {
+          "minScore": 13,
+          "maxScore": 15,
+          "title": "Relationship Goals 🏆",
+          "description": "You're absolutely ready! You're emotionally mature, have healthy expectations, and want a relationship for the right reasons. The lucky person who finds you is going to be very happy!"
+        }
+      ]
+    }
+  ]
+}

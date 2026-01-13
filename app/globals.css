@@ -1,26 +1,269 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e74c3c;
+}
+
+/* Quiz Card */
+.quiz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.quiz-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.quiz-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.quiz-card-img {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  background: #f8f9fa;
+}
+
+.quiz-card-body {
+  padding: 16px;
+}
+
+.quiz-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.quiz-card-meta {
+  font-size: 13px;
+  color: #999;
+}
+
+/* Quiz Page */
+.quiz-container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.quiz-header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 24px;
+}
+
+.quiz-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+}
+
+.quiz-progress {
+  margin-top: 16px;
+}
+
+.progress-bar {
+  background: #eee;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #e74c3c;
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.progress-text {
+  font-size: 13px;
+  color: #999;
+  margin-top: 8px;
+}
+
+/* Question */
+.question {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Options */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-align: left;
+}
+
+.option:hover {
+  border-color: #e74c3c;
+  background: #fff5f5;
+}
+
+.option.selected {
+  border-color: #e74c3c;
+  background: #e74c3c;
+  color: #fff;
+}
+
+/* Button */
+.btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.btn:hover {
+  background: #c0392b;
+}
+
+.btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #222;
+  border: 1px solid #ddd;
+}
+
+.btn-outline:hover {
+  background: #f8f9fa;
+}
+
+/* Result */
+.result {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.result-emoji {
+  font-size: 72px;
+  margin-bottom: 16px;
+}
+
+.result-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.result-desc {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.result-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.result-actions .btn {
+  width: auto;
+  margin-top: 0;
+}
+
+/* Ad */
+.ad {
+  background: #f8f9fa;
+  border: 1px dashed #ddd;
+  padding: 16px;
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+  font-size: 13px;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
 }
