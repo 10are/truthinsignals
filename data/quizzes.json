@@ -1,424 +1,781 @@
 {
   "quizzes": [
     {
-      "id": "does-she-love-you",
-      "title": "Does She Really Love You?",
-      "description": "Find out the truth about her feelings with this revealing quiz",
-      "emoji": "💕",
-      "category": "love",
-      "questions": [
-        {
-          "id": 1,
-          "text": "When you text her, how long does she usually take to reply?",
-          "options": [
-            { "text": "Within minutes - she's always quick!", "points": 3 },
-            { "text": "A few hours, she's busy", "points": 2 },
-            { "text": "Sometimes days... or never", "points": 0 },
-            { "text": "It depends on what I say", "points": 1 }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "Does she remember small details about your life?",
-          "options": [
-            { "text": "Yes! She remembers everything", "points": 3 },
-            { "text": "The big stuff, mostly", "points": 2 },
-            { "text": "Not really, I have to remind her", "points": 1 },
-            { "text": "She barely knows my last name", "points": 0 }
-          ]
-        },
-        {
-          "id": 3,
-          "text": "How does she act when you're around her friends?",
-          "options": [
-            { "text": "Proudly introduces me to everyone", "points": 3 },
-            { "text": "Keeps me close but low-key", "points": 2 },
-            { "text": "Acts like we're just friends", "points": 1 },
-            { "text": "Pretends I don't exist", "points": 0 }
-          ]
-        },
-        {
-          "id": 4,
-          "text": "When you're going through a hard time, she...",
-          "options": [
-            { "text": "Drops everything to be there for me", "points": 3 },
-            { "text": "Checks in and offers support", "points": 2 },
-            { "text": "Says 'that sucks' and changes topic", "points": 1 },
-            { "text": "Doesn't really notice or care", "points": 0 }
-          ]
-        },
-        {
-          "id": 5,
-          "text": "Does she make future plans that include you?",
-          "options": [
-            { "text": "All the time! We plan everything together", "points": 3 },
-            { "text": "Sometimes, for bigger events", "points": 2 },
-            { "text": "Only if I bring it up first", "points": 1 },
-            { "text": "Never - she keeps things vague", "points": 0 }
-          ]
-        }
-      ],
-      "results": [
-        {
-          "minScore": 0,
-          "maxScore": 4,
-          "title": "Red Flag Alert 🚩",
-          "description": "Based on your answers, it seems like she might not be as invested as you are. Her actions don't show the signs of someone truly in love. It might be time for an honest conversation about where this is going."
-        },
-        {
-          "minScore": 5,
-          "maxScore": 8,
-          "title": "Mixed Signals 🤔",
-          "description": "There are some positive signs, but also some concerning ones. She might be interested but holding back, or still figuring out her feelings. Keep your eyes open and watch for consistent patterns."
-        },
-        {
-          "minScore": 9,
-          "maxScore": 12,
-          "title": "Looking Promising! 💛",
-          "description": "Good news! She shows many signs of genuine care and interest. While nobody's perfect, she seems to value you and the relationship. Keep nurturing what you have!"
-        },
-        {
-          "minScore": 13,
-          "maxScore": 15,
-          "title": "She's Totally Into You! 💖",
-          "description": "Congratulations! All signs point to real, genuine love. She prioritizes you, remembers the little things, and sees you in her future. You've found something special - cherish it!"
-        }
-      ]
-    },
-    {
-      "id": "does-he-love-you",
-      "title": "Does He Really Love You?",
-      "description": "Discover the truth about his feelings once and for all",
-      "emoji": "💙",
-      "category": "love",
-      "questions": [
-        {
-          "id": 1,
-          "text": "When you need help with something, he...",
-          "options": [
-            { "text": "Shows up without me even asking", "points": 3 },
-            { "text": "Helps when I ask", "points": 2 },
-            { "text": "Sometimes helps if it's convenient", "points": 1 },
-            { "text": "Always has an excuse", "points": 0 }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "How does he talk about you to others?",
-          "options": [
-            { "text": "I'm 'my girlfriend/wife' with pride", "points": 3 },
-            { "text": "Mentions me sometimes", "points": 2 },
-            { "text": "Keeps our relationship private", "points": 1 },
-            { "text": "I'm not sure he tells people about me", "points": 0 }
-          ]
-        },
-        {
-          "id": 3,
-          "text": "During arguments, how does he handle it?",
-          "options": [
-            { "text": "Stays calm and wants to work it out", "points": 3 },
-            { "text": "Gets upset but apologizes later", "points": 2 },
-            { "text": "Shuts down and goes silent", "points": 1 },
-            { "text": "Gets mean or dismissive", "points": 0 }
-          ]
-        },
-        {
-          "id": 4,
-          "text": "Does he make effort to spend quality time together?",
-          "options": [
-            { "text": "Yes! He plans dates and activities", "points": 3 },
-            { "text": "We hang out regularly", "points": 2 },
-            { "text": "Only when nothing else is going on", "points": 1 },
-            { "text": "I always have to initiate", "points": 0 }
-          ]
-        },
-        {
-          "id": 5,
-          "text": "How does he react when something good happens to you?",
-          "options": [
-            { "text": "Celebrates like it's his own win!", "points": 3 },
-            { "text": "Says congrats and seems happy", "points": 2 },
-            { "text": "A quick 'nice' and moves on", "points": 1 },
-            { "text": "Seems jealous or uninterested", "points": 0 }
-          ]
-        }
-      ],
-      "results": [
-        {
-          "minScore": 0,
-          "maxScore": 4,
-          "title": "Warning Signs 🚩",
-          "description": "Girl, the signs aren't great. His behavior suggests he's not putting in the effort a loving partner should. You deserve someone who shows up for you consistently."
-        },
-        {
-          "minScore": 5,
-          "maxScore": 8,
-          "title": "Hmm... Unclear 🤷‍♀️",
-          "description": "There's potential here, but also some concerning patterns. He might care but struggle to show it, or he might be unsure himself. Communication is key right now."
-        },
-        {
-          "minScore": 9,
-          "maxScore": 12,
-          "title": "He Cares! 💙",
-          "description": "Great news! He shows genuine signs of caring about you. He's not perfect (who is?), but his actions show that you matter to him. Keep building on this foundation!"
-        },
-        {
-          "minScore": 13,
-          "maxScore": 15,
-          "title": "He's In Love! 💕",
-          "description": "You've got a keeper! His actions consistently show love, respect, and care. He prioritizes you, supports your wins, and works through the tough stuff. This is the real deal!"
-        }
-      ]
-    },
-    {
-      "id": "is-your-relationship-toxic",
-      "title": "Is Your Relationship Toxic?",
-      "description": "Take this quiz to find out if your relationship is healthy or harmful",
-      "emoji": "☠️",
+      "id": "red-flag-or-green-flag",
+      "title": "Is This a Red Flag or Green Flag?",
+      "emoji": "🚩",
       "category": "relationship",
+      "hook": "Most people fail this without realizing it.",
       "questions": [
         {
           "id": 1,
-          "text": "After spending time with your partner, you usually feel...",
+          "text": "They take 6+ hours to reply but are always on social media",
           "options": [
-            { "text": "Happy, energized, and loved", "points": 0 },
-            { "text": "Content, but sometimes drained", "points": 1 },
-            { "text": "Anxious or walking on eggshells", "points": 2 },
-            { "text": "Exhausted, sad, or worthless", "points": 3 }
+            { "text": "Red Flag 🚩", "correct": true, "points": 1 },
+            { "text": "Green Flag 💚", "correct": false, "points": 0 }
           ]
         },
         {
           "id": 2,
-          "text": "When you express your feelings or concerns, your partner...",
+          "text": "They remember small details you mentioned weeks ago",
           "options": [
-            { "text": "Listens and tries to understand", "points": 0 },
-            { "text": "Sometimes dismisses but usually comes around", "points": 1 },
-            { "text": "Gets defensive or turns it on me", "points": 2 },
-            { "text": "Mocks me or uses it against me later", "points": 3 }
+            { "text": "Red Flag 🚩", "correct": false, "points": 0 },
+            { "text": "Green Flag 💚", "correct": true, "points": 1 }
           ]
         },
         {
           "id": 3,
-          "text": "How often do you find yourself apologizing to keep the peace?",
+          "text": "They only text late at night",
           "options": [
-            { "text": "Rarely - we both apologize when wrong", "points": 0 },
-            { "text": "Sometimes, even if I'm not sure why", "points": 1 },
-            { "text": "Often - it's easier than fighting", "points": 2 },
-            { "text": "Constantly - everything is my fault", "points": 3 }
+            { "text": "Red Flag 🚩", "correct": true, "points": 1 },
+            { "text": "Green Flag 💚", "correct": false, "points": 0 }
           ]
         },
         {
           "id": 4,
-          "text": "Does your partner try to control who you see or what you do?",
+          "text": "They introduce you to their close friends",
           "options": [
-            { "text": "No, they trust and support my independence", "points": 0 },
-            { "text": "Occasionally asks too many questions", "points": 1 },
-            { "text": "Gets upset when I see certain people", "points": 2 },
-            { "text": "Yes - I've lost friends because of them", "points": 3 }
+            { "text": "Red Flag 🚩", "correct": false, "points": 0 },
+            { "text": "Green Flag 💚", "correct": true, "points": 1 }
           ]
         },
         {
           "id": 5,
-          "text": "How do you feel about yourself since being in this relationship?",
+          "text": "They get jealous when you mention other people",
           "options": [
-            { "text": "More confident and happier", "points": 0 },
-            { "text": "About the same as before", "points": 1 },
-            { "text": "Less confident, more insecure", "points": 2 },
-            { "text": "I don't recognize myself anymore", "points": 3 }
+            { "text": "Red Flag 🚩", "correct": true, "points": 1 },
+            { "text": "Green Flag 💚", "correct": false, "points": 0 }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "They ask about your day and actually listen",
+          "options": [
+            { "text": "Red Flag 🚩", "correct": false, "points": 0 },
+            { "text": "Green Flag 💚", "correct": true, "points": 1 }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "They never apologize, even when clearly wrong",
+          "options": [
+            { "text": "Red Flag 🚩", "correct": true, "points": 1 },
+            { "text": "Green Flag 💚", "correct": false, "points": 0 }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "They make plans in advance with you",
+          "options": [
+            { "text": "Red Flag 🚩", "correct": false, "points": 0 },
+            { "text": "Green Flag 💚", "correct": true, "points": 1 }
           ]
         }
       ],
       "results": [
-        {
-          "minScore": 0,
-          "maxScore": 3,
-          "title": "Healthy Relationship 💚",
-          "description": "Great news! Your relationship shows healthy patterns. You both respect each other, communicate well, and support each other's growth. Keep nurturing this positive connection!"
-        },
-        {
-          "minScore": 4,
-          "maxScore": 7,
-          "title": "Some Yellow Flags 💛",
-          "description": "Your relationship has some areas that need attention. While not necessarily toxic, there are patterns that could become problematic. Open communication and possibly couples counseling could help."
-        },
-        {
-          "minScore": 8,
-          "maxScore": 11,
-          "title": "Concerning Patterns 🧡",
-          "description": "There are significant warning signs in your relationship. These patterns can be damaging to your mental health and self-esteem. Consider talking to a trusted friend or professional about what you're experiencing."
-        },
-        {
-          "minScore": 12,
-          "maxScore": 15,
-          "title": "Toxic Alert 🔴",
-          "description": "Your answers indicate serious toxic patterns. This relationship may be harmful to your wellbeing. Please consider reaching out to a counselor, therapist, or domestic support hotline. You deserve to be in a healthy, loving relationship."
-        }
+        { "minScore": 0, "maxScore": 3, "title": "You Need Practice 👀", "description": "You might be missing some obvious signs. Pay closer attention to patterns, not just words." },
+        { "minScore": 4, "maxScore": 5, "title": "Getting There 🎯", "description": "You caught some flags but missed others. Trust your gut more." },
+        { "minScore": 6, "maxScore": 7, "title": "Sharp Eye 🔥", "description": "You can read most situations well. Keep trusting your instincts." },
+        { "minScore": 8, "maxScore": 8, "title": "Flag Expert 💯", "description": "Nothing gets past you. You see the signs others miss." }
       ]
     },
     {
-      "id": "what-type-of-lover",
-      "title": "What Type of Lover Are You?",
-      "description": "Discover your unique love language and romantic personality",
-      "emoji": "🦋",
+      "id": "are-they-losing-interest",
+      "title": "Are They Losing Interest?",
+      "emoji": "📉",
+      "category": "relationship",
+      "hook": "This test is uncomfortably accurate.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Their texts have gotten shorter lately",
+          "options": [
+            { "text": "Yes", "points": 2 },
+            { "text": "Sometimes", "points": 1 },
+            { "text": "No", "points": 0 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "They take longer to reply than before",
+          "options": [
+            { "text": "Yes", "points": 2 },
+            { "text": "Sometimes", "points": 1 },
+            { "text": "No", "points": 0 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "They stopped asking questions about your life",
+          "options": [
+            { "text": "Yes", "points": 2 },
+            { "text": "Sometimes", "points": 1 },
+            { "text": "No", "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Plans feel one-sided now",
+          "options": [
+            { "text": "Yes", "points": 2 },
+            { "text": "Sometimes", "points": 1 },
+            { "text": "No", "points": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "The energy feels different than before",
+          "options": [
+            { "text": "Yes", "points": 2 },
+            { "text": "Sometimes", "points": 1 },
+            { "text": "No", "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 2, "title": "They're Still Into You ✨", "description": "Based on what you shared, things seem solid. Don't overthink it." },
+        { "minScore": 3, "maxScore": 5, "title": "Minor Shifts 🤔", "description": "There might be small changes, but it's not a clear pattern yet. Keep observing." },
+        { "minScore": 6, "maxScore": 7, "title": "Something's Changing 📉", "description": "The signs suggest a shift in energy. It might be time for an honest conversation." },
+        { "minScore": 8, "maxScore": 10, "title": "Trust Your Gut 💔", "description": "The patterns are there. You already sense it. Don't ignore what you're feeling." }
+      ]
+    },
+    {
+      "id": "secretly-respect-you",
+      "title": "Do They Secretly Respect You?",
+      "emoji": "🤫",
+      "category": "relationship",
+      "hook": "Respect shows in actions, not words.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "When you speak, do they actually listen?",
+          "options": [
+            { "text": "Yes, full attention", "points": 2 },
+            { "text": "Mostly, sometimes distracted", "points": 1 },
+            { "text": "They often interrupt or dismiss", "points": 0 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Do they keep promises they make to you?",
+          "options": [
+            { "text": "Almost always", "points": 2 },
+            { "text": "Sometimes forget", "points": 1 },
+            { "text": "Rarely follow through", "points": 0 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "How do they react to your boundaries?",
+          "options": [
+            { "text": "Respect them fully", "points": 2 },
+            { "text": "Push back sometimes", "points": 1 },
+            { "text": "Ignore or mock them", "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Do they defend you when you're not around?",
+          "options": [
+            { "text": "Yes, I've heard they do", "points": 2 },
+            { "text": "I think so", "points": 1 },
+            { "text": "No idea or probably not", "points": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "When you succeed, their reaction is:",
+          "options": [
+            { "text": "Genuinely happy for me", "points": 2 },
+            { "text": "Happy but slightly competitive", "points": 1 },
+            { "text": "Dismissive or jealous", "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 3, "title": "Low Respect Signs 😕", "description": "Their actions suggest they may not value you as much as you deserve." },
+        { "minScore": 4, "maxScore": 6, "title": "Mixed Signals 🤷", "description": "Some respect is there, but it's inconsistent. Pay attention to patterns." },
+        { "minScore": 7, "maxScore": 8, "title": "Solid Respect ✊", "description": "They show real respect through their actions." },
+        { "minScore": 9, "maxScore": 10, "title": "Deep Respect 💎", "description": "Their respect for you is clear. This is rare - value it." }
+      ]
+    },
+    {
+      "id": "pursuer-or-prize",
+      "title": "Are You the Pursuer or the Prize?",
+      "emoji": "👑",
+      "category": "relationship",
+      "hook": "Your answer reveals your relationship dynamic.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Who usually texts first?",
+          "options": [
+            { "text": "I do, almost always", "type": "pursuer" },
+            { "text": "They do, mostly", "type": "prize" },
+            { "text": "It's pretty equal", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "When plans get cancelled, who reschedules?",
+          "options": [
+            { "text": "I always try to reschedule", "type": "pursuer" },
+            { "text": "They usually suggest new plans", "type": "prize" },
+            { "text": "We both make effort", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "In conversations, who asks more questions?",
+          "options": [
+            { "text": "I'm always asking about them", "type": "pursuer" },
+            { "text": "They're curious about me", "type": "prize" },
+            { "text": "We both show equal interest", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Who adjusts their schedule more?",
+          "options": [
+            { "text": "I rearrange things to see them", "type": "pursuer" },
+            { "text": "They make time for me", "type": "prize" },
+            { "text": "We both compromise equally", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "After an argument, who reaches out first?",
+          "options": [
+            { "text": "I always break the silence", "type": "pursuer" },
+            { "text": "They usually apologize first", "type": "prize" },
+            { "text": "Depends on who was wrong", "type": "balanced" }
+          ]
+        }
+      ],
+      "results": [
+        { "type": "pursuer", "title": "The Pursuer 🏃", "description": "You invest more energy into the connection. Consider stepping back to see if they meet you halfway." },
+        { "type": "prize", "title": "The Prize 👑", "description": "They're putting in more effort right now. Be careful not to take their effort for granted." },
+        { "type": "balanced", "title": "Balanced Dynamic ⚖️", "description": "You have a healthy push-pull. Both of you invest and both receive." }
+      ]
+    },
+    {
+      "id": "how-easy-to-manipulate",
+      "title": "How Easy Are You to Manipulate?",
+      "emoji": "🎭",
+      "category": "psychology",
+      "hook": "If you score over 60%, you already know the truth.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Someone gives you a compliment right before asking for a favor. You:",
+          "options": [
+            { "text": "Feel flattered and help them", "points": 0 },
+            { "text": "Notice it but still help", "points": 1 },
+            { "text": "Call out the timing", "points": 2 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "They say 'everyone else is doing it.' You:",
+          "options": [
+            { "text": "Feel pressured to join", "points": 0 },
+            { "text": "Consider it more seriously", "points": 1 },
+            { "text": "Don't care what others do", "points": 2 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "Someone acts hurt when you set a boundary. You:",
+          "options": [
+            { "text": "Feel guilty and back down", "points": 0 },
+            { "text": "Apologize but keep the boundary", "points": 1 },
+            { "text": "Hold firm without guilt", "points": 2 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "They remind you of something they did for you before asking something big. You:",
+          "options": [
+            { "text": "Feel obligated to return the favor", "points": 0 },
+            { "text": "Feel slightly pressured", "points": 1 },
+            { "text": "Recognize the tactic", "points": 2 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Someone switches between being sweet and cold. You:",
+          "options": [
+            { "text": "Try harder when they're cold", "points": 0 },
+            { "text": "Feel confused but stay", "points": 1 },
+            { "text": "Recognize it as a pattern", "points": 2 }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "They say 'if you really loved me, you would...' You:",
+          "options": [
+            { "text": "Feel like you need to prove yourself", "points": 0 },
+            { "text": "Feel conflicted", "points": 1 },
+            { "text": "See it as manipulation", "points": 2 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 4, "title": "Highly Susceptible 🎯", "description": "You tend to prioritize others' feelings over your own boundaries. Practice recognizing emotional manipulation." },
+        { "minScore": 5, "maxScore": 7, "title": "Somewhat Aware 👁️", "description": "You notice some tactics but still get caught off guard. Learn to pause before reacting emotionally." },
+        { "minScore": 8, "maxScore": 10, "title": "Hard to Fool 🛡️", "description": "You can spot most manipulation attempts. You balance empathy with self-protection well." },
+        { "minScore": 11, "maxScore": 12, "title": "Manipulation-Proof 💪", "description": "You see through tactics instantly. Very few people can influence you without your consent." }
+      ]
+    },
+    {
+      "id": "can-people-read-you",
+      "title": "Can People Read You Easily?",
+      "emoji": "🔮",
+      "category": "psychology",
+      "hook": "Most people think they're mysterious. They're not.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "When you're upset, people usually:",
+          "options": [
+            { "text": "Know immediately", "points": 0 },
+            { "text": "Figure it out eventually", "points": 1 },
+            { "text": "Have no idea unless I tell them", "points": 2 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Your face when someone annoys you:",
+          "options": [
+            { "text": "Shows everything", "points": 0 },
+            { "text": "Slight tells slip through", "points": 1 },
+            { "text": "Completely neutral", "points": 2 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "People guess your mood correctly:",
+          "options": [
+            { "text": "Almost always", "points": 0 },
+            { "text": "About half the time", "points": 1 },
+            { "text": "Rarely", "points": 2 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "When you like someone, they:",
+          "options": [
+            { "text": "Definitely know", "points": 0 },
+            { "text": "Might suspect", "points": 1 },
+            { "text": "Have no clue", "points": 2 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "In poker or games, you:",
+          "options": [
+            { "text": "Everyone reads my reactions", "points": 0 },
+            { "text": "Sometimes give things away", "points": 1 },
+            { "text": "Keep a solid poker face", "points": 2 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 3, "title": "Open Book 📖", "description": "Your emotions show clearly. This makes you authentic and trustworthy." },
+        { "minScore": 4, "maxScore": 6, "title": "Selective Reveal 🎭", "description": "You control what people see to some degree. Good balance." },
+        { "minScore": 7, "maxScore": 8, "title": "Hard to Read 🔒", "description": "People struggle to figure you out. You reveal what you choose." },
+        { "minScore": 9, "maxScore": 10, "title": "Mystery 🌑", "description": "Almost no one can read you. You control your image completely." }
+      ]
+    },
+    {
+      "id": "emotional-or-logical",
+      "title": "Do You Think Fast or Overthink?",
+      "emoji": "🧠",
+      "category": "psychology",
+      "hook": "Your decision style reveals more than you think.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Someone offers you an opportunity but you need to decide now:",
+          "options": [
+            { "text": "I trust my gut and decide", "type": "fast" },
+            { "text": "I need more information first", "type": "overthink" },
+            { "text": "I ask for a little more time", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "After sending an important text, you:",
+          "options": [
+            { "text": "Move on with my day", "type": "fast" },
+            { "text": "Reread what I sent multiple times", "type": "overthink" },
+            { "text": "Briefly wonder, then let it go", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "When making a big purchase:",
+          "options": [
+            { "text": "If I want it, I get it", "type": "fast" },
+            { "text": "Research for days or weeks", "type": "overthink" },
+            { "text": "Quick research, then decide", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Someone's tone seems off in a message:",
+          "options": [
+            { "text": "I assume it's nothing", "type": "fast" },
+            { "text": "Analyze every word", "type": "overthink" },
+            { "text": "Note it but don't spiral", "type": "balanced" }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "A conversation ended awkwardly. That night you:",
+          "options": [
+            { "text": "Forget about it", "type": "fast" },
+            { "text": "Replay it in your head", "type": "overthink" },
+            { "text": "Notice it briefly, then sleep", "type": "balanced" }
+          ]
+        }
+      ],
+      "results": [
+        { "type": "fast", "title": "Quick Thinker ⚡", "description": "You trust your instincts and don't second-guess yourself." },
+        { "type": "overthink", "title": "Overthinker 🌀", "description": "Your mind runs deep, analyzing every angle. Practice deciding faster on small things." },
+        { "type": "balanced", "title": "Balanced Processor ⚖️", "description": "You think enough to make good decisions without getting stuck." }
+      ]
+    },
+    {
+      "id": "spot-manipulation-5-seconds",
+      "title": "Can You Spot Manipulation in 5 Seconds?",
+      "emoji": "⚡",
+      "category": "iq",
+      "hook": "Most people choose the wrong answer here.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "\"I'm not mad, I just think it's funny how...\"",
+          "options": [
+            { "text": "Genuine", "correct": false, "points": 0 },
+            { "text": "Manipulation", "correct": true, "points": 1 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "\"I don't want to tell you what to do, but...\"",
+          "options": [
+            { "text": "Genuine", "correct": false, "points": 0 },
+            { "text": "Manipulation", "correct": true, "points": 1 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "\"Hey, I noticed you seemed off today. Everything okay?\"",
+          "options": [
+            { "text": "Genuine", "correct": true, "points": 1 },
+            { "text": "Manipulation", "correct": false, "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "\"You're the only person who understands me\"",
+          "options": [
+            { "text": "Genuine", "correct": false, "points": 0 },
+            { "text": "Manipulation", "correct": true, "points": 1 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "\"I'm sorry you feel that way\"",
+          "options": [
+            { "text": "Genuine", "correct": false, "points": 0 },
+            { "text": "Manipulation", "correct": true, "points": 1 }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "\"I messed up. I should have listened to you.\"",
+          "options": [
+            { "text": "Genuine", "correct": true, "points": 1 },
+            { "text": "Manipulation", "correct": false, "points": 0 }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "\"After everything I've done for you...\"",
+          "options": [
+            { "text": "Genuine", "correct": false, "points": 0 },
+            { "text": "Manipulation", "correct": true, "points": 1 }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "\"I need some time to think about this\"",
+          "options": [
+            { "text": "Genuine", "correct": true, "points": 1 },
+            { "text": "Manipulation", "correct": false, "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 3, "title": "Needs Work 😬", "description": "You might be missing manipulation in daily conversations." },
+        { "minScore": 4, "maxScore": 5, "title": "Average Awareness 👀", "description": "You catch some tactics but miss others." },
+        { "minScore": 6, "maxScore": 7, "title": "Sharp Detector 🎯", "description": "You spot most manipulation. Your BS detector is well-calibrated." },
+        { "minScore": 8, "maxScore": 8, "title": "Nothing Gets Past You ⚡", "description": "Perfect score. You instantly recognize manipulation tactics." }
+      ]
+    },
+    {
+      "id": "pattern-recognition",
+      "title": "How Fast Is Your Pattern Recognition?",
+      "emoji": "🧩",
+      "category": "iq",
+      "hook": "Only 12% get all of these right.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What comes next? 2, 4, 8, 16, __",
+          "options": [
+            { "text": "24", "points": 0 },
+            { "text": "32", "points": 1 },
+            { "text": "30", "points": 0 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "What comes next? A, C, E, G, __",
+          "options": [
+            { "text": "H", "points": 0 },
+            { "text": "I", "points": 1 },
+            { "text": "J", "points": 0 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What comes next? 1, 1, 2, 3, 5, 8, __",
+          "options": [
+            { "text": "11", "points": 0 },
+            { "text": "13", "points": 1 },
+            { "text": "12", "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "What comes next? 3, 6, 11, 18, 27, __",
+          "options": [
+            { "text": "36", "points": 0 },
+            { "text": "38", "points": 1 },
+            { "text": "35", "points": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "What comes next? 1, 4, 9, 16, 25, __",
+          "options": [
+            { "text": "30", "points": 0 },
+            { "text": "36", "points": 1 },
+            { "text": "34", "points": 0 }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "What comes next? Z, Y, X, W, __",
+          "options": [
+            { "text": "U", "points": 0 },
+            { "text": "V", "points": 1 },
+            { "text": "T", "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 2, "title": "Keep Practicing 📚", "description": "Pattern recognition is a skill that improves with practice." },
+        { "minScore": 3, "maxScore": 4, "title": "Good Eye 👁️", "description": "You caught most patterns. Your logical thinking is solid." },
+        { "minScore": 5, "maxScore": 5, "title": "Sharp Mind 🧠", "description": "Excellent pattern recognition. You see connections quickly." },
+        { "minScore": 6, "maxScore": 6, "title": "Pattern Master 🏆", "description": "Perfect score! You have exceptional analytical abilities." }
+      ]
+    },
+    {
+      "id": "logical-trap-test",
+      "title": "Can You Avoid These Logic Traps?",
+      "emoji": "🪤",
+      "category": "iq",
+      "hook": "Your brain will try to trick you.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A bat and ball cost $1.10. The bat costs $1 more than the ball. How much is the ball?",
+          "options": [
+            { "text": "$0.10", "points": 0 },
+            { "text": "$0.05", "points": 1 },
+            { "text": "$0.15", "points": 0 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+          "options": [
+            { "text": "100 minutes", "points": 0 },
+            { "text": "5 minutes", "points": 1 },
+            { "text": "20 minutes", "points": 0 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "In a lake, there's a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days to cover the lake, how long to cover half?",
+          "options": [
+            { "text": "24 days", "points": 0 },
+            { "text": "47 days", "points": 1 },
+            { "text": "36 days", "points": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "A farmer has 17 sheep. All but 9 die. How many are left?",
+          "options": [
+            { "text": "8", "points": 0 },
+            { "text": "9", "points": 1 },
+            { "text": "17", "points": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "How many times can you subtract 5 from 25?",
+          "options": [
+            { "text": "5 times", "points": 0 },
+            { "text": "1 time", "points": 1 },
+            { "text": "Infinite", "points": 0 }
+          ]
+        }
+      ],
+      "results": [
+        { "minScore": 0, "maxScore": 1, "title": "Tricked 🪤", "description": "Your brain took the shortcuts. These questions are designed to fool quick thinking." },
+        { "minScore": 2, "maxScore": 3, "title": "Partially Fooled 🤔", "description": "You caught some traps but fell for others. Slow down and think twice." },
+        { "minScore": 4, "maxScore": 4, "title": "Sharp Thinker 🎯", "description": "You avoided most traps. You think before you answer." },
+        { "minScore": 5, "maxScore": 5, "title": "Trap-Proof 🧠", "description": "Perfect! You don't fall for cognitive shortcuts." }
+      ]
+    },
+    {
+      "id": "attachment-style",
+      "title": "What's Your Attachment Style?",
+      "emoji": "🔗",
       "category": "personality",
+      "hook": "This explains your relationship patterns.",
       "questions": [
         {
           "id": 1,
-          "text": "Your ideal date night would be...",
+          "text": "When someone gets close to you emotionally, you:",
           "options": [
-            { "text": "Deep conversations over candlelit dinner", "type": "emotional" },
-            { "text": "Adventure - hiking, concerts, something exciting!", "type": "passionate" },
-            { "text": "Cozy night in with movies and cuddles", "type": "nurturing" },
-            { "text": "Surprise me! I love spontaneity", "type": "free-spirit" }
+            { "text": "Welcome it and feel secure", "type": "secure" },
+            { "text": "Worry they'll leave eventually", "type": "anxious" },
+            { "text": "Feel uncomfortable and pull back", "type": "avoidant" }
           ]
         },
         {
           "id": 2,
-          "text": "When you fall for someone, you typically...",
+          "text": "In relationships, you tend to:",
           "options": [
-            { "text": "Fall slowly, after getting to know them deeply", "type": "emotional" },
-            { "text": "Fall fast and hard - when I know, I know!", "type": "passionate" },
-            { "text": "Focus on making them feel cared for", "type": "nurturing" },
-            { "text": "Keep things light until I'm really sure", "type": "free-spirit" }
+            { "text": "Feel balanced between closeness and independence", "type": "secure" },
+            { "text": "Need lots of reassurance", "type": "anxious" },
+            { "text": "Value your independence above all", "type": "avoidant" }
           ]
         },
         {
           "id": 3,
-          "text": "In relationships, you value most...",
+          "text": "When your partner doesn't text back quickly, you:",
           "options": [
-            { "text": "Emotional connection and understanding", "type": "emotional" },
-            { "text": "Chemistry and physical attraction", "type": "passionate" },
-            { "text": "Stability and mutual support", "type": "nurturing" },
-            { "text": "Freedom and personal growth together", "type": "free-spirit" }
+            { "text": "Assume they're busy and move on", "type": "secure" },
+            { "text": "Wonder if something's wrong", "type": "anxious" },
+            { "text": "Don't really notice or care", "type": "avoidant" }
           ]
         },
         {
           "id": 4,
-          "text": "When there's a problem in your relationship, you...",
+          "text": "After an argument, you usually:",
           "options": [
-            { "text": "Want to talk it through completely", "type": "emotional" },
-            { "text": "Address it head-on immediately", "type": "passionate" },
-            { "text": "Try to fix it by showing more love", "type": "nurturing" },
-            { "text": "Need some space to process first", "type": "free-spirit" }
+            { "text": "Want to resolve it and reconnect", "type": "secure" },
+            { "text": "Fear the relationship is in danger", "type": "anxious" },
+            { "text": "Need space and time alone", "type": "avoidant" }
           ]
         },
         {
           "id": 5,
-          "text": "Your friends would describe your love life as...",
+          "text": "Opening up emotionally feels:",
           "options": [
-            { "text": "Intense and meaningful", "type": "emotional" },
-            { "text": "Exciting and dramatic", "type": "passionate" },
-            { "text": "Sweet and devoted", "type": "nurturing" },
-            { "text": "Unpredictable but fun", "type": "free-spirit" }
+            { "text": "Natural with the right person", "type": "secure" },
+            { "text": "Necessary but scary", "type": "anxious" },
+            { "text": "Uncomfortable and unnecessary", "type": "avoidant" }
           ]
         }
       ],
       "results": [
-        {
-          "type": "emotional",
-          "title": "The Deep Soul 🌙",
-          "description": "You love with your whole heart and crave emotional intimacy above all else. You need a partner who can match your depth and isn't afraid of vulnerability. When you love, it's profound and transformative."
-        },
-        {
-          "type": "passionate",
-          "title": "The Flame 🔥",
-          "description": "You love intensely and aren't afraid to show it! Chemistry is crucial for you, and you bring excitement and energy to your relationships. You need a partner who can keep up with your fiery spirit."
-        },
-        {
-          "type": "nurturing",
-          "title": "The Giver 🌸",
-          "description": "You show love through actions and care. Making your partner feel loved and supported is your superpower. You create a safe haven in your relationships but remember to let yourself receive too!"
-        },
-        {
-          "type": "free-spirit",
-          "title": "The Butterfly 🦋",
-          "description": "You love with freedom and authenticity. You need space to be yourself while also connecting deeply. The right partner will understand that your independence makes your love even more meaningful."
-        }
+        { "type": "secure", "title": "Secure Attachment 💚", "description": "You're comfortable with intimacy and independence. You communicate needs clearly and trust your partners." },
+        { "type": "anxious", "title": "Anxious Attachment 💛", "description": "You crave closeness but fear abandonment. Building self-security helps reduce relationship anxiety." },
+        { "type": "avoidant", "title": "Avoidant Attachment 🔵", "description": "You value independence highly and may struggle with emotional closeness. Recognizing this is the first step." }
       ]
     },
     {
-      "id": "are-you-ready-for-relationship",
-      "title": "Are You Ready for a Relationship?",
-      "description": "Find out if you're truly ready to commit or if you need more you-time",
+      "id": "what-drives-you",
+      "title": "What Actually Drives You?",
       "emoji": "🎯",
       "category": "personality",
+      "hook": "Your hidden motivation revealed.",
       "questions": [
         {
           "id": 1,
-          "text": "How do you feel about being single right now?",
+          "text": "When you imagine success, you see:",
           "options": [
-            { "text": "Desperate - I need someone ASAP", "points": 0 },
-            { "text": "Lonely sometimes, but I'm okay", "points": 2 },
-            { "text": "Content, but open to love", "points": 3 },
-            { "text": "Loving it! Not sure I want to change", "points": 1 }
+            { "text": "Recognition and admiration from others", "type": "status" },
+            { "text": "Freedom to do what you want", "type": "freedom" },
+            { "text": "Making a real difference", "type": "impact" },
+            { "text": "Deep connections with people", "type": "connection" }
           ]
         },
         {
           "id": 2,
-          "text": "What's your relationship with your ex(es)?",
+          "text": "What would bother you most?",
           "options": [
-            { "text": "Still not over them honestly", "points": 0 },
-            { "text": "Some unresolved feelings remain", "points": 1 },
-            { "text": "Learned from it and moved on", "points": 3 },
-            { "text": "What ex? I don't think about them", "points": 2 }
+            { "text": "Being overlooked or forgotten", "type": "status" },
+            { "text": "Being trapped or controlled", "type": "freedom" },
+            { "text": "Your work not mattering", "type": "impact" },
+            { "text": "Being alone or disconnected", "type": "connection" }
           ]
         },
         {
           "id": 3,
-          "text": "How would you describe your current mental/emotional state?",
+          "text": "In a job, you need:",
           "options": [
-            { "text": "Struggling - need someone to complete me", "points": 0 },
-            { "text": "Working on myself, some good and bad days", "points": 2 },
-            { "text": "In a good place, stable and growing", "points": 3 },
-            { "text": "Living my best life!", "points": 3 }
+            { "text": "Growth and advancement opportunities", "type": "status" },
+            { "text": "Flexibility and autonomy", "type": "freedom" },
+            { "text": "Meaningful work that matters", "type": "impact" },
+            { "text": "Great team and relationships", "type": "connection" }
           ]
         },
         {
           "id": 4,
-          "text": "Why do you want a relationship?",
+          "text": "You feel most alive when:",
           "options": [
-            { "text": "Everyone else has one", "points": 0 },
-            { "text": "I'm tired of being alone", "points": 1 },
-            { "text": "I have love to give and share", "points": 3 },
-            { "text": "To have fun and see where it goes", "points": 2 }
+            { "text": "Achieving something impressive", "type": "status" },
+            { "text": "Doing exactly what you want", "type": "freedom" },
+            { "text": "Helping or creating something meaningful", "type": "impact" },
+            { "text": "Sharing moments with people you love", "type": "connection" }
           ]
         },
         {
           "id": 5,
-          "text": "How much time could you realistically give a partner?",
+          "text": "Your biggest fear is:",
           "options": [
-            { "text": "All of it - I have nothing else going on", "points": 1 },
-            { "text": "A lot, maybe too much", "points": 1 },
-            { "text": "Balanced - I have my own life too", "points": 3 },
-            { "text": "Honestly, not much right now", "points": 2 }
+            { "text": "Being seen as average or failing", "type": "status" },
+            { "text": "Losing your independence", "type": "freedom" },
+            { "text": "Living a meaningless life", "type": "impact" },
+            { "text": "Ending up alone", "type": "connection" }
           ]
         }
       ],
       "results": [
-        {
-          "minScore": 0,
-          "maxScore": 5,
-          "title": "Focus on You First 💜",
-          "description": "Right now, you might benefit from spending more time on yourself before jumping into a relationship. Work on your healing, find your own happiness, and the right person will come when you're truly ready."
-        },
-        {
-          "minScore": 6,
-          "maxScore": 9,
-          "title": "Almost There! 🌱",
-          "description": "You're on the right track but might have a few things to work through first. Keep growing, stay open, and don't rush. You're closer to being ready than you think!"
-        },
-        {
-          "minScore": 10,
-          "maxScore": 12,
-          "title": "Ready to Mingle! 💕",
-          "description": "You're in a great place! You've done the work on yourself, you know what you want, and you're ready to share your life with someone. Get out there - love is waiting!"
-        },
-        {
-          "minScore": 13,
-          "maxScore": 15,
-          "title": "Relationship Goals 🏆",
-          "description": "You're absolutely ready! You're emotionally mature, have healthy expectations, and want a relationship for the right reasons. The lucky person who finds you is going to be very happy!"
-        }
+        { "type": "status", "title": "Driven by Achievement 🏆", "description": "You're motivated by success, recognition, and reaching your potential. You thrive when you're growing." },
+        { "type": "freedom", "title": "Driven by Freedom 🦅", "description": "You need autonomy and independence above all. You resist anything that feels like a cage." },
+        { "type": "impact", "title": "Driven by Purpose 🌟", "description": "You need to know your work matters. Meaning and contribution fuel you more than money or status." },
+        { "type": "connection", "title": "Driven by Connection 💕", "description": "Relationships are everything to you. You thrive when surrounded by people you care about." }
       ]
     }
   ]

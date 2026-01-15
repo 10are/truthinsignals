@@ -9,6 +9,7 @@ interface Option {
   text: string;
   points?: number;
   type?: string;
+  correct?: boolean;
 }
 
 interface Question {
@@ -29,6 +30,8 @@ interface Quiz {
   id: string;
   title: string;
   emoji: string;
+  hook?: string;
+  category: string;
   questions: Question[];
   results: Result[];
 }
@@ -41,6 +44,7 @@ export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<Option[]>([]);
   const [result, setResult] = useState<Result | null>(null);
+  const [score, setScore] = useState(0);
 
   useEffect(() => {
     const foundQuiz = quizData.quizzes.find((q) => q.id === slug);
@@ -53,27 +57,29 @@ export default function QuizPage() {
     const newAnswers = [...answers, option];
     setAnswers(newAnswers);
 
+    let newScore = score;
+    if (option.correct) {
+      newScore = score + 1;
+    } else if (option.points !== undefined) {
+      newScore = score + option.points;
+    }
+    setScore(newScore);
+
     if (currentQuestion < quiz!.questions.length - 1) {
       setTimeout(() => {
         setCurrentQuestion(currentQuestion + 1);
       }, 150);
     } else {
-      calculateResult(newAnswers);
+      calculateResult(newAnswers, newScore);
     }
   };
 
-  const calculateResult = (finalAnswers: Option[]) => {
+  const calculateResult = (finalAnswers: Option[], finalScore: number) => {
     if (!quiz) return;
 
-    const isPointBased = finalAnswers[0]?.points !== undefined;
+    const hasType = finalAnswers.some(a => a.type);
 
-    if (isPointBased) {
-      const totalScore = finalAnswers.reduce((sum, ans) => sum + (ans.points || 0), 0);
-      const matchedResult = quiz.results.find(
-        (r) => totalScore >= (r.minScore || 0) && totalScore <= (r.maxScore || 100)
-      );
-      setResult(matchedResult || null);
-    } else {
+    if (hasType) {
       const typeCounts: Record<string, number> = {};
       finalAnswers.forEach((ans) => {
         if (ans.type) {
@@ -83,6 +89,11 @@ export default function QuizPage() {
       const dominantType = Object.entries(typeCounts).sort((a, b) => b[1] - a[1])[0]?.[0];
       const matchedResult = quiz.results.find((r) => r.type === dominantType);
       setResult(matchedResult || null);
+    } else {
+      const matchedResult = quiz.results.find(
+        (r) => finalScore >= (r.minScore || 0) && finalScore <= (r.maxScore || 100)
+      );
+      setResult(matchedResult || null);
     }
   };
 
@@ -90,6 +101,7 @@ export default function QuizPage() {
     setCurrentQuestion(0);
     setAnswers([]);
     setResult(null);
+    setScore(0);
   };
 
   if (!quiz) {
@@ -97,7 +109,7 @@ export default function QuizPage() {
       <>
         <nav className="navbar">
           <div className="navbar-inner">
-            <Link href="/" className="logo">TruthInSignals</Link>
+            <Link href="/" className="logo">Truth<span>InSignals</span></Link>
           </div>
         </nav>
         <div className="quiz-wrapper">
@@ -111,11 +123,13 @@ export default function QuizPage() {
   }
 
   if (result) {
+    const totalQuestions = quiz.questions.length;
+
     return (
       <>
         <nav className="navbar">
           <div className="navbar-inner">
-            <Link href="/" className="logo">TruthInSignals</Link>
+            <Link href="/" className="logo">Truth<span>InSignals</span></Link>
           </div>
         </nav>
 
@@ -123,6 +137,7 @@ export default function QuizPage() {
           <div className="ad">Advertisement</div>
 
           <div className="result fade-in">
+            <div className="result-score">{score}/{totalQuestions}</div>
             <div className="result-title">{result.title}</div>
             <div className="result-desc">{result.description}</div>
             <div className="result-actions">
@@ -131,7 +146,7 @@ export default function QuizPage() {
               <button
                 onClick={() => {
                   const shareUrl = `https://www.truthinsignals.com/quiz/${quiz.id}`;
-                  const text = `I got "${result.title}" - ${quiz.title}`;
+                  const text = `I got "${result.title}" on ${quiz.title}`;
                   if (navigator.share) {
                     navigator.share({ title: quiz.title, text, url: shareUrl });
                   } else {
@@ -159,13 +174,20 @@ export default function QuizPage() {
     <>
       <nav className="navbar">
         <div className="navbar-inner">
-          <Link href="/" className="logo">TruthInSignals</Link>
+          <Link href="/" className="logo">Truth<span>InSignals</span></Link>
           <span className="quiz-counter">{currentQuestion + 1}/{quiz.questions.length}</span>
         </div>
       </nav>
 
       <div className="quiz-wrapper">
         <div className="ad">Advertisement</div>
+
+        {currentQuestion === 0 && (
+          <div className="quiz-header">
+            <div className="quiz-page-title">{quiz.title}</div>
+            {quiz.hook && <div className="quiz-page-hook">{quiz.hook}</div>}
+          </div>
+        )}
 
         <div className="progress">
           <div className="progress-fill" style={{ width: `${progress}%` }} />

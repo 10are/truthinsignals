@@ -1,0 +1,112 @@
+{
+  "polls": [
+    {
+      "id": "texting-habits",
+      "title": "Texting Red Flags",
+      "emoji": "📱",
+      "description": "Vote on these texting behaviors",
+      "items": [
+        { "id": 1, "text": "Taking 24+ hours to reply but always on social media", "yesPercent": 87 },
+        { "id": 2, "text": "Only texting after midnight", "yesPercent": 79 },
+        { "id": 3, "text": "Never initiating conversations", "yesPercent": 72 },
+        { "id": 4, "text": "Leaving you on read regularly", "yesPercent": 68 },
+        { "id": 5, "text": "Getting mad when you don't reply instantly", "yesPercent": 91 },
+        { "id": 6, "text": "Sending one-word replies constantly", "yesPercent": 58 },
+        { "id": 7, "text": "Only texting when they need something", "yesPercent": 94 },
+        { "id": 8, "text": "Deleting messages from the chat", "yesPercent": 82 }
+      ]
+    },
+    {
+      "id": "dating-behaviors",
+      "title": "Dating Red Flags",
+      "emoji": "💔",
+      "description": "Are these dealbreakers?",
+      "items": [
+        { "id": 1, "text": "Talking about their ex on the first date", "yesPercent": 71 },
+        { "id": 2, "text": "Being rude to waiters/service staff", "yesPercent": 96 },
+        { "id": 3, "text": "Checking their phone constantly during dates", "yesPercent": 84 },
+        { "id": 4, "text": "Love bombing in the first week", "yesPercent": 77 },
+        { "id": 5, "text": "Never offering to pay or split", "yesPercent": 63 },
+        { "id": 6, "text": "Canceling plans last minute regularly", "yesPercent": 81 },
+        { "id": 7, "text": "Not introducing you to their friends", "yesPercent": 69 },
+        { "id": 8, "text": "Moving way too fast physically", "yesPercent": 74 }
+      ]
+    },
+    {
+      "id": "relationship-signs",
+      "title": "Relationship Red Flags",
+      "emoji": "🚩",
+      "description": "Warning signs in relationships",
+      "items": [
+        { "id": 1, "text": "Going through your phone without permission", "yesPercent": 89 },
+        { "id": 2, "text": "Getting jealous of your friends", "yesPercent": 76 },
+        { "id": 3, "text": "Never apologizing after fights", "yesPercent": 92 },
+        { "id": 4, "text": "Comparing you to others", "yesPercent": 85 },
+        { "id": 5, "text": "Making you feel guilty for having fun without them", "yesPercent": 88 },
+        { "id": 6, "text": "Keeping your relationship a secret", "yesPercent": 83 },
+        { "id": 7, "text": "Only being nice when they want something", "yesPercent": 93 },
+        { "id": 8, "text": "Dismissing your feelings as 'overreacting'", "yesPercent": 91 }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media Red Flags",
+      "emoji": "📸",
+      "description": "Instagram, TikTok & more",
+      "items": [
+        { "id": 1, "text": "Not posting you but posting everything else", "yesPercent": 67 },
+        { "id": 2, "text": "Liking their ex's photos", "yesPercent": 54 },
+        { "id": 3, "text": "Having a finsta you don't know about", "yesPercent": 72 },
+        { "id": 4, "text": "Following tons of thirst trap accounts", "yesPercent": 61 },
+        { "id": 5, "text": "Getting defensive about their DMs", "yesPercent": 79 },
+        { "id": 6, "text": "Posting cryptic quotes about relationships", "yesPercent": 48 },
+        { "id": 7, "text": "Still having dating apps installed", "yesPercent": 95 },
+        { "id": 8, "text": "Refusing to be in pictures together", "yesPercent": 73 }
+      ]
+    }
+  ],
+  "myRedFlags": [
+    { "id": "r1", "text": "I get jealous easily", "emoji": "😤" },
+    { "id": "r2", "text": "I can be clingy", "emoji": "🐨" },
+    { "id": "r3", "text": "I overthink everything", "emoji": "🧠" },
+    { "id": "r4", "text": "I can be petty", "emoji": "💅" },
+    { "id": "r5", "text": "I'm stubborn in arguments", "emoji": "🪨" },
+    { "id": "r6", "text": "My sarcasm can be hurtful", "emoji": "😏" },
+    { "id": "r7", "text": "I avoid difficult conversations", "emoji": "🙈" },
+    { "id": "r8", "text": "I have mood swings", "emoji": "🎭" },
+    { "id": "r9", "text": "I'm always late", "emoji": "⏰" },
+    { "id": "r10", "text": "I forget important dates", "emoji": "📅" },
+    { "id": "r11", "text": "I prioritize work too much", "emoji": "💼" },
+    { "id": "r12", "text": "I'm always on my phone", "emoji": "📱" },
+    { "id": "r13", "text": "I get defensive easily", "emoji": "🛡️" },
+    { "id": "r14", "text": "I give silent treatment", "emoji": "🤐" },
+    { "id": "r15", "text": "I cancel plans often", "emoji": "💨" },
+    { "id": "r16", "text": "I have trust issues", "emoji": "🔒" },
+    { "id": "r17", "text": "I fear commitment", "emoji": "😰" },
+    { "id": "r18", "text": "I'm too critical", "emoji": "🔍" },
+    { "id": "r19", "text": "I'm overly emotional", "emoji": "😢" },
+    { "id": "r20", "text": "I need too much space", "emoji": "🏝️" }
+  ],
+  "myGreenFlags": [
+    { "id": "g1", "text": "I'm a great listener", "emoji": "👂" },
+    { "id": "g2", "text": "I always communicate openly", "emoji": "💬" },
+    { "id": "g3", "text": "I remember the little things", "emoji": "🎁" },
+    { "id": "g4", "text": "I give thoughtful surprises", "emoji": "🎉" },
+    { "id": "g5", "text": "I support your dreams", "emoji": "⭐" },
+    { "id": "g6", "text": "I respect your boundaries", "emoji": "🤝" },
+    { "id": "g7", "text": "I apologize when I'm wrong", "emoji": "💝" },
+    { "id": "g8", "text": "I make time for quality time", "emoji": "🕐" },
+    { "id": "g9", "text": "I'm loyal to the core", "emoji": "🦁" },
+    { "id": "g10", "text": "I hype you up constantly", "emoji": "📣" },
+    { "id": "g11", "text": "I'm emotionally available", "emoji": "💚" },
+    { "id": "g12", "text": "I love meeting your friends", "emoji": "👋" },
+    { "id": "g13", "text": "I handle conflict maturely", "emoji": "🧘" },
+    { "id": "g14", "text": "I'm genuinely happy for your success", "emoji": "🏆" },
+    { "id": "g15", "text": "I give you space when needed", "emoji": "🌿" },
+    { "id": "g16", "text": "I plan actual dates", "emoji": "📍" },
+    { "id": "g17", "text": "I'm consistent with my actions", "emoji": "💎" },
+    { "id": "g18", "text": "I'm comfortable with vulnerability", "emoji": "🦋" },
+    { "id": "g19", "text": "I text back promptly", "emoji": "⚡" },
+    { "id": "g20", "text": "I put effort into the relationship", "emoji": "💪" }
+  ]
+}
