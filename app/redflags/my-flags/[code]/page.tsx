@@ -18,6 +18,7 @@ export default function SharedFlagsPage() {
   const [redFlags, setRedFlags] = useState<Flag[]>([]);
   const [greenFlags, setGreenFlags] = useState<Flag[]>([]);
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     try {
@@ -37,9 +38,14 @@ export default function SharedFlagsPage() {
 
       setRedFlags(selectedRed);
       setGreenFlags(selectedGreen);
+
+      if (selectedRed.length === 0 && selectedGreen.length === 0) {
+        setError(true);
+      }
     } catch {
       setError(true);
     }
+    setLoading(false);
   }, [code]);
 
   const handleShare = () => {
@@ -60,7 +66,15 @@ export default function SharedFlagsPage() {
     }
   };
 
-  if (error || (redFlags.length === 0 && greenFlags.length === 0)) {
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-gray-500">Loading...</div>
+      </div>
+    );
+  }
+
+  if (error) {
     return (
       <div className="min-h-screen bg-gray-50">
         <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
