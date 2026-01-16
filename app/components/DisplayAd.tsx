@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function DisplayAd() {
-  const adRef = useRef<HTMLModElement>(null);
-  const [hasAd, setHasAd] = useState(false);
+  const adRef = useRef<HTMLInsElement>(null);
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     try {
@@ -14,18 +14,39 @@ export default function DisplayAd() {
       // Ad already pushed or error
     }
 
-    // Check if ad loaded after a short delay
-    const timer = setTimeout(() => {
-      if (adRef.current && adRef.current.offsetHeight > 0) {
-        setHasAd(true);
+    // Check if ad loaded
+    const observer = new MutationObserver(() => {
+      if (adRef.current) {
+        const hasContent = adRef.current.getAttribute("data-ad-status") === "filled" ||
+                          adRef.current.innerHTML.trim().length > 0 ||
+                          adRef.current.offsetHeight > 50;
+        if (hasContent) {
+          setLoaded(true);
+          observer.disconnect();
+        }
       }
-    }, 1000);
+    });
 
-    return () => clearTimeout(timer);
+    if (adRef.current) {
+      observer.observe(adRef.current, { childList: true, subtree: true, attributes: true });
+    }
+
+    // Fallback check
+    const timer = setTimeout(() => {
+      if (adRef.current && adRef.current.offsetHeight > 50) {
+        setLoaded(true);
+      }
+      observer.disconnect();
+    }, 3000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(timer);
+    };
   }, []);
 
   return (
-    <div className={hasAd ? "my-6" : ""}>
+    <div style={{ display: loaded ? "block" : "none", margin: loaded ? "1.5rem 0" : "0" }}>
       <ins
         ref={adRef}
         className="adsbygoogle"
