@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import quizData from "@/data/quizzes.json";
+import DisplayAd from "@/app/components/DisplayAd";
 
 interface Option {
   text: string;
@@ -182,6 +183,9 @@ export default function QuizPage() {
               </button>
             </div>
           </div>
+
+          {/* Ad */}
+          <DisplayAd />
         </div>
       </div>
     );

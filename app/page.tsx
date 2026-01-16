@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import quizData from "@/data/quizzes.json";
+import DisplayAd from "./components/DisplayAd";
 
 const categories = [
   { id: "all", label: "All" },
@@ -55,6 +56,9 @@ export default function Home() {
             </button>
           ))}
         </div>
+
+        {/* Ad */}
+        <DisplayAd />
 
         {/* Quiz Grid */}
         {filteredQuizzes.length === 0 ? (
