@@ -53,19 +53,29 @@ export default function PollPage() {
 
   if (!poll) {
     return (
-      <>
-        <nav className="navbar">
-          <div className="navbar-inner">
-            <Link href="/" className="logo">Truth<span>InSignals</span></Link>
+      <div className="min-h-screen bg-gray-50">
+        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+            <Link href="/" className="text-xl font-bold text-gray-900">
+              Truth<span className="text-indigo-600">InSignals</span>
+            </Link>
+            <div className="flex items-center gap-4">
+              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+                🚩 Red Flags
+              </Link>
+              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
+                My Flags
+              </Link>
+            </div>
           </div>
         </nav>
-        <div className="rf-poll-wrapper">
-          <div className="rf-poll-not-found">
-            <h2>Poll not found</h2>
-            <Link href="/redflags" className="btn">Back to Red Flags</Link>
-          </div>
+        <div className="max-w-4xl mx-auto px-6 py-16 text-center">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Poll not found</h2>
+          <Link href="/redflags" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all">
+            Back to Red Flags
+          </Link>
         </div>
-      </>
+      </div>
     );
   }
 
@@ -73,36 +83,44 @@ export default function PollPage() {
     const yesCount = Object.values(votes).filter(v => v === "yes").length;
 
     return (
-      <>
-        <nav className="navbar">
-          <div className="navbar-inner">
-            <Link href="/" className="logo">Truth<span>InSignals</span></Link>
+      <div className="min-h-screen bg-gray-50">
+        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+            <Link href="/" className="text-xl font-bold text-gray-900">
+              Truth<span className="text-indigo-600">InSignals</span>
+            </Link>
+            <div className="flex items-center gap-4">
+              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+                🚩 Red Flags
+              </Link>
+              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
+                My Flags
+              </Link>
+            </div>
           </div>
         </nav>
 
-        <div className="rf-poll-wrapper">
-          <div className="ad">Advertisement</div>
-
-          <div className="rf-complete">
-            <div className="rf-complete-icon">🚩</div>
-            <h2>Your Results</h2>
-            <p className="rf-complete-stat">
-              You flagged <strong>{yesCount}</strong> out of <strong>{poll.items.length}</strong> as red flags
+        <div className="max-w-4xl mx-auto px-6 py-8">
+          <div className="bg-white rounded-xl p-6 border border-gray-200 text-center mb-6">
+            <div className="text-5xl mb-4">🚩</div>
+            <h2 className="text-xl font-bold text-gray-900 mb-2">Your Results</h2>
+            <p className="text-gray-500 mb-6">
+              You flagged <strong className="text-red-500">{yesCount}</strong> out of <strong>{poll.items.length}</strong> as red flags
             </p>
 
-            <div className="rf-complete-summary">
+            <div className="text-left mb-6">
               {poll.items.map((item) => (
-                <div key={item.id} className="rf-summary-item">
-                  <span className={`rf-summary-vote ${votes[item.id]}`}>
+                <div key={item.id} className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg mb-2">
+                  <span className={`w-8 h-8 rounded flex items-center justify-center text-sm ${votes[item.id] === "yes" ? "bg-red-100" : "bg-green-100"}`}>
                     {votes[item.id] === "yes" ? "🚩" : "✓"}
                   </span>
-                  <span className="rf-summary-text">{item.text}</span>
-                  <span className="rf-summary-percent">{item.yesPercent}% agree</span>
+                  <span className="flex-1 text-sm text-gray-700">{item.text}</span>
+                  <span className="text-xs text-gray-400">{item.yesPercent}% agree</span>
                 </div>
               ))}
             </div>
 
-            <div className="rf-complete-actions">
+            <div className="flex gap-3 justify-center flex-wrap">
               <button
                 onClick={() => {
                   setCurrentIndex(0);
@@ -110,11 +128,13 @@ export default function PollPage() {
                   setShowResult(false);
                   setIsComplete(false);
                 }}
-                className="btn"
+                className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all"
               >
                 Vote Again
               </button>
-              <Link href="/redflags" className="btn btn-outline">More Polls</Link>
+              <Link href="/redflags" className="bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all">
+                More Polls
+              </Link>
               <button
                 onClick={() => {
                   const shareUrl = `https://www.truthinsignals.com/redflags/${poll.id}`;
@@ -126,16 +146,14 @@ export default function PollPage() {
                     alert("Copied!");
                   }
                 }}
-                className="btn btn-outline"
+                className="bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all"
               >
                 Share
               </button>
             </div>
           </div>
-
-          <div className="ad">Advertisement</div>
         </div>
-      </>
+      </div>
     );
   }
 
@@ -144,72 +162,82 @@ export default function PollPage() {
   const userVote = votes[item.id];
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="navbar-inner">
-          <Link href="/" className="logo">Truth<span>InSignals</span></Link>
-          <span className="rf-poll-counter">{currentIndex + 1}/{poll.items.length}</span>
+    <div className="min-h-screen bg-gray-50">
+      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+          <Link href="/" className="text-xl font-bold text-gray-900">
+            Truth<span className="text-indigo-600">InSignals</span>
+          </Link>
+          <div className="flex items-center gap-4">
+            <span className="text-sm text-gray-500 font-medium">{currentIndex + 1}/{poll.items.length}</span>
+            <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+              🚩 Red Flags
+            </Link>
+          </div>
         </div>
       </nav>
 
-      <div className="rf-poll-wrapper">
-        <div className="ad">Advertisement</div>
-
+      <div className="max-w-4xl mx-auto px-6 py-8">
         {currentIndex === 0 && !showResult && (
-          <div className="rf-poll-header">
-            <span className="rf-poll-header-emoji">{poll.emoji}</span>
-            <h1>{poll.title}</h1>
-            <p>{poll.description}</p>
+          <div className="text-center mb-8">
+            <span className="text-4xl block mb-3">{poll.emoji}</span>
+            <h1 className="text-xl font-bold text-gray-900 mb-2">{poll.title}</h1>
+            <p className="text-gray-500 text-sm">{poll.description}</p>
           </div>
         )}
 
-        <div className="rf-poll-progress">
-          <div className="rf-poll-progress-fill" style={{ width: `${progress}%` }} />
+        {/* Progress Bar */}
+        <div className="h-1 bg-gray-200 rounded-full mb-8 overflow-hidden">
+          <div className="h-full bg-red-500 rounded-full transition-all duration-300" style={{ width: `${progress}%` }} />
         </div>
 
-        <div className="rf-poll-card-main fade-in" key={currentIndex}>
-          <div className="rf-poll-question">
-            <span className="rf-poll-flag">🚩</span>
-            <span className="rf-poll-label">Is this a red flag?</span>
+        <div className="bg-white rounded-xl p-6 border border-gray-200">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <span>🚩</span>
+            <span className="text-sm font-semibold text-red-500 uppercase tracking-wide">Is this a red flag?</span>
           </div>
 
-          <div className="rf-poll-statement">{item.text}</div>
+          <div className="text-lg font-semibold text-gray-900 text-center mb-6">{item.text}</div>
 
           {!showResult ? (
-            <div className="rf-poll-buttons">
-              <button onClick={() => handleVote("yes")} className="rf-vote-btn rf-vote-yes">
+            <div className="flex gap-3">
+              <button
+                onClick={() => handleVote("yes")}
+                className="flex-1 py-4 bg-red-50 border border-red-200 text-red-600 font-semibold rounded-lg hover:bg-red-500 hover:text-white hover:border-red-500 transition-all"
+              >
                 🚩 Red Flag
               </button>
-              <button onClick={() => handleVote("no")} className="rf-vote-btn rf-vote-no">
+              <button
+                onClick={() => handleVote("no")}
+                className="flex-1 py-4 bg-green-50 border border-green-200 text-green-600 font-semibold rounded-lg hover:bg-green-500 hover:text-white hover:border-green-500 transition-all"
+              >
                 ✓ Not a Flag
               </button>
             </div>
           ) : (
-            <div className="rf-poll-result fade-in">
-              <div className="rf-result-bar">
+            <div>
+              <div className="flex h-12 rounded-lg overflow-hidden mb-3">
                 <div
-                  className="rf-result-yes"
+                  className="bg-red-500 text-white flex items-center justify-center font-semibold text-sm transition-all duration-500"
                   style={{ width: `${item.yesPercent}%` }}
                 >
                   {item.yesPercent}%
                 </div>
                 <div
-                  className="rf-result-no"
+                  className="bg-green-500 text-white flex items-center justify-center font-semibold text-sm transition-all duration-500"
                   style={{ width: `${100 - item.yesPercent}%` }}
                 >
                   {100 - item.yesPercent}%
                 </div>
               </div>
-              <div className="rf-result-labels">
-                <span className={userVote === "yes" ? "active" : ""}>🚩 Red Flag</span>
-                <span className={userVote === "no" ? "active" : ""}>✓ Not a Flag</span>
+              <div className="flex justify-between text-sm text-gray-500">
+                <span className={userVote === "yes" ? "font-bold text-gray-900" : ""}>🚩 Red Flag</span>
+                <span className={userVote === "no" ? "font-bold text-gray-900" : ""}>✓ Not a Flag</span>
               </div>
             </div>
           )}
         </div>
-
-        <div className="ad">Advertisement</div>
       </div>
-    </>
+    </div>
   );
 }

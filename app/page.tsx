@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import quizData from "@/data/quizzes.json";
-import redflagData from "@/data/redflags.json";
 
 const categories = [
   { id: "all", label: "All" },
@@ -21,47 +20,72 @@ export default function Home() {
     : quizData.quizzes.filter(q => q.category === activeCategory);
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="navbar-inner">
-          <Link href="/" className="logo">
-            Truth<span>InSignals</span>
+    <div className="min-h-screen bg-gray-50">
+      {/* Navbar */}
+      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+          <Link href="/" className="text-xl font-bold text-gray-900">
+            Truth<span className="text-indigo-600">InSignals</span>
           </Link>
+          <div className="flex items-center gap-4">
+            <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+              🚩 Red Flags
+            </Link>
+            <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
+              My Flags
+            </Link>
+          </div>
         </div>
       </nav>
 
-      <div className="container">
-        <div className="ad">Advertisement</div>
-
-        <div className="categories">
+      <div className="max-w-4xl mx-auto px-6 py-8">
+        {/* Categories */}
+        <div className="flex flex-wrap gap-2 mb-8">
           {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`category-btn ${activeCategory === cat.id ? 'active' : ''}`}
+              className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
+                activeCategory === cat.id
+                  ? "bg-indigo-600 text-white"
+                  : "bg-white text-gray-600 border border-gray-200 hover:border-indigo-400 hover:text-indigo-600"
+              }`}
             >
               {cat.label}
             </button>
           ))}
         </div>
 
+        {/* Quiz Grid */}
         {filteredQuizzes.length === 0 ? (
-          <div className="empty-state">
-            <div className="empty-state-icon">🔍</div>
-            <div className="empty-state-text">No quizzes found in this category</div>
+          <div className="text-center py-16">
+            <div className="text-5xl mb-4">🔍</div>
+            <div className="text-gray-500">No quizzes found in this category</div>
           </div>
         ) : (
-          <div className="quiz-grid">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {filteredQuizzes.map((quiz) => (
               <Link href={`/quiz/${quiz.id}`} key={quiz.id}>
-                <div className="quiz-card">
-                  <div className={`quiz-icon ${quiz.category}`}>{quiz.emoji}</div>
-                  <div className="quiz-content">
-                    <div className="quiz-title">{quiz.title}</div>
-                    {quiz.hook && <div className="quiz-hook">{quiz.hook}</div>}
-                    <div className="quiz-meta">
-                      <span className={`quiz-tag ${quiz.category}`}>{quiz.category}</span>
-                      <span>{quiz.questions.length} questions</span>
+                <div className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-400 hover:shadow-md transition-all flex gap-4">
+                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 ${
+                    quiz.category === "relationship" ? "bg-red-50" :
+                    quiz.category === "psychology" ? "bg-green-50" :
+                    quiz.category === "iq" ? "bg-blue-50" : "bg-yellow-50"
+                  }`}>
+                    {quiz.emoji}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="font-bold text-gray-900 mb-1">{quiz.title}</div>
+                    {quiz.hook && <div className="text-sm text-gray-500 mb-2">{quiz.hook}</div>}
+                    <div className="flex items-center gap-3 text-xs">
+                      <span className={`px-2 py-1 rounded font-semibold uppercase ${
+                        quiz.category === "relationship" ? "bg-red-50 text-red-600" :
+                        quiz.category === "psychology" ? "bg-green-50 text-green-600" :
+                        quiz.category === "iq" ? "bg-blue-50 text-blue-600" : "bg-yellow-50 text-yellow-600"
+                      }`}>
+                        {quiz.category}
+                      </span>
+                      <span className="text-gray-400">{quiz.questions.length} questions</span>
                     </div>
                   </div>
                 </div>
@@ -70,36 +94,11 @@ export default function Home() {
           </div>
         )}
 
-        <div className="ad">Advertisement</div>
-
-        {/* Red Flags Section */}
-        <div className="rf-home-section">
-          <div className="rf-home-header">
-            <h2 className="rf-home-title">🚩 Red Flags</h2>
-            <p className="rf-home-subtitle">Vote on relationship behaviors & share your own red flags</p>
-          </div>
-          <div className="rf-home-grid">
-            {redflagData.polls.slice(0, 2).map((poll) => (
-              <Link href={`/redflags/${poll.id}`} key={poll.id}>
-                <div className="rf-home-card">
-                  <div className="rf-home-icon">{poll.emoji}</div>
-                  <div className="rf-home-content">
-                    <div className="rf-home-card-title">{poll.title}</div>
-                    <div className="rf-home-hook">{poll.items.length} items to vote</div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="rf-home-cta">
-            <Link href="/redflags" className="btn-rf-link">
-              Explore Red Flags →
-            </Link>
-          </div>
+        {/* Footer */}
+        <div className="text-center py-8 text-sm text-gray-400 border-t border-gray-200">
+          © 2025 TruthInSignals. All rights reserved.
         </div>
-
-        <div className="footer">© 2025 TruthInSignals. All rights reserved.</div>
       </div>
-    </>
+    </div>
   );
 }

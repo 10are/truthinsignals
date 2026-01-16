@@ -106,19 +106,29 @@ export default function QuizPage() {
 
   if (!quiz) {
     return (
-      <>
-        <nav className="navbar">
-          <div className="navbar-inner">
-            <Link href="/" className="logo">Truth<span>InSignals</span></Link>
+      <div className="min-h-screen bg-gray-50">
+        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+            <Link href="/" className="text-xl font-bold text-gray-900">
+              Truth<span className="text-indigo-600">InSignals</span>
+            </Link>
+            <div className="flex items-center gap-4">
+              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+                🚩 Red Flags
+              </Link>
+              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
+                My Flags
+              </Link>
+            </div>
           </div>
         </nav>
-        <div className="quiz-wrapper">
-          <div className="result">
-            <div className="result-title">Quiz not found</div>
-            <Link href="/" className="btn">Go Home</Link>
-          </div>
+        <div className="max-w-4xl mx-auto px-6 py-16 text-center">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Quiz not found</h2>
+          <Link href="/" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all">
+            Go Home
+          </Link>
         </div>
-      </>
+      </div>
     );
   }
 
@@ -126,23 +136,35 @@ export default function QuizPage() {
     const totalQuestions = quiz.questions.length;
 
     return (
-      <>
-        <nav className="navbar">
-          <div className="navbar-inner">
-            <Link href="/" className="logo">Truth<span>InSignals</span></Link>
+      <div className="min-h-screen bg-gray-50">
+        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+            <Link href="/" className="text-xl font-bold text-gray-900">
+              Truth<span className="text-indigo-600">InSignals</span>
+            </Link>
+            <div className="flex items-center gap-4">
+              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+                🚩 Red Flags
+              </Link>
+              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
+                My Flags
+              </Link>
+            </div>
           </div>
         </nav>
 
-        <div className="quiz-wrapper">
-          <div className="ad">Advertisement</div>
-
-          <div className="result fade-in">
-            <div className="result-score">{score}/{totalQuestions}</div>
-            <div className="result-title">{result.title}</div>
-            <div className="result-desc">{result.description}</div>
-            <div className="result-actions">
-              <button onClick={restart} className="btn">Take Again</button>
-              <Link href="/" className="btn btn-outline">More Quizzes</Link>
+        <div className="max-w-4xl mx-auto px-6 py-8">
+          <div className="bg-white rounded-xl p-8 border border-gray-200 text-center">
+            <div className="text-4xl font-bold text-indigo-600 mb-2">{score}/{totalQuestions}</div>
+            <div className="text-xl font-bold text-gray-900 mb-3">{result.title}</div>
+            <div className="text-gray-500 mb-6 max-w-md mx-auto">{result.description}</div>
+            <div className="flex gap-3 justify-center flex-wrap">
+              <button onClick={restart} className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all">
+                Take Again
+              </button>
+              <Link href="/" className="bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all">
+                More Quizzes
+              </Link>
               <button
                 onClick={() => {
                   const shareUrl = `https://www.truthinsignals.com/quiz/${quiz.id}`;
@@ -154,16 +176,14 @@ export default function QuizPage() {
                     alert('Copied!');
                   }
                 }}
-                className="btn btn-outline"
+                className="bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all"
               >
                 Share
               </button>
             </div>
           </div>
-
-          <div className="ad">Advertisement</div>
         </div>
-      </>
+      </div>
     );
   }
 
@@ -171,46 +191,50 @@ export default function QuizPage() {
   const question = quiz.questions[currentQuestion];
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="navbar-inner">
-          <Link href="/" className="logo">Truth<span>InSignals</span></Link>
-          <span className="quiz-counter">{currentQuestion + 1}/{quiz.questions.length}</span>
+    <div className="min-h-screen bg-gray-50">
+      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+          <Link href="/" className="text-xl font-bold text-gray-900">
+            Truth<span className="text-indigo-600">InSignals</span>
+          </Link>
+          <div className="flex items-center gap-4">
+            <span className="text-sm text-gray-500 font-medium">{currentQuestion + 1}/{quiz.questions.length}</span>
+            <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
+              🚩 Red Flags
+            </Link>
+          </div>
         </div>
       </nav>
 
-      <div className="quiz-wrapper">
-        <div className="ad">Advertisement</div>
-
+      <div className="max-w-4xl mx-auto px-6 py-8">
         {currentQuestion === 0 && (
-          <div className="quiz-header">
-            <div className="quiz-page-title">{quiz.title}</div>
-            {quiz.hook && <div className="quiz-page-hook">{quiz.hook}</div>}
+          <div className="text-center mb-8">
+            <h1 className="text-xl font-bold text-gray-900 mb-2">{quiz.title}</h1>
+            {quiz.hook && <p className="text-indigo-600 text-sm">{quiz.hook}</p>}
           </div>
         )}
 
-        <div className="progress">
-          <div className="progress-fill" style={{ width: `${progress}%` }} />
+        {/* Progress Bar */}
+        <div className="h-1 bg-gray-200 rounded-full mb-8 overflow-hidden">
+          <div className="h-full bg-indigo-600 rounded-full transition-all duration-300" style={{ width: `${progress}%` }} />
         </div>
 
-        <div className="fade-in" key={currentQuestion}>
-          <div className="question">{question.text}</div>
+        <div className="bg-white rounded-xl p-6 border border-gray-200">
+          <div className="text-lg font-semibold text-gray-900 text-center mb-6">{question.text}</div>
 
-          <div className="options">
+          <div className="space-y-3">
             {question.options.map((option, index) => (
               <button
                 key={index}
                 onClick={() => handleSelect(option)}
-                className="option"
+                className="w-full text-left bg-white border border-gray-200 rounded-lg px-5 py-4 font-medium text-gray-700 hover:border-indigo-400 hover:bg-indigo-50 transition-all"
               >
                 {option.text}
               </button>
             ))}
           </div>
         </div>
-
-        <div className="ad">Advertisement</div>
       </div>
-    </>
+    </div>
   );
 }
