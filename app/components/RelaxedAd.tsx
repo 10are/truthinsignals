@@ -1,8 +1,11 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function RelaxedAd() {
+  const adRef = useRef<HTMLModElement>(null);
+  const [hasAd, setHasAd] = useState(false);
+
   useEffect(() => {
     try {
       // @ts-expect-error adsbygoogle is defined by Google AdSense script
@@ -10,11 +13,21 @@ export default function RelaxedAd() {
     } catch {
       // Ad already pushed or error
     }
+
+    // Check if ad loaded after a short delay
+    const timer = setTimeout(() => {
+      if (adRef.current && adRef.current.offsetHeight > 0) {
+        setHasAd(true);
+      }
+    }, 1000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className="my-6">
+    <div className={hasAd ? "my-6" : ""}>
       <ins
+        ref={adRef}
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-format="autorelaxed"
