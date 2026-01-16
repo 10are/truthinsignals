@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import redflagData from "@/data/redflags.json";
+import RelaxedAd from "@/app/components/RelaxedAd";
 
 interface Flag {
   id: string;
@@ -188,6 +189,9 @@ export default function SharedFlagsPage() {
             </Link>
           </div>
         </div>
+
+        {/* Ad */}
+        <RelaxedAd />
 
         {/* CTA Banner */}
         <div className="bg-indigo-600 rounded-xl p-5 mb-6 flex items-center justify-between">

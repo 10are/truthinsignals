@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import quizData from "@/data/quizzes.json";
 import DisplayAd from "./components/DisplayAd";
+import RelaxedAd from "./components/RelaxedAd";
 
 const categories = [
   { id: "all", label: "All" },
@@ -97,6 +98,9 @@ export default function Home() {
             ))}
           </div>
         )}
+
+        {/* Relaxed Ad */}
+        <RelaxedAd />
 
         {/* Footer */}
         <div className="text-center py-8 text-sm text-gray-400 border-t border-gray-200">
