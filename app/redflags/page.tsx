@@ -1,6 +1,5 @@
 import Link from "next/link";
 import redflagData from "@/data/redflags.json";
-import DisplayAd from "@/app/components/DisplayAd";
 
 export default function RedFlagsPage() {
   return (
@@ -30,8 +29,6 @@ export default function RedFlagsPage() {
           <span className="text-red-400 font-bold">→</span>
         </Link>
 
-        {/* Ad */}
-        <DisplayAd />
 
         {/* Poll Categories */}
         <div className="space-y-3">

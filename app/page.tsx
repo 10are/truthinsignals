@@ -3,8 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import quizData from "@/data/quizzes.json";
-import DisplayAd from "./components/DisplayAd";
-import RelaxedAd from "./components/RelaxedAd";
 
 const categories = [
   { id: "all", label: "All" },
@@ -58,8 +56,6 @@ export default function Home() {
           Showing {paginatedQuizzes.length} of {filteredQuizzes.length} quizzes
         </div>
 
-        {/* Ad */}
-        <DisplayAd />
 
         {/* Quiz Grid */}
         {filteredQuizzes.length === 0 ? (
@@ -136,8 +132,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* Relaxed Ad */}
-        <RelaxedAd />
 
         {/* Footer */}
         <div className="text-center py-8 text-sm text-gray-500 border-t border-gray-800">

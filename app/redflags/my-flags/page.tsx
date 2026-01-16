@@ -1,14 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import redflagData from "@/data/redflags.json";
 
+interface Flag {
+  id: string;
+  text: string;
+  emoji: string;
+}
+
 export default function MyFlagsPage() {
-  const router = useRouter();
   const [redFlags, setRedFlags] = useState<string[]>([]);
   const [greenFlags, setGreenFlags] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState<"red" | "green">("red");
+  const [showResult, setShowResult] = useState(false);
 
   const toggleRedFlag = (id: string) => {
     if (redFlags.includes(id)) {
@@ -26,14 +32,115 @@ export default function MyFlagsPage() {
     }
   };
 
-  const generateShareLink = () => {
-    const redIds = redFlags.map((id) => id.replace("r", "")).join(",");
-    const greenIds = greenFlags.map((id) => id.replace("g", "")).join(",");
-    const encoded = btoa(`${redIds}|${greenIds}`);
-    router.push(`/redflags/my-flags/${encoded}`);
-  };
-
   const totalSelected = redFlags.length + greenFlags.length;
+
+  const selectedRedFlags: Flag[] = redFlags
+    .map((id) => redflagData.myRedFlags.find((f) => f.id === id))
+    .filter(Boolean) as Flag[];
+
+  const selectedGreenFlags: Flag[] = greenFlags
+    .map((id) => redflagData.myGreenFlags.find((f) => f.id === id))
+    .filter(Boolean) as Flag[];
+
+  if (showResult) {
+    return (
+      <div className="min-h-screen bg-gray-900">
+        <div className="max-w-md mx-auto px-4 py-8">
+          {/* Shareable Card - Screenshot This! */}
+          <div className="bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800 rounded-2xl p-5 border border-gray-700 shadow-2xl mb-6">
+            {/* Header */}
+            <div className="text-center mb-5">
+              <div className="flex justify-center gap-2 text-3xl mb-2">
+                <span>🚩</span>
+                <span>💚</span>
+              </div>
+              <div className="text-lg font-bold text-gray-100">My Flags</div>
+              <div className="text-xs text-gray-500">Here are my honest red & green flags</div>
+            </div>
+
+            {/* Red Flags */}
+            {selectedRedFlags.length > 0 && (
+              <div className="mb-4">
+                <div className="text-xs font-bold text-red-400 uppercase tracking-wider mb-2 flex items-center gap-1">
+                  <span>🚩</span> Red Flags ({selectedRedFlags.length})
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {selectedRedFlags.map((flag) => (
+                    <div
+                      key={flag.id}
+                      className="flex items-center gap-1.5 px-3 py-1.5 bg-red-900/40 border border-red-800/60 rounded-full text-xs"
+                    >
+                      <span>{flag.emoji}</span>
+                      <span className="text-red-200">{flag.text}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Green Flags */}
+            {selectedGreenFlags.length > 0 && (
+              <div className="mb-4">
+                <div className="text-xs font-bold text-green-400 uppercase tracking-wider mb-2 flex items-center gap-1">
+                  <span>💚</span> Green Flags ({selectedGreenFlags.length})
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {selectedGreenFlags.map((flag) => (
+                    <div
+                      key={flag.id}
+                      className="flex items-center gap-1.5 px-3 py-1.5 bg-green-900/40 border border-green-800/60 rounded-full text-xs"
+                    >
+                      <span>{flag.emoji}</span>
+                      <span className="text-green-200">{flag.text}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Stats */}
+            <div className="flex justify-center gap-6 py-3 border-t border-b border-gray-700/50 mb-4">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-red-400">{selectedRedFlags.length}</div>
+                <div className="text-xs text-gray-500">Red Flags</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-green-400">{selectedGreenFlags.length}</div>
+                <div className="text-xs text-gray-500">Green Flags</div>
+              </div>
+            </div>
+
+            {/* Watermark */}
+            <div className="text-center">
+              <div className="text-xs text-gray-500">truthinsignals.com</div>
+            </div>
+          </div>
+
+          {/* Screenshot Hint */}
+          <div className="text-center mb-6 px-4 py-3 bg-indigo-600/20 border border-indigo-500/30 rounded-xl">
+            <div className="text-indigo-300 text-sm font-medium mb-1">Share your flags!</div>
+            <div className="text-indigo-400/70 text-xs">Take a screenshot and share with friends</div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex gap-3">
+            <button
+              onClick={() => setShowResult(false)}
+              className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-4 rounded-xl transition-all"
+            >
+              Edit Flags
+            </button>
+            <Link
+              href="/redflags"
+              className="flex-1 text-center bg-gray-800 hover:bg-gray-700 text-gray-200 font-semibold py-3 px-4 rounded-xl border border-gray-700 transition-all"
+            >
+              More Polls
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-900">
@@ -130,10 +237,10 @@ export default function MyFlagsPage() {
               </div>
             </div>
             <button
-              onClick={generateShareLink}
+              onClick={() => setShowResult(true)}
               className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all"
             >
-              Create & Share →
+              Create Card →
             </button>
           </div>
         </div>

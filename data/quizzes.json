@@ -73,10 +73,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 3, "title": "You Need Practice 👀", "description": "You might be missing some obvious signs. Pay closer attention to patterns, not just words." },
-        { "minScore": 4, "maxScore": 5, "title": "Getting There 🎯", "description": "You caught some flags but missed others. Trust your gut more." },
-        { "minScore": 6, "maxScore": 7, "title": "Sharp Eye 🔥", "description": "You can read most situations well. Keep trusting your instincts." },
-        { "minScore": 8, "maxScore": 8, "title": "Flag Expert 💯", "description": "Nothing gets past you. You see the signs others miss." }
+        { "minScore": 0, "maxScore": 3, "title": "You Need Practice 👀", "description": "You might be missing some obvious signs that others can see clearly. The good news? Awareness is the first step. Start paying closer attention to patterns, not just words. Actions speak louder than promises. Notice when behavior doesn't match what someone says - that gap tells you everything you need to know." },
+        { "minScore": 4, "maxScore": 5, "title": "Getting There 🎯", "description": "You caught some flags but missed others - which is completely normal. Your intuition is working, but sometimes your heart overrides what your head is telling you. The key is learning to trust that initial gut feeling before you start making excuses for someone's behavior. When something feels off, it usually is." },
+        { "minScore": 6, "maxScore": 7, "title": "Sharp Eye 🔥", "description": "You have a solid ability to read situations and people. Your instincts are well-developed, and you can spot inconsistencies that others might overlook. This awareness protects you from a lot of potential heartache. Keep trusting your intuition - it's clearly been shaped by experience and emotional intelligence." },
+        { "minScore": 8, "maxScore": 8, "title": "Flag Expert 💯", "description": "Nothing gets past you - you've mastered the art of reading between the lines. You see the signs others miss, the subtle shifts in energy, the patterns that reveal someone's true intentions. This level of awareness is rare and valuable. Just remember: not everyone is out to hurt you. Balance this skill with openness to genuine connection." }
       ]
     },
     {
@@ -133,10 +133,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 2, "title": "They're Still Into You ✨", "description": "Based on what you shared, things seem solid. Don't overthink it." },
-        { "minScore": 3, "maxScore": 5, "title": "Minor Shifts 🤔", "description": "There might be small changes, but it's not a clear pattern yet. Keep observing." },
-        { "minScore": 6, "maxScore": 7, "title": "Something's Changing 📉", "description": "The signs suggest a shift in energy. It might be time for an honest conversation." },
-        { "minScore": 8, "maxScore": 10, "title": "Trust Your Gut 💔", "description": "The patterns are there. You already sense it. Don't ignore what you're feeling." }
+        { "minScore": 0, "maxScore": 2, "title": "They're Still Into You ✨", "description": "Based on your answers, this connection still has strong energy. The effort is mutual, the interest is real, and you're not chasing crumbs. Don't let overthinking create problems that don't exist. Some people just have different communication styles - what matters is consistency over time, not perfection in every interaction." },
+        { "minScore": 3, "maxScore": 5, "title": "Minor Shifts 🤔", "description": "There might be small changes happening, but it's too early to call it a pattern. People go through phases - work stress, personal issues, or just needing space. The key is watching what happens over the next few weeks. If these small shifts become consistent, it's worth having an open conversation about where things stand." },
+        { "minScore": 6, "maxScore": 7, "title": "Something's Changing 📉", "description": "The signs are pointing toward a shift in their energy and investment. This doesn't mean it's over, but something is different. Before you spiral, consider having an honest, calm conversation. Sometimes people pull back because they're scared, not because they've lost interest. Either way, you deserve clarity - not confusion." },
+        { "minScore": 8, "maxScore": 10, "title": "Trust Your Gut 💔", "description": "The patterns are clear, and deep down, you already know it. When someone wants to be in your life, they make it obvious. You shouldn't have to decode mixed signals or wonder where you stand. You deserve someone who matches your energy. Whatever happens next, remember: their lack of effort says nothing about your worth." }
       ]
     },
     {
@@ -193,10 +193,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 3, "title": "Low Respect Signs 😕", "description": "Their actions suggest they may not value you as much as you deserve." },
-        { "minScore": 4, "maxScore": 6, "title": "Mixed Signals 🤷", "description": "Some respect is there, but it's inconsistent. Pay attention to patterns." },
-        { "minScore": 7, "maxScore": 8, "title": "Solid Respect ✊", "description": "They show real respect through their actions." },
-        { "minScore": 9, "maxScore": 10, "title": "Deep Respect 💎", "description": "Their respect for you is clear. This is rare - value it." }
+        { "minScore": 0, "maxScore": 3, "title": "Low Respect Signs 😕", "description": "Based on your answers, their actions suggest they may not value you as much as you deserve. Respect isn't just about big gestures - it's in how someone listens to you, keeps their word, and honors your boundaries. You teach people how to treat you. If they consistently disrespect you, it's time to reevaluate what you're accepting." },
+        { "minScore": 4, "maxScore": 6, "title": "Mixed Signals 🤷", "description": "There's respect there, but it's inconsistent. They might honor your boundaries in some situations and completely disregard them in others. This inconsistency can be just as damaging as outright disrespect. Pay attention to when they respect you and when they don't - the pattern will reveal their priorities." },
+        { "minScore": 7, "maxScore": 8, "title": "Solid Respect ✊", "description": "They show real respect through their actions, not just their words. They listen when you speak, keep their promises, and honor your boundaries even when it's inconvenient for them. This kind of respect is the foundation of any healthy relationship. They see you as an equal and treat you accordingly." },
+        { "minScore": 9, "maxScore": 10, "title": "Deep Respect 💎", "description": "Their respect for you is unmistakable. It shows in how they defend you when you're not around, how they celebrate your wins, and how they never make you feel small. This level of respect is rare - most people never experience it. Hold onto this connection and make sure you're giving the same level of respect in return." }
       ]
     },
     {
@@ -253,9 +253,9 @@
         }
       ],
       "results": [
-        { "type": "pursuer", "title": "The Pursuer 🏃", "description": "You invest more energy into the connection. Consider stepping back to see if they meet you halfway." },
-        { "type": "prize", "title": "The Prize 👑", "description": "They're putting in more effort right now. Be careful not to take their effort for granted." },
-        { "type": "balanced", "title": "Balanced Dynamic ⚖️", "description": "You have a healthy push-pull. Both of you invest and both receive." }
+        { "type": "pursuer", "title": "The Pursuer 🏃", "description": "You're putting in significantly more energy than you're getting back. While caring deeply isn't a flaw, constantly chasing someone who doesn't match your effort leads to exhaustion and resentment. Try stepping back and see what happens. If they don't step forward when you create space, you have your answer about how much they value the connection." },
+        { "type": "prize", "title": "The Prize 👑", "description": "They're investing more into this connection than you are right now. While it feels good to be pursued, be mindful not to take their effort for granted. Healthy relationships require reciprocity. If you genuinely care about them, show it through actions. If you don't, be honest about it - stringing someone along is never fair." },
+        { "type": "balanced", "title": "Balanced Dynamic ⚖️", "description": "This is the healthiest dynamic possible. You both initiate, you both invest, and neither of you is constantly wondering where you stand. This balance doesn't happen by accident - it's a sign that both people value the relationship equally. Protect this energy by continuing to show up consistently." }
       ]
     },
     {
@@ -321,10 +321,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 4, "title": "Highly Susceptible 🎯", "description": "You tend to prioritize others' feelings over your own boundaries. Practice recognizing emotional manipulation." },
-        { "minScore": 5, "maxScore": 7, "title": "Somewhat Aware 👁️", "description": "You notice some tactics but still get caught off guard. Learn to pause before reacting emotionally." },
-        { "minScore": 8, "maxScore": 10, "title": "Hard to Fool 🛡️", "description": "You can spot most manipulation attempts. You balance empathy with self-protection well." },
-        { "minScore": 11, "maxScore": 12, "title": "Manipulation-Proof 💪", "description": "You see through tactics instantly. Very few people can influence you without your consent." }
+        { "minScore": 0, "maxScore": 4, "title": "Highly Susceptible 🎯", "description": "You tend to prioritize others' feelings and comfort over your own boundaries and needs. This makes you vulnerable to people who use guilt, emotional appeals, and pressure tactics to get what they want. The good news is awareness is the first step. Start practicing saying 'let me think about it' before making decisions under pressure." },
+        { "minScore": 5, "maxScore": 7, "title": "Somewhat Aware 👁️", "description": "You recognize some manipulation tactics, but you still get caught off guard - especially when emotions are involved or when the manipulator is someone you care about. Your empathy is a strength, but it can also be exploited. Learn to pause before reacting emotionally, and trust that initial feeling of discomfort." },
+        { "minScore": 8, "maxScore": 10, "title": "Hard to Fool 🛡️", "description": "You've developed a solid ability to spot manipulation attempts without becoming cynical or closed off. You can identify guilt trips, pressure tactics, and emotional games while still remaining open to genuine connection. This balance between empathy and self-protection is exactly where you want to be." },
+        { "minScore": 11, "maxScore": 12, "title": "Manipulation-Proof 💪", "description": "Almost nothing gets past you. You see through tactics instantly - the guilt trips, the love bombing, the subtle pressure. Very few people can influence you without your explicit consent. This awareness likely came from experience. Just be careful not to become so guarded that you push away people with genuine intentions." }
       ]
     },
     {
@@ -381,10 +381,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 3, "title": "Open Book 📖", "description": "Your emotions show clearly. This makes you authentic and trustworthy." },
-        { "minScore": 4, "maxScore": 6, "title": "Selective Reveal 🎭", "description": "You control what people see to some degree. Good balance." },
-        { "minScore": 7, "maxScore": 8, "title": "Hard to Read 🔒", "description": "People struggle to figure you out. You reveal what you choose." },
-        { "minScore": 9, "maxScore": 10, "title": "Mystery 🌑", "description": "Almost no one can read you. You control your image completely." }
+        { "minScore": 0, "maxScore": 3, "title": "Open Book 📖", "description": "Your emotions are written all over your face - and that's not necessarily a bad thing. This transparency makes you authentic, approachable, and trustworthy. People know exactly where they stand with you. The downside? In competitive situations or with the wrong people, being readable can put you at a disadvantage." },
+        { "minScore": 4, "maxScore": 6, "title": "Selective Reveal 🎭", "description": "You have a good balance between transparency and privacy. You can control what people see to some degree, but you're not cold or closed off. This middle ground is actually ideal - you can be genuine with people you trust while maintaining some mystery with others. It gives you flexibility in different social situations." },
+        { "minScore": 7, "maxScore": 8, "title": "Hard to Read 🔒", "description": "People struggle to figure you out, and you like it that way. You reveal what you choose, when you choose. This ability to mask your true feelings gives you an advantage in negotiations, conflicts, and situations where showing your hand too early could hurt you. Just make sure the people closest to you can still connect with the real you." },
+        { "minScore": 9, "maxScore": 10, "title": "Mystery 🌑", "description": "You're nearly impossible to read. Your poker face is legendary, and you control your image completely. While this can be a powerful skill, be careful - if no one can read you, genuine intimacy becomes difficult. The people who love you need to see the real you sometimes, even if it feels vulnerable." }
       ]
     },
     {
@@ -441,9 +441,9 @@
         }
       ],
       "results": [
-        { "type": "fast", "title": "Quick Thinker ⚡", "description": "You trust your instincts and don't second-guess yourself." },
-        { "type": "overthink", "title": "Overthinker 🌀", "description": "Your mind runs deep, analyzing every angle. Practice deciding faster on small things." },
-        { "type": "balanced", "title": "Balanced Processor ⚖️", "description": "You think enough to make good decisions without getting stuck." }
+        { "type": "fast", "title": "Quick Thinker ⚡", "description": "You trust your instincts and rarely second-guess yourself. This decisiveness serves you well in fast-moving situations where hesitation can cost you opportunities. Your gut feeling is usually reliable because it's informed by experience, even if you can't always articulate why you feel a certain way. Just occasionally pause on big decisions." },
+        { "type": "overthink", "title": "Overthinker 🌀", "description": "Your mind never stops running scenarios, analyzing angles, and preparing for every possible outcome. While this depth of thought can lead to better decisions, it can also paralyze you. The mental replays of conversations and 'what-ifs' are exhausting. Practice making quick decisions on small things to build confidence in your judgment." },
+        { "type": "balanced", "title": "Balanced Processor ⚖️", "description": "You've found the sweet spot between impulsive decisions and analysis paralysis. You think enough to make informed choices without getting stuck in endless loops. This balance means you can act decisively when needed while still considering important factors. It's a skill many people struggle to develop." }
       ]
     },
     {
@@ -519,10 +519,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 3, "title": "Needs Work 😬", "description": "You might be missing manipulation in daily conversations." },
-        { "minScore": 4, "maxScore": 5, "title": "Average Awareness 👀", "description": "You catch some tactics but miss others." },
-        { "minScore": 6, "maxScore": 7, "title": "Sharp Detector 🎯", "description": "You spot most manipulation. Your BS detector is well-calibrated." },
-        { "minScore": 8, "maxScore": 8, "title": "Nothing Gets Past You ⚡", "description": "Perfect score. You instantly recognize manipulation tactics." }
+        { "minScore": 0, "maxScore": 3, "title": "Needs Work 😬", "description": "You might be missing subtle manipulation that happens in everyday conversations. The phrases that seem innocent often carry hidden meanings designed to guilt, pressure, or control you. Start paying attention to how you feel after someone says something - if you feel guilty, confused, or like you need to defend yourself, that's a clue." },
+        { "minScore": 4, "maxScore": 5, "title": "Average Awareness 👀", "description": "You catch some manipulation tactics but miss others, especially the more subtle ones. The obvious guilt trips you can see, but the softer manipulation - the non-apology apologies, the veiled criticisms, the emotional pressure - can slip past you. Keep developing this awareness." },
+        { "minScore": 6, "maxScore": 7, "title": "Sharp Detector 🎯", "description": "You have a well-calibrated BS detector. You can identify most manipulation techniques - the guilt trips, the deflection, the non-apologies - even when they're wrapped in kind-sounding words. This skill protects you from people who would otherwise take advantage of your good nature." },
+        { "minScore": 8, "maxScore": 8, "title": "Nothing Gets Past You ⚡", "description": "Perfect score - you instantly recognize manipulation tactics, no matter how they're disguised. You see through the 'I'm not mad, I just think it's funny' and the 'after everything I've done for you' immediately. This awareness is a superpower in relationships and negotiations alike." }
       ]
     },
     {
@@ -588,10 +588,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 2, "title": "Keep Practicing 📚", "description": "Pattern recognition is a skill that improves with practice." },
-        { "minScore": 3, "maxScore": 4, "title": "Good Eye 👁️", "description": "You caught most patterns. Your logical thinking is solid." },
-        { "minScore": 5, "maxScore": 5, "title": "Sharp Mind 🧠", "description": "Excellent pattern recognition. You see connections quickly." },
-        { "minScore": 6, "maxScore": 6, "title": "Pattern Master 🏆", "description": "Perfect score! You have exceptional analytical abilities." }
+        { "minScore": 0, "maxScore": 2, "title": "Keep Practicing 📚", "description": "Pattern recognition is like a muscle - it gets stronger with use. Don't be discouraged by this score. The ability to spot sequences and predict what comes next is something you can actively develop through puzzles, games, and conscious practice. Your brain is capable of much more than you're currently using." },
+        { "minScore": 3, "maxScore": 4, "title": "Good Eye 👁️", "description": "You caught most of the patterns, which shows solid logical thinking skills. Your brain naturally looks for order and sequences in information. This ability translates to real life too - you probably notice when someone's behavior doesn't match their usual pattern, or when something is 'off' in a situation." },
+        { "minScore": 5, "maxScore": 5, "title": "Sharp Mind 🧠", "description": "Excellent pattern recognition skills. You see connections quickly that others might miss entirely. This kind of analytical thinking is valuable in problem-solving, strategy, and understanding complex systems. Your brain is wired to find order in chaos - that's a genuine cognitive advantage." },
+        { "minScore": 6, "maxScore": 6, "title": "Pattern Master 🏆", "description": "Perfect score - you have exceptional analytical abilities. Your brain processes sequences and patterns almost instantly, seeing the underlying logic that governs them. This skill extends far beyond number sequences - you likely notice patterns in human behavior, market trends, and complex systems that others completely miss." }
       ]
     },
     {
@@ -648,10 +648,10 @@
         }
       ],
       "results": [
-        { "minScore": 0, "maxScore": 1, "title": "Tricked 🪤", "description": "Your brain took the shortcuts. These questions are designed to fool quick thinking." },
-        { "minScore": 2, "maxScore": 3, "title": "Partially Fooled 🤔", "description": "You caught some traps but fell for others. Slow down and think twice." },
-        { "minScore": 4, "maxScore": 4, "title": "Sharp Thinker 🎯", "description": "You avoided most traps. You think before you answer." },
-        { "minScore": 5, "maxScore": 5, "title": "Trap-Proof 🧠", "description": "Perfect! You don't fall for cognitive shortcuts." }
+        { "minScore": 0, "maxScore": 1, "title": "Tricked 🪤", "description": "Your brain took the cognitive shortcuts, which is exactly what these questions were designed to exploit. The answers that 'feel' right are often wrong because our brains prefer fast, intuitive answers over slow, logical ones. The good news? Now that you know these traps exist, you'll start catching yourself before falling for them." },
+        { "minScore": 2, "maxScore": 3, "title": "Partially Fooled 🤔", "description": "You caught some traps but fell for others. Your brain is fighting between System 1 (fast, intuitive) and System 2 (slow, logical) thinking. The questions you missed probably felt obvious at first - that's the trap. Next time, when an answer seems too obvious, slow down and verify it." },
+        { "minScore": 4, "maxScore": 4, "title": "Sharp Thinker 🎯", "description": "You avoided most of the cognitive traps that catch the majority of people. You naturally slow down and think twice before committing to an answer, even when one seems obvious. This ability to override your brain's first instinct with deliberate reasoning is a valuable skill in decision-making." },
+        { "minScore": 5, "maxScore": 5, "title": "Trap-Proof 🧠", "description": "Perfect score - you didn't fall for any of the cognitive traps. Your ability to resist your brain's shortcuts and apply logical reasoning under pressure is exceptional. Most people trust their intuition on these questions and get them wrong. You questioned what felt 'obvious' and found the truth." }
       ]
     },
     {
@@ -708,9 +708,9 @@
         }
       ],
       "results": [
-        { "type": "secure", "title": "Secure Attachment 💚", "description": "You're comfortable with intimacy and independence. You communicate needs clearly and trust your partners." },
-        { "type": "anxious", "title": "Anxious Attachment 💛", "description": "You crave closeness but fear abandonment. Building self-security helps reduce relationship anxiety." },
-        { "type": "avoidant", "title": "Avoidant Attachment 🔵", "description": "You value independence highly and may struggle with emotional closeness. Recognizing this is the first step." }
+        { "type": "secure", "title": "Secure Attachment 💚", "description": "You have the healthiest attachment style. You're comfortable with both intimacy and independence - you don't fear abandonment and you don't push people away. You can communicate your needs clearly, trust your partners, and maintain your sense of self in relationships. About 50% of people share this style." },
+        { "type": "anxious", "title": "Anxious Attachment 💛", "description": "You crave deep connection but constantly fear abandonment. When someone doesn't text back quickly, your mind races to worst-case scenarios. You might come across as 'needy' because you seek constant reassurance. This often stems from inconsistent caregiving in childhood. The good news: with awareness and work, you can develop more security." },
+        { "type": "avoidant", "title": "Avoidant Attachment 🔵", "description": "You fiercely protect your independence and may pull away when relationships get too close. Emotional intimacy feels uncomfortable, even threatening. You might have learned early on that depending on others leads to disappointment. Recognizing this pattern is the first step. You can learn to let people in without losing yourself." }
       ]
     },
     {
@@ -772,10 +772,10 @@
         }
       ],
       "results": [
-        { "type": "status", "title": "Driven by Achievement 🏆", "description": "You're motivated by success, recognition, and reaching your potential. You thrive when you're growing." },
-        { "type": "freedom", "title": "Driven by Freedom 🦅", "description": "You need autonomy and independence above all. You resist anything that feels like a cage." },
-        { "type": "impact", "title": "Driven by Purpose 🌟", "description": "You need to know your work matters. Meaning and contribution fuel you more than money or status." },
-        { "type": "connection", "title": "Driven by Connection 💕", "description": "Relationships are everything to you. You thrive when surrounded by people you care about." }
+        { "type": "status", "title": "Driven by Achievement 🏆", "description": "You're motivated by success, recognition, and reaching your full potential. The idea of being average or mediocre is terrifying to you. You set ambitious goals and feel most alive when you're working toward something big. Be careful not to let this drive turn into workaholism or measuring your worth only by external success." },
+        { "type": "freedom", "title": "Driven by Freedom 🦅", "description": "You need autonomy and independence above all else. Anything that feels like a cage - whether it's a controlling job, a demanding relationship, or societal expectations - makes you want to run. You'd rather have less money and more freedom than be trapped in a comfortable prison. Your worst nightmare is living someone else's life." },
+        { "type": "impact", "title": "Driven by Purpose 🌟", "description": "You need to know your work matters in the grand scheme of things. Money and status alone leave you feeling empty - you need meaning, contribution, and the sense that you're making a real difference. You're willing to sacrifice comfort for purpose. The question 'what's the point?' haunts you if you can't answer it." },
+        { "type": "connection", "title": "Driven by Connection 💕", "description": "Relationships are everything to you - not networking, but real, deep human connection. Your happiest moments involve the people you love. Success means nothing without someone to share it with. You thrive in communities and feel drained when isolated. Your fear of ending up alone drives many of your decisions." }
       ]
     },
     {
@@ -795,10 +795,10 @@
         {"id": 8, "text": "Do you keep score in your relationship?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "You're Not Toxic 💚", "description": "You show healthy relationship behaviors. Keep communicating openly."},
-        {"minScore": 5, "maxScore": 8, "title": "Some Toxic Traits 🟡", "description": "You have some behaviors to work on. Self-awareness is the first step."},
-        {"minScore": 9, "maxScore": 12, "title": "Concerning Patterns 🟠", "description": "Several toxic patterns present. Consider therapy or serious self-reflection."},
-        {"minScore": 13, "maxScore": 16, "title": "Yes, You Might Be ☠️", "description": "Your behaviors are hurting your relationships. It's time for real change."}
+        {"minScore": 0, "maxScore": 4, "title": "You're Not Toxic 💚", "description": "Based on your answers, you show healthy relationship behaviors. You communicate openly, respect boundaries, and take responsibility for your actions. This doesn't mean you're perfect, but you're not engaging in patterns that harm your partners. Keep up the self-awareness and continue growing."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Toxic Traits 🟡", "description": "You have some behaviors that could be hurting your relationships, even if you don't intend harm. Maybe you give silent treatment sometimes, or bring up past mistakes during arguments. Recognizing these patterns is the crucial first step. Work on one behavior at a time - change is possible."},
+        {"minScore": 9, "maxScore": 12, "title": "Concerning Patterns 🟠", "description": "Several toxic patterns are showing up in your behavior. This doesn't make you a bad person, but these behaviors are likely causing real damage to your relationships and to the people who love you. Consider talking to a therapist - not as punishment, but as investment in becoming the partner you want to be."},
+        {"minScore": 13, "maxScore": 16, "title": "Yes, You Might Be ☠️", "description": "This is hard to hear, but your behaviors are significantly hurting your relationships. The controlling tendencies, the manipulation tactics, the inability to take responsibility - these patterns push people away. But here's the truth: if you're taking this test, part of you already knew. That awareness is where change begins. Get professional help."}
       ]
     },
     {
@@ -819,10 +819,10 @@
         {"id": 9, "text": "Do they rage when they don't get their way?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 5, "title": "Unlikely Narcissist 💚", "description": "They don't show major narcissistic traits."},
-        {"minScore": 6, "maxScore": 10, "title": "Some Warning Signs 🟡", "description": "A few concerning traits. Pay attention to patterns."},
-        {"minScore": 11, "maxScore": 14, "title": "Strong Indicators 🟠", "description": "Multiple narcissistic traits present. Consider your wellbeing."},
-        {"minScore": 15, "maxScore": 18, "title": "Classic Narcissist Signs 🚨", "description": "This person shows textbook narcissistic behavior. Protect yourself."}
+        {"minScore": 0, "maxScore": 5, "title": "Unlikely Narcissist 💚", "description": "Based on your answers, they don't show major narcissistic traits. Everyone has some selfish moments, but true narcissism is a consistent pattern. If you're worried about your relationship, the issues might be something else entirely - communication problems, different attachment styles, or simple incompatibility."},
+        {"minScore": 6, "maxScore": 10, "title": "Some Warning Signs 🟡", "description": "There are a few concerning narcissistic traits showing up. This doesn't mean they're a clinical narcissist, but pay close attention to patterns. Do they lack empathy consistently, or just sometimes? Do they always play victim, or only occasionally? The pattern and frequency matter more than isolated incidents."},
+        {"minScore": 11, "maxScore": 14, "title": "Strong Indicators 🟠", "description": "Multiple narcissistic traits are present in this person's behavior. The lack of empathy, the constant need for admiration, the gaslighting, the love-bombing followed by devaluation - these are serious red flags. Your mental health and self-worth will suffer the longer you stay. Consider whether this relationship is serving you."},
+        {"minScore": 15, "maxScore": 18, "title": "Classic Narcissist Signs 🚨", "description": "This person shows textbook narcissistic behavior. The pattern is clear: they make everything about themselves, lack genuine empathy, gaslight you, and rage when they don't get their way. You cannot fix them. You cannot love them into being better. Protect yourself. Consider speaking with a therapist about safely exiting this relationship."}
       ]
     },
     {
@@ -842,10 +842,10 @@
         {"id": 8, "text": "Past sexual history reflects character?", "options": [{"text": "Definitely", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Not really", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Past Is Past 🌊", "description": "You judge people by who they are now, not their history."},
-        {"minScore": 5, "maxScore": 8, "title": "Moderate Views 🤔", "description": "You have some reservations but can be flexible."},
-        {"minScore": 9, "maxScore": 12, "title": "Traditional Values 📜", "description": "Sexual history matters a lot to you in choosing partners."},
-        {"minScore": 13, "maxScore": 16, "title": "Strong Judgments ⚖️", "description": "You have firm beliefs about body count and relationships."}
+        {"minScore": 0, "maxScore": 4, "title": "Past Is Past 🌊", "description": "You judge people by who they are now, not their sexual history. You believe people can grow, change, and that past experiences don't define future behavior. You focus on compatibility, values, and how someone treats you rather than counting their previous partners. This is a mature, non-judgmental approach."},
+        {"minScore": 5, "maxScore": 8, "title": "Moderate Views 🤔", "description": "You have some reservations about high body counts but you're not rigid about it. You might prefer someone with fewer partners but wouldn't automatically reject someone based on their number. Context matters to you - why and how matters more than just the count. This middle ground is common."},
+        {"minScore": 9, "maxScore": 12, "title": "Traditional Values 📜", "description": "Sexual history matters significantly to you when choosing partners. You believe someone's past says something about their values, self-control, or relationship potential. You might have different standards for men and women, or believe virginity has special value. These are traditional views that some share and others reject."},
+        {"minScore": 13, "maxScore": 16, "title": "Strong Judgments ⚖️", "description": "You have firm, uncompromising beliefs about body count and relationships. A high number is likely a dealbreaker for you, regardless of other qualities. You may see sexual history as reflecting character or predicting infidelity. These views will significantly narrow your dating pool, but they're your values to hold."}
       ]
     },
     {
@@ -866,10 +866,10 @@
         {"id": 9, "text": "Do you believe most people would cheat if they could?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 5, "title": "Healthy Trust 💚", "description": "You can trust appropriately while protecting yourself."},
-        {"minScore": 6, "maxScore": 10, "title": "Mild Trust Issues 🟡", "description": "Some guardedness, but nothing severe."},
-        {"minScore": 11, "maxScore": 14, "title": "Significant Issues 🟠", "description": "Trust issues are affecting your relationships."},
-        {"minScore": 15, "maxScore": 18, "title": "Deep Trust Wounds 🔐", "description": "Past trauma has made it very hard to trust. Healing is possible."}
+        {"minScore": 0, "maxScore": 5, "title": "Healthy Trust 💚", "description": "You've found the balance between being open and protecting yourself. You can give people the benefit of the doubt while still maintaining healthy boundaries. You don't assume betrayal is coming, but you're also not naive. This is emotional health - trust that's earned and given appropriately."},
+        {"minScore": 6, "maxScore": 10, "title": "Mild Trust Issues 🟡", "description": "You have some guardedness, which isn't necessarily bad. Maybe you've been burned before and learned to be more careful. You can still form close relationships, but there's a wall that takes time to come down. This level of caution is understandable - just make sure it's not preventing genuine connection."},
+        {"minScore": 11, "maxScore": 14, "title": "Significant Issues 🟠", "description": "Your trust issues are actively affecting your relationships. The snooping, the testing, the constant expectation of betrayal - these behaviors create the very problems you're trying to prevent. Partners feel accused and controlled, which pushes them away. Recognizing this pattern is important. Consider exploring where it comes from."},
+        {"minScore": 15, "maxScore": 18, "title": "Deep Trust Wounds 🔐", "description": "Past experiences have made it extremely difficult for you to trust anyone. You expect betrayal, test loyalty constantly, and keep walls up that almost no one can breach. This isn't your fault - it's a protective response to real pain. But it's keeping you from the connection you actually want. Healing is possible with the right support."}
       ]
     },
     {
@@ -889,10 +889,10 @@
         {"id": 8, "text": "Would you sign a prenup?", "options": [{"text": "Absolutely", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Never, it shows distrust", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Traditional Views 🏦", "description": "You have traditional financial expectations in relationships."},
-        {"minScore": 5, "maxScore": 8, "title": "Moderate Approach 💳", "description": "You balance practicality with flexibility on money."},
-        {"minScore": 9, "maxScore": 12, "title": "Independent Style 💵", "description": "You prefer financial independence in relationships."},
-        {"minScore": 13, "maxScore": 16, "title": "Fully Independent 🚀", "description": "Money is completely separate from your relationship views."}
+        {"minScore": 0, "maxScore": 4, "title": "Traditional Views 🏦", "description": "You have traditional expectations about money in relationships. You might believe in combining finances, having one person manage money, or following conventional gender roles around who pays. These views work well with partners who share them, but could cause conflict with more independent types."},
+        {"minScore": 5, "maxScore": 8, "title": "Moderate Approach 💳", "description": "You balance traditional expectations with modern practicality. You can adapt to different financial arrangements depending on the relationship. Maybe you prefer taking turns paying, or keeping some money separate while sharing some. This flexibility makes you compatible with a wider range of partners."},
+        {"minScore": 9, "maxScore": 12, "title": "Independent Style 💵", "description": "You prefer maintaining financial independence even in serious relationships. You're comfortable with separate accounts, splitting things fairly, and each person managing their own money. You don't want finances to create power imbalances or dependency. Just make sure your partner shares this philosophy."},
+        {"minScore": 13, "maxScore": 16, "title": "Fully Independent 🚀", "description": "Money is completely separate from your romantic relationships in your mind. What's yours is yours, what's theirs is theirs - even in marriage. You'd sign a prenup without hesitation. You value financial autonomy above all else. This works great if your partner feels the same, but could feel cold to someone more traditional."}
       ]
     },
     {
@@ -912,10 +912,10 @@
         {"id": 8, "text": "Sexting someone else counts as cheating?", "options": [{"text": "No, just messages", "points": 2}, {"text": "Kind of", "points": 1}, {"text": "Yes, definitely", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Loyal to Core 💎", "description": "You have strong boundaries. Cheating isn't in your nature."},
-        {"minScore": 5, "maxScore": 8, "title": "Mostly Loyal ⚓", "description": "You're committed but understand temptation exists."},
-        {"minScore": 9, "maxScore": 12, "title": "Flexible Boundaries 🌊", "description": "Your definition of cheating has some gray areas."},
-        {"minScore": 13, "maxScore": 16, "title": "Risk Zone ⚠️", "description": "You might rationalize crossing lines. Be honest with yourself."}
+        {"minScore": 0, "maxScore": 4, "title": "Loyal to Core 💎", "description": "You have strong, clear boundaries around fidelity. Cheating simply isn't in your nature - not because you're never tempted, but because you understand the devastating impact of betrayal. You wouldn't hide behind excuses like 'it was just texting' or 'we were on a break.' Your integrity is solid."},
+        {"minScore": 5, "maxScore": 8, "title": "Mostly Loyal ⚓", "description": "You're fundamentally committed, but you also understand that temptation is real and that humans are complicated. You might find certain situations harder to navigate than others. Your loyalty isn't blind - it's a conscious choice you make, which actually makes it more meaningful."},
+        {"minScore": 9, "maxScore": 12, "title": "Flexible Boundaries 🌊", "description": "Your definition of cheating has some gray areas that might get you in trouble. 'It's not cheating if it's just texting.' 'The relationship was basically over.' These rationalizations make it easier to cross lines. Be careful - these gray areas often lead to full-blown betrayal."},
+        {"minScore": 13, "maxScore": 16, "title": "Risk Zone ⚠️", "description": "You've already rationalized several scenarios where cheating would be acceptable to you. The excuses are ready, the boundaries are blurry. This isn't about judging you - it's about being honest with yourself and your partners about what you're capable of. They deserve to know who they're with."}
       ]
     },
     {
@@ -936,10 +936,10 @@
         {"id": 9, "text": "Do you self-sabotage good relationships?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 5, "title": "Healthy Foundation 💚", "description": "Your relationship with your father was stable or you've healed well."},
-        {"minScore": 6, "maxScore": 10, "title": "Some Impact 🟡", "description": "There are some patterns worth examining."},
-        {"minScore": 11, "maxScore": 14, "title": "Notable Effects 🟠", "description": "Father relationship affects your dating patterns."},
-        {"minScore": 15, "maxScore": 18, "title": "Significant Influence 💔", "description": "Deep father wounds are affecting relationships. Therapy helps."}
+        {"minScore": 0, "maxScore": 5, "title": "Healthy Foundation 💚", "description": "Either your relationship with your father was stable and loving, or you've done significant healing work. You don't seek validation from unavailable men, you don't fear abandonment compulsively, and you can form healthy attachments. This is a gift - not everyone has it."},
+        {"minScore": 6, "maxScore": 10, "title": "Some Impact 🟡", "description": "There are patterns worth examining here. Maybe you seek approval from authority figures a bit too much, or you tolerate behavior from partners that you shouldn't. These aren't major wounds, but becoming aware of them will help you make better relationship choices."},
+        {"minScore": 11, "maxScore": 14, "title": "Notable Effects 🟠", "description": "Your relationship (or lack thereof) with your father is actively shaping your dating patterns. You might be attracted to emotionally unavailable men, fear abandonment intensely, or tolerate mistreatment to avoid being left. Recognizing this connection is crucial for breaking the cycle."},
+        {"minScore": 15, "maxScore": 18, "title": "Significant Influence 💔", "description": "Deep father wounds are steering your relationships in unhealthy directions. The fear of abandonment, the people-pleasing, the attraction to men who treat you like your father did (or didn't) - these patterns are powerful but not permanent. Therapy can help you heal what you didn't break."}
       ]
     },
     {
@@ -959,10 +959,10 @@
         {"id": 8, "text": "Do you feel you can never do enough for partners?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Healthy Bond 💚", "description": "Your maternal relationship was nurturing."},
-        {"minScore": 5, "maxScore": 8, "title": "Minor Impact 🟡", "description": "Some patterns worth being aware of."},
-        {"minScore": 9, "maxScore": 12, "title": "Noticeable Effects 🟠", "description": "Mother relationship shapes your expectations."},
-        {"minScore": 13, "maxScore": 16, "title": "Deep Patterns 💜", "description": "Working through these issues will transform relationships."}
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Bond 💚", "description": "Your relationship with your mother was nurturing enough that it hasn't created major relationship obstacles. You can express emotions, you don't expect partners to mother you, and you felt loved growing up. This foundation makes healthy adult relationships much easier to build."},
+        {"minScore": 5, "maxScore": 8, "title": "Minor Impact 🟡", "description": "There are some patterns from your maternal relationship worth being aware of. Maybe you struggle a bit with emotional expression, or you have some expectations around nurturing that aren't always fair to partners. Nothing severe, but awareness helps you grow."},
+        {"minScore": 9, "maxScore": 12, "title": "Noticeable Effects 🟠", "description": "Your mother relationship is actively shaping what you expect from romantic partners. You might seek nurturing to an unhealthy degree, have trouble setting boundaries with women, or feel like you can never do enough to please. These patterns repeat until you recognize them."},
+        {"minScore": 13, "maxScore": 16, "title": "Deep Patterns 💜", "description": "Significant mother wounds are affecting your ability to connect romantically. The inability to express emotions, the search for unconditional love you never got, the feeling that love must be earned through perfection - these are heavy burdens. Working through these issues, ideally with a therapist, will transform your relationships."}
       ]
     },
     {
@@ -982,10 +982,10 @@
         {"id": 8, "text": "If someone better came along, would you leave?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Right Choice 💚", "description": "You're with them because you want to be, not because you have to."},
-        {"minScore": 5, "maxScore": 8, "title": "Some Doubts 🟡", "description": "Minor concerns are normal. Big doubts need attention."},
-        {"minScore": 9, "maxScore": 12, "title": "Red Flags 🟠", "description": "You might be settling. Reflect on what you truly want."},
-        {"minScore": 13, "maxScore": 16, "title": "You're Settling 🛑", "description": "You deserve someone who excites you. Don't waste years."}
+        {"minScore": 0, "maxScore": 4, "title": "Right Choice 💚", "description": "You're with this person because you genuinely want to be - not out of fear, convenience, or desperation. You feel excited about them, proud to introduce them, and energized by their presence. This is what choosing someone should feel like. You're not settling; you're selecting."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Doubts 🟡", "description": "Having occasional doubts is normal in any relationship. But pay attention to whether these doubts are growing or fading. If you're constantly wondering 'is this it?' or imagining life with someone else, those aren't minor concerns. They're your gut trying to tell you something."},
+        {"minScore": 9, "maxScore": 12, "title": "Red Flags 🟠", "description": "Based on your answers, you might be staying for the wrong reasons. Fear of being alone, sunk cost fallacy, or comfort with the familiar shouldn't keep you in a relationship that doesn't fulfill you. Reflect honestly on what you truly want - and whether this person can provide it."},
+        {"minScore": 13, "maxScore": 16, "title": "You're Settling 🛑", "description": "The evidence is clear: you're in this relationship because leaving feels harder than staying, not because you're genuinely happy. You deserve someone who excites you, who you're proud of, who energizes you. Don't waste years of your life on 'good enough' when something real could be out there."}
       ]
     },
     {
@@ -1005,10 +1005,10 @@
         {"id": 8, "text": "Would you drop friends for a relationship?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Never", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Self-Assured 💚", "description": "You don't need male validation to feel worthy."},
-        {"minScore": 5, "maxScore": 8, "title": "Some Tendencies 🟡", "description": "Mild pick-me traits. Building self-worth helps."},
-        {"minScore": 9, "maxScore": 12, "title": "Pick-Me Patterns 🟠", "description": "You're competing for male attention in unhealthy ways."},
-        {"minScore": 13, "maxScore": 16, "title": "Full Pick-Me 🙋", "description": "Your worth doesn't depend on men choosing you. Work on this."}
+        {"minScore": 0, "maxScore": 4, "title": "Self-Assured 💚", "description": "You don't need male validation to feel worthy. You can support other women without seeing them as competition. You don't change who you are to be more appealing to men, and you certainly don't put other women down to seem 'different.' Your self-worth comes from within, not from being chosen."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Tendencies 🟡", "description": "You have mild pick-me traits that are worth examining. Maybe you've caught yourself saying 'I'm not like other girls' or changing your personality around guys you like. These behaviors often come from insecurity, not malice. Building genuine self-worth reduces the need to compete for male attention."},
+        {"minScore": 9, "maxScore": 12, "title": "Pick-Me Patterns 🟠", "description": "You're competing for male attention in ways that hurt other women and ultimately yourself. The 'cool girl' act, the putting down of 'high maintenance' women, the tolerance of disrespect - these are symptoms of seeking worth through male approval. Men don't actually respect pick-mes; they use them."},
+        {"minScore": 13, "maxScore": 16, "title": "Full Pick-Me 🙋", "description": "Your entire sense of worth seems tied to being chosen by men. You'll throw other women under the bus, tolerate terrible treatment, and abandon your own standards just to be picked. But here's the painful truth: pick-mes rarely end up in healthy relationships. Your worth doesn't depend on men choosing you."}
       ]
     },
     {
@@ -1028,10 +1028,10 @@
         {"id": 8, "text": "Have you called women shallow for rejecting you?", "options": [{"text": "Yes", "points": 2}, {"text": "Thought it", "points": 1}, {"text": "No", "points": 0}]}
       ],
       "results": [
-        {"minScore": 0, "maxScore": 4, "title": "Genuinely Nice 💚", "description": "You're kind without expecting rewards."},
-        {"minScore": 5, "maxScore": 8, "title": "Some Entitlement 🟡", "description": "Work on being nice without strings attached."},
-        {"minScore": 9, "maxScore": 12, "title": "Nice Guy Syndrome 🟠", "description": "Your niceness comes with expectations. That's not real niceness."},
-        {"minScore": 13, "maxScore": 16, "title": "Classic Nice Guy 🎭", "description": "You're not actually nice - you're transactional. Time for self-reflection."}
+        {"minScore": 0, "maxScore": 4, "title": "Genuinely Nice 💚", "description": "You're kind without expecting rewards. You do nice things because you're a good person, not because you're keeping score. You accept rejection gracefully because you understand that attraction isn't a transaction. This is what real niceness looks like - no strings attached."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Entitlement 🟡", "description": "There's some entitlement creeping into your 'niceness.' Maybe you feel like you deserve something back for being a good guy, or you get resentful when kindness doesn't lead to romance. Work on being genuinely nice without expectations - that's when it actually becomes attractive."},
+        {"minScore": 9, "maxScore": 12, "title": "Nice Guy Syndrome 🟠", "description": "Your niceness comes with expectations, which means it's not really niceness - it's a transaction. You do favors hoping for romantic payoff, then feel cheated when it doesn't come. Women sense this manipulation, even if you don't see it that way. This is why 'nice guys' actually struggle."},
+        {"minScore": 13, "maxScore": 16, "title": "Classic Nice Guy 🎭", "description": "You're not actually nice - you're transactional and entitled. You believe kindness is a currency that should buy you attraction, and you get angry when the world doesn't work that way. The reason you're not succeeding isn't because you're 'too nice' - it's because your niceness is a manipulation tactic."}
       ]
     },
     {
