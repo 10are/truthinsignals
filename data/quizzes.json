@@ -777,6 +777,883 @@
         { "type": "impact", "title": "Driven by Purpose 🌟", "description": "You need to know your work matters. Meaning and contribution fuel you more than money or status." },
         { "type": "connection", "title": "Driven by Connection 💕", "description": "Relationships are everything to you. You thrive when surrounded by people you care about." }
       ]
+    },
+    {
+      "id": "are-you-the-toxic-one",
+      "title": "Are YOU the Toxic One?",
+      "emoji": "☠️",
+      "category": "relationship",
+      "hook": "Nobody wants to admit this about themselves.",
+      "questions": [
+        {"id": 1, "text": "When your partner is upset, do you make it about yourself?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 2, "text": "Do you bring up past mistakes during new arguments?", "options": [{"text": "Yes", "points": 2}, {"text": "Occasionally", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you get mad when they spend time with friends?", "options": [{"text": "Yes", "points": 2}, {"text": "A little", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you check their phone without permission?", "options": [{"text": "Yes", "points": 2}, {"text": "Have thought about it", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 5, "text": "Do you give silent treatment instead of communicating?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 6, "text": "Do you threaten to leave during arguments?", "options": [{"text": "Yes", "points": 2}, {"text": "Have done it", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 7, "text": "Do you dismiss their feelings as overreacting?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 8, "text": "Do you keep score in your relationship?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "You're Not Toxic 💚", "description": "You show healthy relationship behaviors. Keep communicating openly."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Toxic Traits 🟡", "description": "You have some behaviors to work on. Self-awareness is the first step."},
+        {"minScore": 9, "maxScore": 12, "title": "Concerning Patterns 🟠", "description": "Several toxic patterns present. Consider therapy or serious self-reflection."},
+        {"minScore": 13, "maxScore": 16, "title": "Yes, You Might Be ☠️", "description": "Your behaviors are hurting your relationships. It's time for real change."}
+      ]
+    },
+    {
+      "id": "narcissist-test",
+      "title": "Are You Dating a Narcissist?",
+      "emoji": "🪞",
+      "category": "relationship",
+      "hook": "These signs are often missed until it's too late.",
+      "questions": [
+        {"id": 1, "text": "Do they make everything about themselves?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "Do they lack empathy when you're struggling?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do they need constant admiration?", "options": [{"text": "Yes", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do they gaslight you or deny reality?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 5, "text": "Were they love-bombing at the start?", "options": [{"text": "Extremely", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do they play victim when confronted?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 7, "text": "Do they put you down subtly or publicly?", "options": [{"text": "Often", "points": 2}, {"text": "Occasionally", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 8, "text": "Is it always your fault after arguments?", "options": [{"text": "Yes", "points": 2}, {"text": "Usually", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 9, "text": "Do they rage when they don't get their way?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 5, "title": "Unlikely Narcissist 💚", "description": "They don't show major narcissistic traits."},
+        {"minScore": 6, "maxScore": 10, "title": "Some Warning Signs 🟡", "description": "A few concerning traits. Pay attention to patterns."},
+        {"minScore": 11, "maxScore": 14, "title": "Strong Indicators 🟠", "description": "Multiple narcissistic traits present. Consider your wellbeing."},
+        {"minScore": 15, "maxScore": 18, "title": "Classic Narcissist Signs 🚨", "description": "This person shows textbook narcissistic behavior. Protect yourself."}
+      ]
+    },
+    {
+      "id": "body-count-judge",
+      "title": "Does Body Count Actually Matter?",
+      "emoji": "🔢",
+      "category": "relationship",
+      "hook": "This test exposes your real beliefs.",
+      "questions": [
+        {"id": 1, "text": "Would a high body count change how you see someone?", "options": [{"text": "Yes, significantly", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Not at all", "points": 0}]},
+        {"id": 2, "text": "Is it different for men vs women?",  "options": [{"text": "Yes, different standards", "points": 2}, {"text": "Slightly", "points": 1}, {"text": "Same standard", "points": 0}]},
+        {"id": 3, "text": "Would you ask a partner their number?", "options": [{"text": "Yes, need to know", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Don't care", "points": 0}]},
+        {"id": 4, "text": "Does past experience mean they'll cheat?", "options": [{"text": "Higher risk", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Unrelated", "points": 0}]},
+        {"id": 5, "text": "Would you lie about your own number?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe adjust", "points": 1}, {"text": "Be honest", "points": 0}]},
+        {"id": 6, "text": "Is someone with 20+ partners undateable?", "options": [{"text": "Yes", "points": 2}, {"text": "Concerning", "points": 1}, {"text": "Doesn't matter", "points": 0}]},
+        {"id": 7, "text": "Does virginity have special value?", "options": [{"text": "Yes", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Past sexual history reflects character?", "options": [{"text": "Definitely", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Not really", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Past Is Past 🌊", "description": "You judge people by who they are now, not their history."},
+        {"minScore": 5, "maxScore": 8, "title": "Moderate Views 🤔", "description": "You have some reservations but can be flexible."},
+        {"minScore": 9, "maxScore": 12, "title": "Traditional Values 📜", "description": "Sexual history matters a lot to you in choosing partners."},
+        {"minScore": 13, "maxScore": 16, "title": "Strong Judgments ⚖️", "description": "You have firm beliefs about body count and relationships."}
+      ]
+    },
+    {
+      "id": "trust-issues-test",
+      "title": "How Bad Are Your Trust Issues?",
+      "emoji": "🔐",
+      "category": "psychology",
+      "hook": "Be honest. This test knows.",
+      "questions": [
+        {"id": 1, "text": "Do you assume people have hidden motives?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "Do you snoop through your partner's things?", "options": [{"text": "Yes", "points": 2}, {"text": "Have before", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 3, "text": "Is it hard to believe compliments are genuine?", "options": [{"text": "Very hard", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "I believe them", "points": 0}]},
+        {"id": 4, "text": "Do you test people to see if they're loyal?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 5, "text": "Do you expect betrayal eventually?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you keep emotional walls up?", "options": [{"text": "Always", "points": 2}, {"text": "With most people", "points": 1}, {"text": "Open up easily", "points": 0}]},
+        {"id": 7, "text": "Were you betrayed badly before?", "options": [{"text": "Multiple times", "points": 2}, {"text": "Once", "points": 1}, {"text": "Not really", "points": 0}]},
+        {"id": 8, "text": "Do you struggle to delegate or rely on others?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 9, "text": "Do you believe most people would cheat if they could?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 5, "title": "Healthy Trust 💚", "description": "You can trust appropriately while protecting yourself."},
+        {"minScore": 6, "maxScore": 10, "title": "Mild Trust Issues 🟡", "description": "Some guardedness, but nothing severe."},
+        {"minScore": 11, "maxScore": 14, "title": "Significant Issues 🟠", "description": "Trust issues are affecting your relationships."},
+        {"minScore": 15, "maxScore": 18, "title": "Deep Trust Wounds 🔐", "description": "Past trauma has made it very hard to trust. Healing is possible."}
+      ]
+    },
+    {
+      "id": "financially-compatible",
+      "title": "Are You Financially Compatible?",
+      "emoji": "💰",
+      "category": "relationship",
+      "hook": "Money destroys more relationships than cheating.",
+      "questions": [
+        {"id": 1, "text": "They make a big purchase without telling you:", "options": [{"text": "Dealbreaker", "points": 0}, {"text": "Need to discuss", "points": 1}, {"text": "Their money", "points": 2}]},
+        {"id": 2, "text": "Should couples combine finances?", "options": [{"text": "Completely", "points": 0}, {"text": "Partially", "points": 1}, {"text": "Keep separate", "points": 2}]},
+        {"id": 3, "text": "Partner has significant debt:", "options": [{"text": "Red flag", "points": 0}, {"text": "Depends on reason", "points": 1}, {"text": "Doesn't matter", "points": 2}]},
+        {"id": 4, "text": "Who should pay on dates?", "options": [{"text": "Man always", "points": 0}, {"text": "Take turns", "points": 1}, {"text": "Split everything", "points": 2}]},
+        {"id": 5, "text": "Partner earns way less than you:", "options": [{"text": "Problem", "points": 0}, {"text": "Needs adjustment", "points": 1}, {"text": "Doesn't matter", "points": 2}]},
+        {"id": 6, "text": "How important is financial ambition?", "options": [{"text": "Essential", "points": 2}, {"text": "Nice to have", "points": 1}, {"text": "Not important", "points": 0}]},
+        {"id": 7, "text": "Spending vs saving - where do you fall?", "options": [{"text": "Heavy saver", "points": 0}, {"text": "Balanced", "points": 1}, {"text": "Enjoy life now", "points": 2}]},
+        {"id": 8, "text": "Would you sign a prenup?", "options": [{"text": "Absolutely", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Never, it shows distrust", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Traditional Views 🏦", "description": "You have traditional financial expectations in relationships."},
+        {"minScore": 5, "maxScore": 8, "title": "Moderate Approach 💳", "description": "You balance practicality with flexibility on money."},
+        {"minScore": 9, "maxScore": 12, "title": "Independent Style 💵", "description": "You prefer financial independence in relationships."},
+        {"minScore": 13, "maxScore": 16, "title": "Fully Independent 🚀", "description": "Money is completely separate from your relationship views."}
+      ]
+    },
+    {
+      "id": "cheating-mindset",
+      "title": "Would You Cheat Under Pressure?",
+      "emoji": "💋",
+      "category": "relationship",
+      "hook": "Your answers reveal more than you think.",
+      "questions": [
+        {"id": 1, "text": "Attractive person flirts, partner will never know:", "options": [{"text": "Flirt back", "points": 2}, {"text": "Tempted but no", "points": 1}, {"text": "Shut it down", "points": 0}]},
+        {"id": 2, "text": "Emotional affair - talking to someone intimately:", "options": [{"text": "Not real cheating", "points": 2}, {"text": "Gray area", "points": 1}, {"text": "Still cheating", "points": 0}]},
+        {"id": 3, "text": "Partner cheated once, do you revenge cheat?", "options": [{"text": "Fair game", "points": 2}, {"text": "Considered it", "points": 1}, {"text": "No, leave instead", "points": 0}]},
+        {"id": 4, "text": "You're drunk, someone attractive comes on to you:", "options": [{"text": "Might happen", "points": 2}, {"text": "Harder to resist", "points": 1}, {"text": "Doesn't matter", "points": 0}]},
+        {"id": 5, "text": "Relationship is dead but not officially over:", "options": [{"text": "Free to explore", "points": 2}, {"text": "Complicated", "points": 1}, {"text": "Still cheating", "points": 0}]},
+        {"id": 6, "text": "Once a cheater always a cheater?", "options": [{"text": "No, people change", "points": 2}, {"text": "Depends", "points": 1}, {"text": "Yes, pattern behavior", "points": 0}]},
+        {"id": 7, "text": "Would you tell if you cheated once?", "options": [{"text": "No, it would hurt them", "points": 2}, {"text": "Probably not", "points": 1}, {"text": "Yes, they deserve truth", "points": 0}]},
+        {"id": 8, "text": "Sexting someone else counts as cheating?", "options": [{"text": "No, just messages", "points": 2}, {"text": "Kind of", "points": 1}, {"text": "Yes, definitely", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Loyal to Core 💎", "description": "You have strong boundaries. Cheating isn't in your nature."},
+        {"minScore": 5, "maxScore": 8, "title": "Mostly Loyal ⚓", "description": "You're committed but understand temptation exists."},
+        {"minScore": 9, "maxScore": 12, "title": "Flexible Boundaries 🌊", "description": "Your definition of cheating has some gray areas."},
+        {"minScore": 13, "maxScore": 16, "title": "Risk Zone ⚠️", "description": "You might rationalize crossing lines. Be honest with yourself."}
+      ]
+    },
+    {
+      "id": "daddy-issues-test",
+      "title": "Do You Have Daddy Issues?",
+      "emoji": "👨",
+      "category": "psychology",
+      "hook": "This one hits different.",
+      "questions": [
+        {"id": 1, "text": "Were you close with your father growing up?", "options": [{"text": "Not at all", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Very close", "points": 0}]},
+        {"id": 2, "text": "Do you seek validation from older authority figures?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 3, "text": "Are you attracted to significantly older partners?", "options": [{"text": "Yes, pattern", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you fear abandonment in relationships?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 5, "text": "Do you try extra hard to please authority figures?", "options": [{"text": "Yes", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you have trouble trusting men?", "options": [{"text": "Definitely", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do you tolerate bad treatment to avoid being left?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 8, "text": "Did your father show affection?", "options": [{"text": "Rarely/never", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Often", "points": 0}]},
+        {"id": 9, "text": "Do you self-sabotage good relationships?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 5, "title": "Healthy Foundation 💚", "description": "Your relationship with your father was stable or you've healed well."},
+        {"minScore": 6, "maxScore": 10, "title": "Some Impact 🟡", "description": "There are some patterns worth examining."},
+        {"minScore": 11, "maxScore": 14, "title": "Notable Effects 🟠", "description": "Father relationship affects your dating patterns."},
+        {"minScore": 15, "maxScore": 18, "title": "Significant Influence 💔", "description": "Deep father wounds are affecting relationships. Therapy helps."}
+      ]
+    },
+    {
+      "id": "mommy-issues-test",
+      "title": "Do You Have Mommy Issues?",
+      "emoji": "👩",
+      "category": "psychology",
+      "hook": "Men take this one too.",
+      "questions": [
+        {"id": 1, "text": "Was your mother emotionally available?", "options": [{"text": "Rarely", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 2, "text": "Do you expect partners to 'mother' you?", "options": [{"text": "Yes", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you struggle to express emotions?", "options": [{"text": "Very much", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you seek nurturing partners?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "Not specifically", "points": 0}]},
+        {"id": 5, "text": "Did you feel loved unconditionally as a child?", "options": [{"text": "No", "points": 2}, {"text": "Conditionally", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 6, "text": "Do you have trouble setting boundaries with women?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Was your mother critical of you?", "options": [{"text": "Very", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 8, "text": "Do you feel you can never do enough for partners?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Bond 💚", "description": "Your maternal relationship was nurturing."},
+        {"minScore": 5, "maxScore": 8, "title": "Minor Impact 🟡", "description": "Some patterns worth being aware of."},
+        {"minScore": 9, "maxScore": 12, "title": "Noticeable Effects 🟠", "description": "Mother relationship shapes your expectations."},
+        {"minScore": 13, "maxScore": 16, "title": "Deep Patterns 💜", "description": "Working through these issues will transform relationships."}
+      ]
+    },
+    {
+      "id": "settling-or-standards",
+      "title": "Are You Settling or Having Standards?",
+      "emoji": "⚖️",
+      "category": "relationship",
+      "hook": "Know the difference.",
+      "questions": [
+        {"id": 1, "text": "Do you feel excited about your partner?", "options": [{"text": "Not really", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 2, "text": "Are you with them because you're scared to be alone?", "options": [{"text": "Yes", "points": 2}, {"text": "Partly", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you imagine being with someone else?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 4, "text": "Would you be embarrassed to introduce them?", "options": [{"text": "Yes", "points": 2}, {"text": "In some situations", "points": 1}, {"text": "No, proud", "points": 0}]},
+        {"id": 5, "text": "Do they meet your core needs?", "options": [{"text": "Not really", "points": 2}, {"text": "Some of them", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 6, "text": "Are you staying because it's 'good enough'?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do you feel drained or energized by them?", "options": [{"text": "Drained", "points": 2}, {"text": "Neutral", "points": 1}, {"text": "Energized", "points": 0}]},
+        {"id": 8, "text": "If someone better came along, would you leave?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Right Choice 💚", "description": "You're with them because you want to be, not because you have to."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Doubts 🟡", "description": "Minor concerns are normal. Big doubts need attention."},
+        {"minScore": 9, "maxScore": 12, "title": "Red Flags 🟠", "description": "You might be settling. Reflect on what you truly want."},
+        {"minScore": 13, "maxScore": 16, "title": "You're Settling 🛑", "description": "You deserve someone who excites you. Don't waste years."}
+      ]
+    },
+    {
+      "id": "pick-me-personality",
+      "title": "Are You a Pick-Me?",
+      "emoji": "🙋",
+      "category": "personality",
+      "hook": "This one hurts to take honestly.",
+      "questions": [
+        {"id": 1, "text": "Do you put down other women to seem different?", "options": [{"text": "Sometimes", "points": 2}, {"text": "Rarely", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 2, "text": "'I'm not like other girls' - have you said this?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe once", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you change personality around guys you like?", "options": [{"text": "Yes", "points": 2}, {"text": "A little", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you tolerate disrespect to keep a guy interested?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 5, "text": "Do you brag about being 'low maintenance'?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you prioritize male approval over female friendships?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do you mock women with high standards?", "options": [{"text": "Sometimes", "points": 2}, {"text": "Rarely", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 8, "text": "Would you drop friends for a relationship?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Never", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Self-Assured 💚", "description": "You don't need male validation to feel worthy."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Tendencies 🟡", "description": "Mild pick-me traits. Building self-worth helps."},
+        {"minScore": 9, "maxScore": 12, "title": "Pick-Me Patterns 🟠", "description": "You're competing for male attention in unhealthy ways."},
+        {"minScore": 13, "maxScore": 16, "title": "Full Pick-Me 🙋", "description": "Your worth doesn't depend on men choosing you. Work on this."}
+      ]
+    },
+    {
+      "id": "nice-guy-test",
+      "title": "Are You a 'Nice Guy'?",
+      "emoji": "🎭",
+      "category": "personality",
+      "hook": "Nice guys finish last... or do they?",
+      "questions": [
+        {"id": 1, "text": "Do you do favors expecting something in return?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Do you think being nice entitles you to dates?", "options": [{"text": "Yes", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you get angry when friendzoned?", "options": [{"text": "Very", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you think women only like 'bad boys'?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes seems like it", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do you hide romantic intentions as friendship?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you complain that nice guys finish last?", "options": [{"text": "Frequently", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 7, "text": "Do you keep score of nice things you do?", "options": [{"text": "Yes", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Have you called women shallow for rejecting you?", "options": [{"text": "Yes", "points": 2}, {"text": "Thought it", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Genuinely Nice 💚", "description": "You're kind without expecting rewards."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Entitlement 🟡", "description": "Work on being nice without strings attached."},
+        {"minScore": 9, "maxScore": 12, "title": "Nice Guy Syndrome 🟠", "description": "Your niceness comes with expectations. That's not real niceness."},
+        {"minScore": 13, "maxScore": 16, "title": "Classic Nice Guy 🎭", "description": "You're not actually nice - you're transactional. Time for self-reflection."}
+      ]
+    },
+    {
+      "id": "emotional-availability",
+      "title": "How Emotionally Available Are You?",
+      "emoji": "💙",
+      "category": "psychology",
+      "hook": "Are you actually ready for love?",
+      "questions": [
+        {"id": 1, "text": "Can you talk about your feelings openly?", "options": [{"text": "No", "points": 2}, {"text": "With effort", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 2, "text": "Do you shut down during emotional conversations?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 3, "text": "Are you still hung up on someone else?", "options": [{"text": "Yes", "points": 2}, {"text": "A little", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you keep people at arm's length?", "options": [{"text": "Always", "points": 2}, {"text": "Usually", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Can you be vulnerable without feeling weak?", "options": [{"text": "No", "points": 2}, {"text": "Struggling", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 6, "text": "Do you sabotage relationships when they get real?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Are you afraid of deep commitment?", "options": [{"text": "Very", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Can you handle a partner's emotional needs?", "options": [{"text": "No", "points": 2}, {"text": "Trying", "points": 1}, {"text": "Yes", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Emotionally Available 💚", "description": "You're ready for deep connection."},
+        {"minScore": 5, "maxScore": 8, "title": "Working On It 🟡", "description": "You're growing but still have walls."},
+        {"minScore": 9, "maxScore": 12, "title": "Limited Availability 🟠", "description": "You're not fully open to love yet."},
+        {"minScore": 13, "maxScore": 16, "title": "Emotionally Unavailable 🧊", "description": "You need to heal before you can truly connect."}
+      ]
+    },
+    {
+      "id": "social-intelligence",
+      "title": "What's Your Social IQ?",
+      "emoji": "🧠",
+      "category": "iq",
+      "hook": "EQ matters more than IQ in relationships.",
+      "questions": [
+        {"id": 1, "text": "Can you tell when someone is uncomfortable?", "options": [{"text": "Always", "points": 2}, {"text": "Usually", "points": 1}, {"text": "Miss it often", "points": 0}]},
+        {"id": 2, "text": "Do you know when to stop talking?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "I overshare", "points": 0}]},
+        {"id": 3, "text": "Can you read between the lines?", "options": [{"text": "Easily", "points": 2}, {"text": "Usually", "points": 1}, {"text": "Take things literally", "points": 0}]},
+        {"id": 4, "text": "Do you adapt communication to different people?", "options": [{"text": "Yes", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Same with everyone", "points": 0}]},
+        {"id": 5, "text": "Can you defuse tense situations?", "options": [{"text": "Skilled at it", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Make it worse", "points": 0}]},
+        {"id": 6, "text": "Do you pick up on social cues?", "options": [{"text": "Very well", "points": 2}, {"text": "Usually", "points": 1}, {"text": "Often miss them", "points": 0}]},
+        {"id": 7, "text": "Are you good at first impressions?", "options": [{"text": "Excellent", "points": 2}, {"text": "Decent", "points": 1}, {"text": "Awkward", "points": 0}]},
+        {"id": 8, "text": "Can you make anyone feel comfortable?", "options": [{"text": "Yes", "points": 2}, {"text": "Most people", "points": 1}, {"text": "Struggle with it", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Needs Work 📚", "description": "Social skills can be learned. Practice helps."},
+        {"minScore": 5, "maxScore": 8, "title": "Average EQ 👍", "description": "You navigate social situations reasonably well."},
+        {"minScore": 9, "maxScore": 12, "title": "High Social IQ 🎯", "description": "You read people and situations well."},
+        {"minScore": 13, "maxScore": 16, "title": "Social Genius 🧠", "description": "You have natural talent for understanding people."}
+      ]
+    },
+    {
+      "id": "rebound-relationship",
+      "title": "Are You Someone's Rebound?",
+      "emoji": "🏀",
+      "category": "relationship",
+      "hook": "The signs you're ignoring.",
+      "questions": [
+        {"id": 1, "text": "How long since their last relationship?", "options": [{"text": "Less than a month", "points": 2}, {"text": "1-3 months", "points": 1}, {"text": "6+ months", "points": 0}]},
+        {"id": 2, "text": "Do they talk about their ex often?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 3, "text": "Did things move unusually fast?", "options": [{"text": "Yes, very", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Normal pace", "points": 0}]},
+        {"id": 4, "text": "Do they seem fully over their ex?", "options": [{"text": "Definitely not", "points": 2}, {"text": "Unsure", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 5, "text": "Do they compare you to their ex?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 6, "text": "Do they avoid defining the relationship?", "options": [{"text": "Yes", "points": 2}, {"text": "Hesitant", "points": 1}, {"text": "No, clear", "points": 0}]},
+        {"id": 7, "text": "Are they emotionally available?", "options": [{"text": "No", "points": 2}, {"text": "Inconsistent", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 8, "text": "Did they reach out after ex rejected them?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Not a Rebound 💚", "description": "They seem genuinely interested in you."},
+        {"minScore": 5, "maxScore": 8, "title": "Possible Rebound 🟡", "description": "Some signs present. Proceed with caution."},
+        {"minScore": 9, "maxScore": 12, "title": "Likely Rebound 🟠", "description": "Multiple signs they're not over their ex."},
+        {"minScore": 13, "maxScore": 16, "title": "Definite Rebound 🏀", "description": "You're filling a void. Protect your heart."}
+      ]
+    },
+    {
+      "id": "love-language-test",
+      "title": "What's Your Real Love Language?",
+      "emoji": "💕",
+      "category": "personality",
+      "hook": "Not the one you think.",
+      "questions": [
+        {"id": 1, "text": "What makes you feel most loved?", "options": [{"text": "Hearing 'I love you'", "type": "words"}, {"text": "Getting a thoughtful gift", "type": "gifts"}, {"text": "Quality time together", "type": "time"}, {"text": "Physical affection", "type": "touch"}]},
+        {"id": 2, "text": "What hurts you most?", "options": [{"text": "Harsh criticism", "type": "words"}, {"text": "Forgotten special days", "type": "gifts"}, {"text": "Canceled plans", "type": "time"}, {"text": "Physical distance", "type": "touch"}]},
+        {"id": 3, "text": "How do you show love?", "options": [{"text": "Compliments and encouragement", "type": "words"}, {"text": "Surprise presents", "type": "gifts"}, {"text": "Planning activities together", "type": "time"}, {"text": "Hugs and cuddles", "type": "touch"}]},
+        {"id": 4, "text": "Perfect date night?", "options": [{"text": "Deep conversation", "type": "words"}, {"text": "Exchange thoughtful gifts", "type": "gifts"}, {"text": "Uninterrupted time together", "type": "time"}, {"text": "Lots of physical closeness", "type": "touch"}]},
+        {"id": 5, "text": "What would make you feel neglected?", "options": [{"text": "No verbal appreciation", "type": "words"}, {"text": "Never receiving presents", "type": "gifts"}, {"text": "Always being too busy", "type": "time"}, {"text": "No physical intimacy", "type": "touch"}]},
+        {"id": 6, "text": "After a hard day, you want:", "options": [{"text": "Encouraging words", "type": "words"}, {"text": "A small surprise", "type": "gifts"}, {"text": "Undivided attention", "type": "time"}, {"text": "A long hug", "type": "touch"}]},
+        {"id": 7, "text": "You remember most when partner:", "options": [{"text": "Said something meaningful", "type": "words"}, {"text": "Gave you something special", "type": "gifts"}, {"text": "Made time just for you", "type": "time"}, {"text": "Held you close", "type": "touch"}]},
+        {"id": 8, "text": "In conflict, you need:", "options": [{"text": "Reassuring words", "type": "words"}, {"text": "A peace offering", "type": "gifts"}, {"text": "Time to reconnect", "type": "time"}, {"text": "Physical comfort", "type": "touch"}]}
+      ],
+      "results": [
+        {"type": "words", "title": "Words of Affirmation 💬", "description": "You need to hear love expressed. Compliments and verbal appreciation fill your tank."},
+        {"type": "gifts", "title": "Receiving Gifts 🎁", "description": "Thoughtful presents show you someone was thinking of you. It's about the meaning, not the price."},
+        {"type": "time", "title": "Quality Time ⏰", "description": "Undivided attention is your love language. Being present matters most."},
+        {"type": "touch", "title": "Physical Touch 🤗", "description": "Physical closeness and affection make you feel loved and connected."}
+      ]
+    },
+    {
+      "id": "toxic-friendship",
+      "title": "Is Your Friendship Actually Toxic?",
+      "emoji": "🐍",
+      "category": "relationship",
+      "hook": "Some 'best friends' are actually the worst.",
+      "questions": [
+        {"id": 1, "text": "Do they celebrate your wins genuinely?", "options": [{"text": "No, they seem jealous", "points": 2}, {"text": "Sometimes fake", "points": 1}, {"text": "Yes, always", "points": 0}]},
+        {"id": 2, "text": "Do conversations always become about them?", "options": [{"text": "Every time", "points": 2}, {"text": "Often", "points": 1}, {"text": "Balanced", "points": 0}]},
+        {"id": 3, "text": "Do they share your secrets with others?", "options": [{"text": "Yes", "points": 2}, {"text": "Have before", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 4, "text": "Do they put you down in front of others?", "options": [{"text": "Regularly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 5, "text": "Is the friendship one-sided effort?", "options": [{"text": "I do all the work", "points": 2}, {"text": "Mostly me", "points": 1}, {"text": "Equal", "points": 0}]},
+        {"id": 6, "text": "Do they guilt trip you?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 7, "text": "How do you feel after hanging out?", "options": [{"text": "Drained", "points": 2}, {"text": "Mixed", "points": 1}, {"text": "Energized", "points": 0}]},
+        {"id": 8, "text": "Do they support your other friendships?", "options": [{"text": "No, they're jealous", "points": 2}, {"text": "Not really", "points": 1}, {"text": "Yes", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Friendship 💚", "description": "This seems like a genuine, supportive friendship."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Issues 🟡", "description": "A few concerns worth addressing."},
+        {"minScore": 9, "maxScore": 12, "title": "Toxic Signs 🟠", "description": "This friendship has unhealthy patterns."},
+        {"minScore": 13, "maxScore": 16, "title": "Very Toxic 🐍", "description": "This friendship is harming you. Consider distance."}
+      ]
+    },
+    {
+      "id": "self-worth-test",
+      "title": "What's Your Self-Worth Level?",
+      "emoji": "💎",
+      "category": "psychology",
+      "hook": "Be brutally honest.",
+      "questions": [
+        {"id": 1, "text": "Do you settle for less than you deserve?", "options": [{"text": "Often", "points": 0}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 2}]},
+        {"id": 2, "text": "Can you say no without guilt?", "options": [{"text": "Rarely", "points": 0}, {"text": "With difficulty", "points": 1}, {"text": "Easily", "points": 2}]},
+        {"id": 3, "text": "Do you need others' approval to feel good?", "options": [{"text": "Always", "points": 0}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 2}]},
+        {"id": 4, "text": "Do you tolerate disrespect?", "options": [{"text": "Yes", "points": 0}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 2}]},
+        {"id": 5, "text": "Do you compare yourself to others negatively?", "options": [{"text": "Constantly", "points": 0}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 2}]},
+        {"id": 6, "text": "Can you accept compliments?", "options": [{"text": "No, I deflect", "points": 0}, {"text": "Awkwardly", "points": 1}, {"text": "Yes, graciously", "points": 2}]},
+        {"id": 7, "text": "Do you put yourself last?", "options": [{"text": "Always", "points": 0}, {"text": "Often", "points": 1}, {"text": "No, balanced", "points": 2}]},
+        {"id": 8, "text": "Do you believe you deserve good things?", "options": [{"text": "Not really", "points": 0}, {"text": "Sometimes doubt", "points": 1}, {"text": "Absolutely", "points": 2}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Low Self-Worth 💔", "description": "You don't see your value. This is affecting all areas of life."},
+        {"minScore": 5, "maxScore": 8, "title": "Building Worth 🌱", "description": "You're working on it. Keep going."},
+        {"minScore": 9, "maxScore": 12, "title": "Healthy Self-Worth 💚", "description": "You know your value most of the time."},
+        {"minScore": 13, "maxScore": 16, "title": "High Self-Worth 💎", "description": "You know your worth and don't settle for less."}
+      ]
+    },
+    {
+      "id": "age-gap-relationship",
+      "title": "Is Your Age Gap Relationship Healthy?",
+      "emoji": "📅",
+      "category": "relationship",
+      "hook": "Age is just a number... or is it?",
+      "questions": [
+        {"id": 1, "text": "Is there a power imbalance?", "options": [{"text": "Yes, significant", "points": 2}, {"text": "Some", "points": 1}, {"text": "No, equal", "points": 0}]},
+        {"id": 2, "text": "Do they use age to dismiss your opinions?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 3, "text": "Are you at similar life stages?", "options": [{"text": "Very different", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 4, "text": "Do friends/family have concerns?", "options": [{"text": "Major concerns", "points": 2}, {"text": "Some", "points": 1}, {"text": "Supportive", "points": 0}]},
+        {"id": 5, "text": "Were you targeted for your age?", "options": [{"text": "Feels like it", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do they have a pattern of dating your age?", "options": [{"text": "Yes, always younger", "points": 2}, {"text": "A few times", "points": 1}, {"text": "No pattern", "points": 0}]},
+        {"id": 7, "text": "Do you feel controlled or guided too much?", "options": [{"text": "Very controlled", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Equal partnership", "points": 0}]},
+        {"id": 8, "text": "Are your long-term goals aligned?", "options": [{"text": "Very different", "points": 2}, {"text": "Some differences", "points": 1}, {"text": "Aligned", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Dynamic 💚", "description": "Age gap doesn't define your relationship negatively."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Concerns 🟡", "description": "A few things to watch out for."},
+        {"minScore": 9, "maxScore": 12, "title": "Red Flags 🟠", "description": "Power imbalance may be an issue."},
+        {"minScore": 13, "maxScore": 16, "title": "Problematic 🚨", "description": "This dynamic has serious concerns. Evaluate carefully."}
+      ]
+    },
+    {
+      "id": "situationship-status",
+      "title": "Are You Stuck in a Situationship?",
+      "emoji": "🤷",
+      "category": "relationship",
+      "hook": "The painful middle ground.",
+      "questions": [
+        {"id": 1, "text": "Have you defined the relationship?", "options": [{"text": "No, avoided it", "points": 2}, {"text": "Tried, no answer", "points": 1}, {"text": "Yes, clear", "points": 0}]},
+        {"id": 2, "text": "Do they introduce you to friends/family?", "options": [{"text": "Never", "points": 2}, {"text": "Rarely", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 3, "text": "Are plans made in advance?", "options": [{"text": "Always last minute", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Yes, planned", "points": 0}]},
+        {"id": 4, "text": "Do they disappear and reappear?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Consistent", "points": 0}]},
+        {"id": 5, "text": "Is it mainly physical?", "options": [{"text": "Yes", "points": 2}, {"text": "Mostly", "points": 1}, {"text": "No, emotional too", "points": 0}]},
+        {"id": 6, "text": "Do they post you on social media?", "options": [{"text": "Never, hidden", "points": 2}, {"text": "Barely", "points": 1}, {"text": "Yes, openly", "points": 0}]},
+        {"id": 7, "text": "How long has this been undefined?", "options": [{"text": "Months+", "points": 2}, {"text": "Few weeks", "points": 1}, {"text": "Just started", "points": 0}]},
+        {"id": 8, "text": "Do you feel secure in this?", "options": [{"text": "Never", "points": 2}, {"text": "Rarely", "points": 1}, {"text": "Yes", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Real Relationship 💚", "description": "You're in an actual relationship, not a situationship."},
+        {"minScore": 5, "maxScore": 8, "title": "Gray Area 🟡", "description": "Some ambiguity. Time for a conversation."},
+        {"minScore": 9, "maxScore": 12, "title": "Situationship 🟠", "description": "You're in the undefined zone. Decide if that works for you."},
+        {"minScore": 13, "maxScore": 16, "title": "Deep Situationship 🤷", "description": "You're being strung along. You deserve clarity."}
+      ]
+    },
+    {
+      "id": "communication-style",
+      "title": "What's Your Communication Style?",
+      "emoji": "🗣️",
+      "category": "personality",
+      "hook": "This affects every relationship you have.",
+      "questions": [
+        {"id": 1, "text": "During conflict, you tend to:", "options": [{"text": "Shut down", "type": "passive"}, {"text": "Get loud and defensive", "type": "aggressive"}, {"text": "Express feelings calmly", "type": "assertive"}, {"text": "Use sarcasm or guilt", "type": "passive-aggressive"}]},
+        {"id": 2, "text": "When upset with someone, you:", "options": [{"text": "Say nothing, hope they notice", "type": "passive"}, {"text": "Confront them immediately", "type": "aggressive"}, {"text": "Find right time to discuss", "type": "assertive"}, {"text": "Drop hints and cold treatment", "type": "passive-aggressive"}]},
+        {"id": 3, "text": "Asking for what you need feels:", "options": [{"text": "Impossible", "type": "passive"}, {"text": "Like demanding", "type": "aggressive"}, {"text": "Natural", "type": "assertive"}, {"text": "Uncomfortable, I hint", "type": "passive-aggressive"}]},
+        {"id": 4, "text": "When someone crosses a boundary:", "options": [{"text": "Let it go", "type": "passive"}, {"text": "Explode on them", "type": "aggressive"}, {"text": "Address it directly", "type": "assertive"}, {"text": "Punish them subtly", "type": "passive-aggressive"}]},
+        {"id": 5, "text": "Your texting during conflict:", "options": [{"text": "Avoid responding", "type": "passive"}, {"text": "Send angry messages", "type": "aggressive"}, {"text": "Suggest talking in person", "type": "assertive"}, {"text": "Short, cold replies", "type": "passive-aggressive"}]},
+        {"id": 6, "text": "Expressing disappointment:", "options": [{"text": "Keep it inside", "type": "passive"}, {"text": "Make it very clear, loudly", "type": "aggressive"}, {"text": "Share honestly but kindly", "type": "assertive"}, {"text": "Sighs and silent treatment", "type": "passive-aggressive"}]},
+        {"id": 7, "text": "When you disagree with someone:", "options": [{"text": "Go along with them", "type": "passive"}, {"text": "Argue until you win", "type": "aggressive"}, {"text": "State your view respectfully", "type": "assertive"}, {"text": "Agree then complain later", "type": "passive-aggressive"}]},
+        {"id": 8, "text": "Saying no to requests:", "options": [{"text": "Can't do it", "type": "passive"}, {"text": "Harsh rejection", "type": "aggressive"}, {"text": "Polite but firm no", "type": "assertive"}, {"text": "Say yes, then don't do it", "type": "passive-aggressive"}]}
+      ],
+      "results": [
+        {"type": "passive", "title": "Passive Communicator 🤐", "description": "You avoid conflict but build resentment. Learning to speak up helps."},
+        {"type": "aggressive", "title": "Aggressive Communicator 🔥", "description": "You express yourself but damage relationships. Soften the delivery."},
+        {"type": "assertive", "title": "Assertive Communicator ⭐", "description": "You express needs while respecting others. This is the healthiest style."},
+        {"type": "passive-aggressive", "title": "Passive-Aggressive 😏", "description": "You express anger indirectly. Direct communication is healthier."}
+      ]
+    },
+    {
+      "id": "dating-delusion",
+      "title": "How Delusional Are Your Dating Standards?",
+      "emoji": "🦄",
+      "category": "relationship",
+      "hook": "Reality check time.",
+      "questions": [
+        {"id": 1, "text": "Do your standards match what you offer?", "options": [{"text": "I want more than I give", "points": 2}, {"text": "Probably unequal", "points": 1}, {"text": "Fair exchange", "points": 0}]},
+        {"id": 2, "text": "Height requirements:", "options": [{"text": "Must be 6ft+", "points": 2}, {"text": "Strong preference", "points": 1}, {"text": "Flexible", "points": 0}]},
+        {"id": 3, "text": "Income expectations:", "options": [{"text": "Must make 6 figures", "points": 2}, {"text": "Above average", "points": 1}, {"text": "Stable is fine", "points": 0}]},
+        {"id": 4, "text": "How many people meet your criteria?", "options": [{"text": "Almost no one", "points": 2}, {"text": "Very few", "points": 1}, {"text": "Reasonable pool", "points": 0}]},
+        {"id": 5, "text": "Do you reject people for small flaws?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 6, "text": "Are your standards based on social media?", "options": [{"text": "Heavily influenced", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Real life based", "points": 0}]},
+        {"id": 7, "text": "Would you date yourself?", "options": [{"text": "Honestly, no", "points": 2}, {"text": "Maybe not", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 8, "text": "Have friends said your standards are too high?", "options": [{"text": "Multiple times", "points": 2}, {"text": "Once or twice", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Realistic Standards 💚", "description": "You know what you want and it's reasonable."},
+        {"minScore": 5, "maxScore": 8, "title": "Slightly High 🟡", "description": "Some flexibility might help."},
+        {"minScore": 9, "maxScore": 12, "title": "Unrealistic 🟠", "description": "Your expectations may be hurting your dating life."},
+        {"minScore": 13, "maxScore": 16, "title": "Delusional 🦄", "description": "Time for a reality check. Perfect doesn't exist."}
+      ]
+    },
+    {
+      "id": "people-pleaser",
+      "title": "Are You a People Pleaser?",
+      "emoji": "😊",
+      "category": "psychology",
+      "hook": "Saying yes when you mean no.",
+      "questions": [
+        {"id": 1, "text": "Do you say yes when you want to say no?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "Do you apologize for things that aren't your fault?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you avoid conflict at all costs?", "options": [{"text": "Always", "points": 2}, {"text": "Usually", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do others' opinions affect your self-worth?", "options": [{"text": "Heavily", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Minimally", "points": 0}]},
+        {"id": 5, "text": "Do you over-explain your decisions?", "options": [{"text": "Always justify", "points": 2}, {"text": "Often", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you neglect your needs for others?", "options": [{"text": "Regularly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 7, "text": "Do you feel responsible for others' emotions?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Do you fear rejection intensely?", "options": [{"text": "Terrified", "points": 2}, {"text": "Worried", "points": 1}, {"text": "Can handle it", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Boundaries 💚", "description": "You help others without losing yourself."},
+        {"minScore": 5, "maxScore": 8, "title": "Mild Pleasing 🟡", "description": "Some people-pleasing tendencies."},
+        {"minScore": 9, "maxScore": 12, "title": "People Pleaser 🟠", "description": "You prioritize others over yourself too much."},
+        {"minScore": 13, "maxScore": 16, "title": "Chronic Pleaser 😊", "description": "Your identity is wrapped in others' approval. Time to find yourself."}
+      ]
+    },
+    {
+      "id": "mental-age",
+      "title": "What's Your Mental Age?",
+      "emoji": "🧒",
+      "category": "personality",
+      "hook": "Are you actually mature?",
+      "questions": [
+        {"id": 1, "text": "How do you handle criticism?", "options": [{"text": "Get defensive/hurt", "points": 0}, {"text": "Struggle but accept", "points": 1}, {"text": "Use it to grow", "points": 2}]},
+        {"id": 2, "text": "Making big decisions:", "options": [{"text": "Impulsive", "points": 0}, {"text": "Ask everyone's opinion", "points": 1}, {"text": "Research and decide", "points": 2}]},
+        {"id": 3, "text": "Do you hold grudges?", "options": [{"text": "Forever", "points": 0}, {"text": "For a while", "points": 1}, {"text": "Let things go", "points": 2}]},
+        {"id": 4, "text": "How's your emotional regulation?", "options": [{"text": "Explosive", "points": 0}, {"text": "Working on it", "points": 1}, {"text": "Stable", "points": 2}]},
+        {"id": 5, "text": "Taking responsibility:", "options": [{"text": "Blame others", "points": 0}, {"text": "Partial ownership", "points": 1}, {"text": "Own my actions", "points": 2}]},
+        {"id": 6, "text": "Delayed gratification:", "options": [{"text": "Want it now", "points": 0}, {"text": "Struggle", "points": 1}, {"text": "Can wait", "points": 2}]},
+        {"id": 7, "text": "How do you handle being wrong?", "options": [{"text": "Double down", "points": 0}, {"text": "Reluctantly admit", "points": 1}, {"text": "Admit and learn", "points": 2}]},
+        {"id": 8, "text": "Your reaction to not getting your way:", "options": [{"text": "Upset/sulk", "points": 0}, {"text": "Disappointed", "points": 1}, {"text": "Accept it", "points": 2}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Young Mental Age 🧒", "description": "Some growing up to do. That's okay - awareness is step one."},
+        {"minScore": 5, "maxScore": 8, "title": "Average Maturity 🌱", "description": "You're developing. Keep working on emotional growth."},
+        {"minScore": 9, "maxScore": 12, "title": "Mature Mind 🌳", "description": "You handle life with reasonable maturity."},
+        {"minScore": 13, "maxScore": 16, "title": "Wise Beyond Years 🦉", "description": "You have emotional wisdom many lack."}
+      ]
+    },
+    {
+      "id": "codependent-test",
+      "title": "Are You in a Codependent Relationship?",
+      "emoji": "🔗",
+      "category": "relationship",
+      "hook": "Love shouldn't feel like drowning.",
+      "questions": [
+        {"id": 1, "text": "Is your happiness dependent on your partner?", "options": [{"text": "Completely", "points": 2}, {"text": "Mostly", "points": 1}, {"text": "No, I'm happy alone too", "points": 0}]},
+        {"id": 2, "text": "Do you neglect your own needs for theirs?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 3, "text": "Do you have your own identity outside the relationship?", "options": [{"text": "Not really", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Yes, strong identity", "points": 0}]},
+        {"id": 4, "text": "Can you make decisions without them?", "options": [{"text": "No", "points": 2}, {"text": "Small ones", "points": 1}, {"text": "Yes", "points": 0}]},
+        {"id": 5, "text": "Do you feel responsible for fixing their problems?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "No, they handle theirs", "points": 0}]},
+        {"id": 6, "text": "Do you fear being alone?", "options": [{"text": "Terrified", "points": 2}, {"text": "Worried", "points": 1}, {"text": "Comfortable alone", "points": 0}]},
+        {"id": 7, "text": "Have you lost friends since this relationship?", "options": [{"text": "Most of them", "points": 2}, {"text": "Some", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Do you feel incomplete without them?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No, I'm whole", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Independence 💚", "description": "You love while maintaining yourself."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Dependence 🟡", "description": "Mild codependent traits. Watch the balance."},
+        {"minScore": 9, "maxScore": 12, "title": "Codependent 🟠", "description": "You've lost yourself in this relationship."},
+        {"minScore": 13, "maxScore": 16, "title": "Deeply Codependent 🔗", "description": "This is unhealthy attachment. Work on your independence."}
+      ]
+    },
+    {
+      "id": "main-character-syndrome",
+      "title": "Do You Have Main Character Syndrome?",
+      "emoji": "🎬",
+      "category": "personality",
+      "hook": "Are you the star of your own show?",
+      "questions": [
+        {"id": 1, "text": "Do you often imagine people watching or judging you?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "Do you romanticize your own struggles?", "options": [{"text": "Very much", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you think your life would make a good movie?", "options": [{"text": "Absolutely", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "It's pretty normal", "points": 0}]},
+        {"id": 4, "text": "Do you expect things to work out because you're you?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do minor inconveniences feel like major plot points?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you feel like you have a special destiny?", "options": [{"text": "Definitely", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "Not really", "points": 0}]},
+        {"id": 7, "text": "Do you curate moments for how they'll look/sound?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Live authentically", "points": 0}]},
+        {"id": 8, "text": "Do you feel annoyed when you're not the center of attention?", "options": [{"text": "Yes", "points": 2}, {"text": "A little", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Side Character Vibes 🎭", "description": "You're grounded in reality. Humble perspective."},
+        {"minScore": 5, "maxScore": 8, "title": "Supporting Role 🌟", "description": "You have some main character moments but stay realistic."},
+        {"minScore": 9, "maxScore": 12, "title": "Lead Character 🎬", "description": "You often see yourself as the star of the show."},
+        {"minScore": 13, "maxScore": 16, "title": "Full Main Character 👑", "description": "You're living in a movie in your head. Stay grounded."}
+      ]
+    },
+    {
+      "id": "trauma-bonding",
+      "title": "Are You Trauma Bonded?",
+      "emoji": "⛓️",
+      "category": "relationship",
+      "hook": "The hardest bond to break.",
+      "questions": [
+        {"id": 1, "text": "Do you defend them despite constant hurt?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Do you feel you can't live without them?", "options": [{"text": "Absolutely", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "I'd be fine", "points": 0}]},
+        {"id": 3, "text": "Is the relationship a cycle of pain and relief?", "options": [{"text": "Constant cycle", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do small good moments make you forget the bad?", "options": [{"text": "Every time", "points": 2}, {"text": "Often", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do you make excuses for their toxic behavior?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 6, "text": "Have you tried to leave but always go back?", "options": [{"text": "Multiple times", "points": 2}, {"text": "Once", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do they control you through fear or guilt?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Do you feel addicted to them despite the pain?", "options": [{"text": "Yes", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Bond 💚", "description": "This doesn't appear to be trauma bonding."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Signs 🟡", "description": "Watch for unhealthy attachment patterns."},
+        {"minScore": 9, "maxScore": 12, "title": "Likely Trauma Bond 🟠", "description": "This relationship has trauma bonding characteristics."},
+        {"minScore": 13, "maxScore": 16, "title": "Strong Trauma Bond ⛓️", "description": "You may be trauma bonded. Professional help is recommended."}
+      ]
+    },
+    {
+      "id": "emotional-intelligence",
+      "title": "How Emotionally Intelligent Are You?",
+      "emoji": "🎭",
+      "category": "psychology",
+      "hook": "EQ is more important than IQ.",
+      "questions": [
+        {"id": 1, "text": "Can you identify your emotions as you feel them?", "options": [{"text": "Always", "points": 2}, {"text": "Usually", "points": 1}, {"text": "Struggle", "points": 0}]},
+        {"id": 2, "text": "Can you manage your emotions in stressful situations?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you recognize emotions in others accurately?", "options": [{"text": "Very well", "points": 2}, {"text": "Usually", "points": 1}, {"text": "Miss cues", "points": 0}]},
+        {"id": 4, "text": "Can you have difficult conversations without escalating?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do you empathize easily with others?", "options": [{"text": "Very much", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Struggle", "points": 0}]},
+        {"id": 6, "text": "Can you motivate yourself without external validation?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Need validation", "points": 0}]},
+        {"id": 7, "text": "Do you adapt well to social situations?", "options": [{"text": "Very well", "points": 2}, {"text": "Okay", "points": 1}, {"text": "Struggle", "points": 0}]},
+        {"id": 8, "text": "Can you bounce back from emotional setbacks?", "options": [{"text": "Quickly", "points": 2}, {"text": "Eventually", "points": 1}, {"text": "Takes very long", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Developing EQ 📚", "description": "Emotional intelligence can be learned. Keep working on it."},
+        {"minScore": 5, "maxScore": 8, "title": "Average EQ 👍", "description": "You manage emotions reasonably well."},
+        {"minScore": 9, "maxScore": 12, "title": "High EQ 🎯", "description": "You understand and manage emotions well."},
+        {"minScore": 13, "maxScore": 16, "title": "Exceptional EQ 🧠", "description": "You have remarkable emotional intelligence."}
+      ]
+    },
+    {
+      "id": "avoidant-attachment",
+      "title": "Are You Avoidantly Attached?",
+      "emoji": "🏃",
+      "category": "psychology",
+      "hook": "Why you push people away.",
+      "questions": [
+        {"id": 1, "text": "Do you feel suffocated in relationships?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "Do you struggle to depend on others?", "options": [{"text": "Very much", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you withdraw when things get serious?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you value independence over intimacy?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "Balanced", "points": 0}]},
+        {"id": 5, "text": "Do you feel uncomfortable with emotional expression?", "options": [{"text": "Very", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you find flaws in partners to justify distance?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do you feel relief when relationships end?", "options": [{"text": "Usually", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Do you fear losing yourself in relationships?", "options": [{"text": "Very much", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Secure Attachment 💚", "description": "You're comfortable with intimacy and independence."},
+        {"minScore": 5, "maxScore": 8, "title": "Mild Avoidance 🟡", "description": "Some avoidant tendencies. Work on vulnerability."},
+        {"minScore": 9, "maxScore": 12, "title": "Avoidant Style 🟠", "description": "You push people away to protect yourself."},
+        {"minScore": 13, "maxScore": 16, "title": "Strongly Avoidant 🏃", "description": "Fear of intimacy runs deep. Therapy can help."}
+      ]
+    },
+    {
+      "id": "anxious-attachment",
+      "title": "Are You Anxiously Attached?",
+      "emoji": "😰",
+      "category": "psychology",
+      "hook": "Why you cling too tight.",
+      "questions": [
+        {"id": 1, "text": "Do you constantly worry about being abandoned?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "Do you need constant reassurance in relationships?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you read too much into small things?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you become consumed by relationships?", "options": [{"text": "Completely", "points": 2}, {"text": "Often", "points": 1}, {"text": "Balanced", "points": 0}]},
+        {"id": 5, "text": "Do you feel your partner doesn't love you enough?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Secure", "points": 0}]},
+        {"id": 6, "text": "Do you panic when they don't respond quickly?", "options": [{"text": "Yes", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do you sacrifice yourself to keep relationships?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Does relationship uncertainty torture you?", "options": [{"text": "Extremely", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Can handle it", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Secure Attachment 💚", "description": "You feel secure in relationships."},
+        {"minScore": 5, "maxScore": 8, "title": "Mild Anxiety 🟡", "description": "Some anxious tendencies. Build self-security."},
+        {"minScore": 9, "maxScore": 12, "title": "Anxious Style 🟠", "description": "Relationship anxiety affects you significantly."},
+        {"minScore": 13, "maxScore": 16, "title": "Highly Anxious 😰", "description": "Fear of abandonment controls you. Work on self-worth."}
+      ]
+    },
+    {
+      "id": "relationship-ready",
+      "title": "Are You Actually Ready for a Relationship?",
+      "emoji": "💑",
+      "category": "relationship",
+      "hook": "Honest self-assessment.",
+      "questions": [
+        {"id": 1, "text": "Are you happy being single?", "options": [{"text": "No, lonely", "points": 0}, {"text": "Somewhat", "points": 1}, {"text": "Yes, content", "points": 2}]},
+        {"id": 2, "text": "Are you over your ex?", "options": [{"text": "Not really", "points": 0}, {"text": "Mostly", "points": 1}, {"text": "Completely", "points": 2}]},
+        {"id": 3, "text": "Do you know what you want in a partner?", "options": [{"text": "No idea", "points": 0}, {"text": "Vague idea", "points": 1}, {"text": "Clear values", "points": 2}]},
+        {"id": 4, "text": "Do you have a life outside of dating?", "options": [{"text": "Not really", "points": 0}, {"text": "Somewhat", "points": 1}, {"text": "Full life", "points": 2}]},
+        {"id": 5, "text": "Have you worked on past relationship patterns?", "options": [{"text": "No", "points": 0}, {"text": "Starting to", "points": 1}, {"text": "Yes", "points": 2}]},
+        {"id": 6, "text": "Can you communicate needs without drama?", "options": [{"text": "Struggle", "points": 0}, {"text": "Working on it", "points": 1}, {"text": "Yes", "points": 2}]},
+        {"id": 7, "text": "Do you want a partner or need one?", "options": [{"text": "Need", "points": 0}, {"text": "Mix", "points": 1}, {"text": "Want", "points": 2}]},
+        {"id": 8, "text": "Are you financially/emotionally stable?", "options": [{"text": "No", "points": 0}, {"text": "Getting there", "points": 1}, {"text": "Yes", "points": 2}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Not Ready Yet 🛑", "description": "Focus on yourself before dating."},
+        {"minScore": 5, "maxScore": 8, "title": "Almost Ready 🟡", "description": "Close, but some work to do."},
+        {"minScore": 9, "maxScore": 12, "title": "Ready 💚", "description": "You're in a good place to date."},
+        {"minScore": 13, "maxScore": 16, "title": "Very Ready 💑", "description": "You're stable and ready for love."}
+      ]
+    },
+    {
+      "id": "ick-test",
+      "title": "How Easily Do You Get the Ick?",
+      "emoji": "🤢",
+      "category": "relationship",
+      "hook": "Are you too picky or just knowing your worth?",
+      "questions": [
+        {"id": 1, "text": "Small things they do can suddenly turn you off:", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 2, "text": "You've lost interest over trivial things:", "options": [{"text": "Many times", "points": 2}, {"text": "Once or twice", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 3, "text": "The way they eat could be a dealbreaker:", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "You judge people for small fashion choices:", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Seeing them in certain situations kills attraction:", "options": [{"text": "Often", "points": 2}, {"text": "Occasionally", "points": 1}, {"text": "Rarely", "points": 0}]},
+        {"id": 6, "text": "You've ghosted because of an ick:", "options": [{"text": "Multiple times", "points": 2}, {"text": "Once", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 7, "text": "Their laugh/voice could be a dealbreaker:", "options": [{"text": "Absolutely", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "You look for reasons to be turned off:", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe subconsciously", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Ick Resistant 💚", "description": "You focus on what matters, not petty stuff."},
+        {"minScore": 5, "maxScore": 8, "title": "Normal Ick Levels 🟡", "description": "Some things bother you, but reasonable."},
+        {"minScore": 9, "maxScore": 12, "title": "Ick Prone 🟠", "description": "You might be sabotaging connections over small things."},
+        {"minScore": 13, "maxScore": 16, "title": "Ick Queen/King 🤢", "description": "Everything gives you the ick. Are you avoiding intimacy?"}
+      ]
+    },
+    {
+      "id": "gaslighting-victim",
+      "title": "Are You Being Gaslighted?",
+      "emoji": "🔥",
+      "category": "relationship",
+      "hook": "When you question your own reality.",
+      "questions": [
+        {"id": 1, "text": "Do they deny things you clearly remember?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Do you question your own memory and perception?", "options": [{"text": "All the time", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do they tell you you're 'too sensitive'?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you apologize for things that aren't your fault?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do they twist your words against you?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you feel confused about what's real?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do they tell you others are lying about them?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Do you feel like you're going crazy?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "No Gaslighting 💚", "description": "You seem to be in a reality-based relationship."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Concerning Signs 🟡", "description": "A few manipulation tactics present."},
+        {"minScore": 9, "maxScore": 12, "title": "Likely Gaslighting 🟠", "description": "You're experiencing gaslighting. Trust yourself."},
+        {"minScore": 13, "maxScore": 16, "title": "Severe Gaslighting 🔥", "description": "This is psychological abuse. Seek support immediately."}
+      ]
+    },
+    {
+      "id": "intimacy-issues",
+      "title": "Do You Have Intimacy Issues?",
+      "emoji": "🚪",
+      "category": "psychology",
+      "hook": "Why you keep people at a distance.",
+      "questions": [
+        {"id": 1, "text": "Do you push people away when they get close?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Is vulnerability terrifying?", "options": [{"text": "Yes", "points": 2}, {"text": "Uncomfortable", "points": 1}, {"text": "Can handle it", "points": 0}]},
+        {"id": 3, "text": "Do you fear being truly known?", "options": [{"text": "Very much", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you keep secrets to protect yourself?", "options": [{"text": "Many", "points": 2}, {"text": "Some", "points": 1}, {"text": "Open book", "points": 0}]},
+        {"id": 5, "text": "Do you sabotage relationships when they get real?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Is physical intimacy hard for you?", "options": [{"text": "Very", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Comfortable", "points": 0}]},
+        {"id": 7, "text": "Do you feel unworthy of deep love?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Did you have emotionally distant parents?", "options": [{"text": "Yes", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Comfortable with Intimacy 💚", "description": "You can connect deeply with others."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Barriers 🟡", "description": "You have mild intimacy challenges."},
+        {"minScore": 9, "maxScore": 12, "title": "Intimacy Issues 🟠", "description": "Fear of closeness affects your relationships."},
+        {"minScore": 13, "maxScore": 16, "title": "Severe Blocks 🚪", "description": "Deep intimacy fears need professional attention."}
+      ]
+    },
+    {
+      "id": "jealousy-test",
+      "title": "How Jealous Are You Really?",
+      "emoji": "💚",
+      "category": "relationship",
+      "hook": "Be honest with yourself.",
+      "questions": [
+        {"id": 1, "text": "Do you check who likes their posts?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 2, "text": "Do you get upset when they talk to attractive people?", "options": [{"text": "Very", "points": 2}, {"text": "A little", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 3, "text": "Do you ask who they're texting?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 4, "text": "Do you get jealous of their friends?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do you compare yourself to their exes?", "options": [{"text": "Obsessively", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Do you feel threatened by their success?", "options": [{"text": "Yes", "points": 2}, {"text": "A bit", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 7, "text": "Do you accuse them without evidence?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 8, "text": "Does jealousy control your actions?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Secure 💚", "description": "You trust your partner and yourself."},
+        {"minScore": 5, "maxScore": 8, "title": "Normal Jealousy 🟡", "description": "Occasional jealousy, nothing extreme."},
+        {"minScore": 9, "maxScore": 12, "title": "Jealous 🟠", "description": "Jealousy is affecting your relationship."},
+        {"minScore": 13, "maxScore": 16, "title": "Very Jealous 💚⚠️", "description": "Your jealousy is unhealthy. Work on security."}
+      ]
+    },
+    {
+      "id": "love-addiction",
+      "title": "Are You Addicted to Love?",
+      "emoji": "💉",
+      "category": "psychology",
+      "hook": "When love becomes a drug.",
+      "questions": [
+        {"id": 1, "text": "Do you feel incomplete without a relationship?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Do you rush into relationships?", "options": [{"text": "Every time", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Take it slow", "points": 0}]},
+        {"id": 3, "text": "Do you confuse intensity for intimacy?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you stay in bad relationships just to not be alone?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Do you obsess over people you just met?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 6, "text": "Does heartbreak feel like actual physical pain?", "options": [{"text": "Unbearable", "points": 2}, {"text": "Painful", "points": 1}, {"text": "Manageable", "points": 0}]},
+        {"id": 7, "text": "Do you lose yourself in relationships?", "options": [{"text": "Completely", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Stay myself", "points": 0}]},
+        {"id": 8, "text": "Do you jump from relationship to relationship?", "options": [{"text": "Always", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Take breaks", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Healthy Relationship Views 💚", "description": "You enjoy love without needing it to survive."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Tendencies 🟡", "description": "Watch for unhealthy attachment patterns."},
+        {"minScore": 9, "maxScore": 12, "title": "Love Dependent 🟠", "description": "You may use relationships to fill internal voids."},
+        {"minScore": 13, "maxScore": 16, "title": "Love Addiction 💉", "description": "Love is your drug. Work on self-sufficiency."}
+      ]
+    },
+    {
+      "id": "dark-triad-detector",
+      "title": "Dark Triad Personality Test",
+      "emoji": "🖤",
+      "category": "psychology",
+      "hook": "Narcissism, Psychopathy, Machiavellianism.",
+      "questions": [
+        {"id": 1, "text": "Do you manipulate to get what you want?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 2, "text": "Do you lack remorse when you hurt others?", "options": [{"text": "Yes", "points": 2}, {"text": "Depends", "points": 1}, {"text": "Feel guilty", "points": 0}]},
+        {"id": 3, "text": "Do you believe you're special/superior?", "options": [{"text": "Definitely", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 4, "text": "Do you use charm to control people?", "options": [{"text": "Regularly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Is lying easy for you?", "options": [{"text": "Very easy", "points": 2}, {"text": "When needed", "points": 1}, {"text": "Struggle to lie", "points": 0}]},
+        {"id": 6, "text": "Do you exploit others for personal gain?", "options": [{"text": "Yes", "points": 2}, {"text": "Occasionally", "points": 1}, {"text": "Never", "points": 0}]},
+        {"id": 7, "text": "Do people's emotions seem like weaknesses?", "options": [{"text": "Yes", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Would you step on others to succeed?", "options": [{"text": "Without hesitation", "points": 2}, {"text": "If necessary", "points": 1}, {"text": "Never", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Low Dark Traits 💚", "description": "You show empathy and ethical behavior."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Traits 🟡", "description": "Mild dark tendencies present."},
+        {"minScore": 9, "maxScore": 12, "title": "Notable Traits 🟠", "description": "Several dark personality features present."},
+        {"minScore": 13, "maxScore": 16, "title": "Dark Triad 🖤", "description": "High dark triad traits. Seek professional guidance."}
+      ]
+    },
+    {
+      "id": "fboy-detector",
+      "title": "Is He a F*ckboy?",
+      "emoji": "🚨",
+      "category": "relationship",
+      "hook": "The signs you keep ignoring.",
+      "questions": [
+        {"id": 1, "text": "Does he only text late at night?", "options": [{"text": "Always", "points": 2}, {"text": "Often", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Are plans always last minute?", "options": [{"text": "Yes", "points": 2}, {"text": "Usually", "points": 1}, {"text": "Plans ahead", "points": 0}]},
+        {"id": 3, "text": "Does he avoid defining the relationship?", "options": [{"text": "Completely", "points": 2}, {"text": "Vague", "points": 1}, {"text": "Clear about it", "points": 0}]},
+        {"id": 4, "text": "Does he have many female 'friends'?", "options": [{"text": "Tons, suspicious", "points": 2}, {"text": "A few", "points": 1}, {"text": "Normal amount", "points": 0}]},
+        {"id": 5, "text": "Does he ghost then come back?", "options": [{"text": "Pattern", "points": 2}, {"text": "Once", "points": 1}, {"text": "Consistent", "points": 0}]},
+        {"id": 6, "text": "Does he only want to 'hang out' at home?", "options": [{"text": "Always", "points": 2}, {"text": "Mostly", "points": 1}, {"text": "Takes me out", "points": 0}]},
+        {"id": 7, "text": "Does he love bomb then pull away?", "options": [{"text": "Classic cycle", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Consistent", "points": 0}]},
+        {"id": 8, "text": "Does he keep you hidden from his life?", "options": [{"text": "Completely", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Integrated", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Probably Not 💚", "description": "He shows signs of genuine interest."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Red Flags 🟡", "description": "A few concerning behaviors. Watch closely."},
+        {"minScore": 9, "maxScore": 12, "title": "Likely F*ckboy 🟠", "description": "Multiple red flags. Proceed with caution."},
+        {"minScore": 13, "maxScore": 16, "title": "Classic F*ckboy 🚨", "description": "All the signs are there. Run."}
+      ]
+    },
+    {
+      "id": "fgirl-detector",
+      "title": "Is She Playing Games?",
+      "emoji": "🎮",
+      "category": "relationship",
+      "hook": "The female player signs.",
+      "questions": [
+        {"id": 1, "text": "Does she keep backup options around?", "options": [{"text": "Definitely", "points": 2}, {"text": "Seems like it", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 2, "text": "Is she hot and cold with attention?", "options": [{"text": "Constantly", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Consistent", "points": 0}]},
+        {"id": 3, "text": "Does she only reach out when bored?", "options": [{"text": "Pattern", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Genuine interest", "points": 0}]},
+        {"id": 4, "text": "Does she use you for validation?", "options": [{"text": "Yes", "points": 2}, {"text": "Maybe", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 5, "text": "Does she avoid commitment talks?", "options": [{"text": "Completely", "points": 2}, {"text": "Somewhat", "points": 1}, {"text": "Open to it", "points": 0}]},
+        {"id": 6, "text": "Does she flirt with others in front of you?", "options": [{"text": "Often", "points": 2}, {"text": "Sometimes", "points": 1}, {"text": "Respectful", "points": 0}]},
+        {"id": 7, "text": "Does she use emotional manipulation?", "options": [{"text": "Regularly", "points": 2}, {"text": "Occasionally", "points": 1}, {"text": "No", "points": 0}]},
+        {"id": 8, "text": "Are you always chasing her?", "options": [{"text": "100%", "points": 2}, {"text": "Mostly", "points": 1}, {"text": "Balanced", "points": 0}]}
+      ],
+      "results": [
+        {"minScore": 0, "maxScore": 4, "title": "Genuine Interest 💚", "description": "She seems sincerely interested."},
+        {"minScore": 5, "maxScore": 8, "title": "Some Game Playing 🟡", "description": "A few concerning patterns."},
+        {"minScore": 9, "maxScore": 12, "title": "Playing Games 🟠", "description": "She's not serious about you."},
+        {"minScore": 13, "maxScore": 16, "title": "Classic Player 🎮", "description": "You're being played. Protect yourself."}
+      ]
     }
   ]
 }

@@ -17,6 +17,152 @@
       ]
     },
     {
+      "id": "money-flags",
+      "title": "Financial Red Flags",
+      "emoji": "💰",
+      "description": "Money issues in relationships",
+      "items": [
+        { "id": 1, "text": "Never paying for anything", "yesPercent": 78 },
+        { "id": 2, "text": "Hiding debt from you", "yesPercent": 91 },
+        { "id": 3, "text": "Asking to borrow money early on", "yesPercent": 85 },
+        { "id": 4, "text": "Being cheap on dates but flexing on Instagram", "yesPercent": 82 },
+        { "id": 5, "text": "Expecting you to pay for everything", "yesPercent": 89 },
+        { "id": 6, "text": "Making big purchases without discussing", "yesPercent": 73 },
+        { "id": 7, "text": "Judging your spending habits constantly", "yesPercent": 67 },
+        { "id": 8, "text": "Having no financial goals at 30+", "yesPercent": 61 },
+        { "id": 9, "text": "Secretly keeping separate accounts", "yesPercent": 58 }
+      ]
+    },
+    {
+      "id": "family-flags",
+      "title": "Family Red Flags",
+      "emoji": "👨‍👩‍👧",
+      "description": "When family gets complicated",
+      "items": [
+        { "id": 1, "text": "Letting their mom control the relationship", "yesPercent": 88 },
+        { "id": 2, "text": "Talking badly about your family", "yesPercent": 79 },
+        { "id": 3, "text": "Expecting you to tolerate toxic in-laws", "yesPercent": 71 },
+        { "id": 4, "text": "Putting parents before partner always", "yesPercent": 64 },
+        { "id": 5, "text": "Never standing up to family for you", "yesPercent": 83 },
+        { "id": 6, "text": "Comparing you to siblings' partners", "yesPercent": 76 },
+        { "id": 7, "text": "Involving family in every argument", "yesPercent": 91 },
+        { "id": 8, "text": "Cutting off contact with all family members", "yesPercent": 52 }
+      ]
+    },
+    {
+      "id": "bedroom-flags",
+      "title": "Intimacy Red Flags",
+      "emoji": "🛏️",
+      "description": "Physical relationship warning signs",
+      "items": [
+        { "id": 1, "text": "Only wanting physical stuff, no emotional connection", "yesPercent": 84 },
+        { "id": 2, "text": "Pressuring after you said no", "yesPercent": 97 },
+        { "id": 3, "text": "Comparing you to previous partners", "yesPercent": 93 },
+        { "id": 4, "text": "Never initiating, always expecting you to", "yesPercent": 62 },
+        { "id": 5, "text": "Making you feel bad for not being in the mood", "yesPercent": 89 },
+        { "id": 6, "text": "Refusing to discuss preferences openly", "yesPercent": 71 },
+        { "id": 7, "text": "Using intimacy as reward/punishment", "yesPercent": 86 },
+        { "id": 8, "text": "Being selfish and never reciprocating", "yesPercent": 91 }
+      ]
+    },
+    {
+      "id": "communication-flags",
+      "title": "Communication Red Flags",
+      "emoji": "🗣️",
+      "description": "How they talk to you matters",
+      "items": [
+        { "id": 1, "text": "Yelling during arguments", "yesPercent": 78 },
+        { "id": 2, "text": "Bringing up past mistakes in every fight", "yesPercent": 85 },
+        { "id": 3, "text": "Silent treatment for days", "yesPercent": 81 },
+        { "id": 4, "text": "Name calling when angry", "yesPercent": 94 },
+        { "id": 5, "text": "Never saying sorry, ever", "yesPercent": 91 },
+        { "id": 6, "text": "Interrupting you constantly", "yesPercent": 67 },
+        { "id": 7, "text": "Mocking you in front of others", "yesPercent": 96 },
+        { "id": 8, "text": "Deflecting every time you bring up issues", "yesPercent": 83 },
+        { "id": 9, "text": "Saying 'I'm sorry you feel that way'", "yesPercent": 79 }
+      ]
+    },
+    {
+      "id": "friends-flags",
+      "title": "Friendship Red Flags",
+      "emoji": "👯",
+      "description": "Red flags in their friendships",
+      "items": [
+        { "id": 1, "text": "Having zero close friends", "yesPercent": 58 },
+        { "id": 2, "text": "All their exes are 'crazy'", "yesPercent": 87 },
+        { "id": 3, "text": "Friends that disrespect your relationship", "yesPercent": 79 },
+        { "id": 4, "text": "Never wanting to hang with your friends", "yesPercent": 72 },
+        { "id": 5, "text": "Only having friends of the opposite sex", "yesPercent": 51 },
+        { "id": 6, "text": "Friends encouraging them to cheat", "yesPercent": 94 },
+        { "id": 7, "text": "Constantly prioritizing friends over you", "yesPercent": 63 },
+        { "id": 8, "text": "Friends they only party/drink with", "yesPercent": 47 }
+      ]
+    },
+    {
+      "id": "lifestyle-flags",
+      "title": "Lifestyle Red Flags",
+      "emoji": "🏠",
+      "description": "How they live their life",
+      "items": [
+        { "id": 1, "text": "Living in filth and not caring", "yesPercent": 82 },
+        { "id": 2, "text": "No ambition or life goals", "yesPercent": 76 },
+        { "id": 3, "text": "Excessive drinking/partying", "yesPercent": 68 },
+        { "id": 4, "text": "Gaming 8+ hours daily", "yesPercent": 57 },
+        { "id": 5, "text": "Still living like a college student at 35", "yesPercent": 64 },
+        { "id": 6, "text": "Refusing to do basic adulting", "yesPercent": 79 },
+        { "id": 7, "text": "Constantly complaining but never changing", "yesPercent": 73 },
+        { "id": 8, "text": "Expecting you to be their parent", "yesPercent": 91 }
+      ]
+    },
+    {
+      "id": "trust-flags",
+      "title": "Trust Red Flags",
+      "emoji": "🔐",
+      "description": "When trust is broken",
+      "items": [
+        { "id": 1, "text": "Hiding their phone screen", "yesPercent": 77 },
+        { "id": 2, "text": "Having secret social media accounts", "yesPercent": 86 },
+        { "id": 3, "text": "Lying about small things", "yesPercent": 82 },
+        { "id": 4, "text": "Deleting chat histories", "yesPercent": 79 },
+        { "id": 5, "text": "Being overly secretive about their day", "yesPercent": 71 },
+        { "id": 6, "text": "Catching them in multiple lies", "yesPercent": 95 },
+        { "id": 7, "text": "Accusing you of cheating constantly", "yesPercent": 84 },
+        { "id": 8, "text": "Trickle truthing when caught", "yesPercent": 89 }
+      ]
+    },
+    {
+      "id": "emotional-flags",
+      "title": "Emotional Red Flags",
+      "emoji": "💔",
+      "description": "Emotional manipulation signs",
+      "items": [
+        { "id": 1, "text": "Making everything about them", "yesPercent": 83 },
+        { "id": 2, "text": "Playing victim in every situation", "yesPercent": 87 },
+        { "id": 3, "text": "Gaslighting - denying your reality", "yesPercent": 94 },
+        { "id": 4, "text": "Love bombing then withdrawing", "yesPercent": 81 },
+        { "id": 5, "text": "Using guilt to control you", "yesPercent": 88 },
+        { "id": 6, "text": "Threatening self-harm during arguments", "yesPercent": 92 },
+        { "id": 7, "text": "Invalidating your emotions constantly", "yesPercent": 86 },
+        { "id": 8, "text": "Making you feel crazy", "yesPercent": 91 }
+      ]
+    },
+    {
+      "id": "future-flags",
+      "title": "Future Planning Red Flags",
+      "emoji": "🔮",
+      "description": "When they won't commit to a future",
+      "items": [
+        { "id": 1, "text": "Never talking about the future together", "yesPercent": 74 },
+        { "id": 2, "text": "Refusing to define the relationship", "yesPercent": 81 },
+        { "id": 3, "text": "Different views on kids with no compromise", "yesPercent": 78 },
+        { "id": 4, "text": "Avoiding meeting parents after 1+ year", "yesPercent": 83 },
+        { "id": 5, "text": "Never including you in life decisions", "yesPercent": 79 },
+        { "id": 6, "text": "Making major plans without consulting you", "yesPercent": 76 },
+        { "id": 7, "text": "Saying 'we'll see' about everything serious", "yesPercent": 67 },
+        { "id": 8, "text": "5+ years together and no engagement talk", "yesPercent": 59 }
+      ]
+    },
+    {
       "id": "dating-behaviors",
       "title": "Dating Red Flags",
       "emoji": "💔",
@@ -85,7 +231,22 @@
     { "id": "r17", "text": "I fear commitment", "emoji": "😰" },
     { "id": "r18", "text": "I'm too critical", "emoji": "🔍" },
     { "id": "r19", "text": "I'm overly emotional", "emoji": "😢" },
-    { "id": "r20", "text": "I need too much space", "emoji": "🏝️" }
+    { "id": "r20", "text": "I need too much space", "emoji": "🏝️" },
+    { "id": "r21", "text": "I hold grudges forever", "emoji": "⚔️" },
+    { "id": "r22", "text": "I'm emotionally unavailable", "emoji": "🧊" },
+    { "id": "r23", "text": "I talk about my ex too much", "emoji": "💔" },
+    { "id": "r24", "text": "I gaslight without realizing", "emoji": "🔥" },
+    { "id": "r25", "text": "I'm bad at texting back", "emoji": "📵" },
+    { "id": "r26", "text": "I have anger issues", "emoji": "🌋" },
+    { "id": "r27", "text": "I'm a people pleaser", "emoji": "😊" },
+    { "id": "r28", "text": "I need constant validation", "emoji": "🪞" },
+    { "id": "r29", "text": "I'm terrible with money", "emoji": "💸" },
+    { "id": "r30", "text": "I bring up fights in public", "emoji": "📢" },
+    { "id": "r31", "text": "I compare you to my ex", "emoji": "⚖️" },
+    { "id": "r32", "text": "I snoop through phones", "emoji": "🔎" },
+    { "id": "r33", "text": "I'm passive aggressive", "emoji": "😒" },
+    { "id": "r34", "text": "I trauma dump on first dates", "emoji": "🎒" },
+    { "id": "r35", "text": "I love bomb then ghost", "emoji": "👻" }
   ],
   "myGreenFlags": [
     { "id": "g1", "text": "I'm a great listener", "emoji": "👂" },
@@ -107,6 +268,21 @@
     { "id": "g17", "text": "I'm consistent with my actions", "emoji": "💎" },
     { "id": "g18", "text": "I'm comfortable with vulnerability", "emoji": "🦋" },
     { "id": "g19", "text": "I text back promptly", "emoji": "⚡" },
-    { "id": "g20", "text": "I put effort into the relationship", "emoji": "💪" }
+    { "id": "g20", "text": "I put effort into the relationship", "emoji": "💪" },
+    { "id": "g21", "text": "I cook for you", "emoji": "👨‍🍳" },
+    { "id": "g22", "text": "I never go to bed angry", "emoji": "🛏️" },
+    { "id": "g23", "text": "I defend you to others", "emoji": "🛡️" },
+    { "id": "g24", "text": "I encourage your independence", "emoji": "🦅" },
+    { "id": "g25", "text": "I take care of you when sick", "emoji": "🩺" },
+    { "id": "g26", "text": "I never keep score", "emoji": "📝" },
+    { "id": "g27", "text": "I show love publicly", "emoji": "💏" },
+    { "id": "g28", "text": "I'm financially responsible", "emoji": "💰" },
+    { "id": "g29", "text": "I admit when I don't know", "emoji": "🤷" },
+    { "id": "g30", "text": "I celebrate your wins bigger than mine", "emoji": "🎊" },
+    { "id": "g31", "text": "I never threaten to leave", "emoji": "🏠" },
+    { "id": "g32", "text": "I'm secure and not jealous", "emoji": "😌" },
+    { "id": "g33", "text": "I take responsibility for my mistakes", "emoji": "✋" },
+    { "id": "g34", "text": "I make you laugh daily", "emoji": "😂" },
+    { "id": "g35", "text": "I'm always honest, even when hard", "emoji": "💯" }
   ]
 }

@@ -14,12 +14,24 @@ const categories = [
   { id: "personality", label: "Personality" },
 ];
 
+const ITEMS_PER_PAGE = 12;
+
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("all");
+  const [currentPage, setCurrentPage] = useState(1);
 
   const filteredQuizzes = activeCategory === "all"
     ? quizData.quizzes
     : quizData.quizzes.filter(q => q.category === activeCategory);
+
+  const totalPages = Math.ceil(filteredQuizzes.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedQuizzes = filteredQuizzes.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+  const handleCategoryChange = (categoryId: string) => {
+    setActiveCategory(categoryId);
+    setCurrentPage(1);
+  };
 
   return (
     <div className="min-h-screen bg-gray-900">
@@ -29,7 +41,7 @@ export default function Home() {
           {categories.map((cat) => (
             <button
               key={cat.id}
-              onClick={() => setActiveCategory(cat.id)}
+              onClick={() => handleCategoryChange(cat.id)}
               className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
                 activeCategory === cat.id
                   ? "bg-indigo-600 text-white"
@@ -39,6 +51,11 @@ export default function Home() {
               {cat.label}
             </button>
           ))}
+        </div>
+
+        {/* Quiz Count */}
+        <div className="text-sm text-gray-400 mb-4">
+          Showing {paginatedQuizzes.length} of {filteredQuizzes.length} quizzes
         </div>
 
         {/* Ad */}
@@ -52,7 +69,7 @@ export default function Home() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {filteredQuizzes.map((quiz) => (
+            {paginatedQuizzes.map((quiz) => (
               <Link href={`/quiz/${quiz.id}`} key={quiz.id}>
                 <div className="bg-gray-800 border border-gray-700 rounded-xl p-5 hover:border-indigo-400 hover:shadow-md transition-all flex gap-4">
                   <div className={`w-12 h-12 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 ${
@@ -79,6 +96,43 @@ export default function Home() {
                 </div>
               </Link>
             ))}
+          </div>
+        )}
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center gap-2 mb-8">
+            <button
+              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+              className="px-4 py-2 rounded-lg bg-gray-800 text-gray-300 border border-gray-700 hover:border-indigo-400 hover:text-indigo-400 disabled:opacity-50 disabled:hover:border-gray-700 disabled:hover:text-gray-300 transition-all"
+            >
+              Previous
+            </button>
+
+            <div className="flex gap-1">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                <button
+                  key={page}
+                  onClick={() => setCurrentPage(page)}
+                  className={`w-10 h-10 rounded-lg font-semibold transition-all ${
+                    currentPage === page
+                      ? "bg-indigo-600 text-white"
+                      : "bg-gray-800 text-gray-300 border border-gray-700 hover:border-indigo-400 hover:text-indigo-400"
+                  }`}
+                >
+                  {page}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              disabled={currentPage === totalPages}
+              className="px-4 py-2 rounded-lg bg-gray-800 text-gray-300 border border-gray-700 hover:border-indigo-400 hover:text-indigo-400 disabled:opacity-50 disabled:hover:border-gray-700 disabled:hover:text-gray-300 transition-all"
+            >
+              Next
+            </button>
           </div>
         )}
 
