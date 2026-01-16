@@ -3,10 +3,20 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function DisplayAd() {
-  const adRef = useRef<HTMLInsElement>(null);
-  const [loaded, setLoaded] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [shouldRender, setShouldRender] = useState(false);
+  const [adLoaded, setAdLoaded] = useState(false);
 
   useEffect(() => {
+    // Only render ad after component mounts and has width
+    if (containerRef.current && containerRef.current.offsetWidth > 0) {
+      setShouldRender(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!shouldRender) return;
+
     try {
       // @ts-expect-error adsbygoogle is defined by Google AdSense script
       (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -15,47 +25,40 @@ export default function DisplayAd() {
     }
 
     // Check if ad loaded
-    const observer = new MutationObserver(() => {
-      if (adRef.current) {
-        const hasContent = adRef.current.getAttribute("data-ad-status") === "filled" ||
-                          adRef.current.innerHTML.trim().length > 0 ||
-                          adRef.current.offsetHeight > 50;
-        if (hasContent) {
-          setLoaded(true);
-          observer.disconnect();
+    const timer = setInterval(() => {
+      if (containerRef.current) {
+        const ins = containerRef.current.querySelector("ins");
+        if (ins && (ins.getAttribute("data-ad-status") === "filled" || ins.offsetHeight > 50)) {
+          setAdLoaded(true);
+          clearInterval(timer);
         }
       }
-    });
+    }, 500);
 
-    if (adRef.current) {
-      observer.observe(adRef.current, { childList: true, subtree: true, attributes: true });
-    }
-
-    // Fallback check
-    const timer = setTimeout(() => {
-      if (adRef.current && adRef.current.offsetHeight > 50) {
-        setLoaded(true);
-      }
-      observer.disconnect();
-    }, 3000);
+    const timeout = setTimeout(() => clearInterval(timer), 5000);
 
     return () => {
-      observer.disconnect();
-      clearTimeout(timer);
+      clearInterval(timer);
+      clearTimeout(timeout);
     };
-  }, []);
+  }, [shouldRender]);
 
   return (
-    <div style={{ display: loaded ? "block" : "none", margin: loaded ? "1.5rem 0" : "0" }}>
-      <ins
-        ref={adRef}
-        className="adsbygoogle"
-        style={{ display: "block" }}
-        data-ad-client="ca-pub-2898264794440783"
-        data-ad-slot="7221256062"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+    <div
+      ref={containerRef}
+      className={adLoaded ? "my-6" : ""}
+      style={{ minHeight: shouldRender && !adLoaded ? "1px" : undefined }}
+    >
+      {shouldRender && (
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-2898264794440783"
+          data-ad-slot="7221256062"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+      )}
     </div>
   );
 }

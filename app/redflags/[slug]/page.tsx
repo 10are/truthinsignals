@@ -58,7 +58,7 @@ export default function PollPage() {
         <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
             <Link href="/">
-              <Image src="/logo.png" alt="TruthInSignals" width={140} height={35} className="h-9 w-auto" priority />
+              <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
             </Link>
             <div className="flex items-center gap-4">
               <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
@@ -88,7 +88,7 @@ export default function PollPage() {
         <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
             <Link href="/">
-              <Image src="/logo.png" alt="TruthInSignals" width={140} height={35} className="h-9 w-auto" priority />
+              <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
             </Link>
             <div className="flex items-center gap-4">
               <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
@@ -166,8 +166,8 @@ export default function PollPage() {
     <div className="min-h-screen bg-gray-50">
       <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-gray-900">
-            Truth<span className="text-indigo-600">InSignals</span>
+          <Link href="/">
+            <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
           </Link>
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-500 font-medium">{currentIndex + 1}/{poll.items.length}</span>
