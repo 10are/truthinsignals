@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import redflagData from "@/data/redflags.json";
 
 interface PollItem {
@@ -54,24 +53,9 @@ export default function PollPage() {
 
   if (!poll) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-            <Link href="/">
-              <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
-            </Link>
-            <div className="flex items-center gap-4">
-              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
-                🚩 Red Flags
-              </Link>
-              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
-                My Flags
-              </Link>
-            </div>
-          </div>
-        </nav>
+      <div className="min-h-screen bg-gray-900">
         <div className="max-w-4xl mx-auto px-6 py-16 text-center">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Poll not found</h2>
+          <h2 className="text-xl font-bold text-gray-100 mb-4">Poll not found</h2>
           <Link href="/redflags" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all">
             Back to Red Flags
           </Link>
@@ -84,39 +68,23 @@ export default function PollPage() {
     const yesCount = Object.values(votes).filter(v => v === "yes").length;
 
     return (
-      <div className="min-h-screen bg-gray-50">
-        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-            <Link href="/">
-              <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
-            </Link>
-            <div className="flex items-center gap-4">
-              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
-                🚩 Red Flags
-              </Link>
-              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
-                My Flags
-              </Link>
-            </div>
-          </div>
-        </nav>
-
+      <div className="min-h-screen bg-gray-900">
         <div className="max-w-4xl mx-auto px-6 py-8">
-          <div className="bg-white rounded-xl p-6 border border-gray-200 text-center mb-6">
+          <div className="bg-gray-800 rounded-xl p-6 border border-gray-700 text-center mb-6">
             <div className="text-5xl mb-4">🚩</div>
-            <h2 className="text-xl font-bold text-gray-900 mb-2">Your Results</h2>
-            <p className="text-gray-500 mb-6">
-              You flagged <strong className="text-red-500">{yesCount}</strong> out of <strong>{poll.items.length}</strong> as red flags
+            <h2 className="text-xl font-bold text-gray-100 mb-2">Your Results</h2>
+            <p className="text-gray-400 mb-6">
+              You flagged <strong className="text-red-400">{yesCount}</strong> out of <strong>{poll.items.length}</strong> as red flags
             </p>
 
             <div className="text-left mb-6">
               {poll.items.map((item) => (
-                <div key={item.id} className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg mb-2">
-                  <span className={`w-8 h-8 rounded flex items-center justify-center text-sm ${votes[item.id] === "yes" ? "bg-red-100" : "bg-green-100"}`}>
+                <div key={item.id} className="flex items-center gap-3 p-3 bg-gray-700 rounded-lg mb-2">
+                  <span className={`w-8 h-8 rounded flex items-center justify-center text-sm ${votes[item.id] === "yes" ? "bg-red-900/50" : "bg-green-900/50"}`}>
                     {votes[item.id] === "yes" ? "🚩" : "✓"}
                   </span>
-                  <span className="flex-1 text-sm text-gray-700">{item.text}</span>
-                  <span className="text-xs text-gray-400">{item.yesPercent}% agree</span>
+                  <span className="flex-1 text-sm text-gray-300">{item.text}</span>
+                  <span className="text-xs text-gray-500">{item.yesPercent}% agree</span>
                 </div>
               ))}
             </div>
@@ -133,7 +101,7 @@ export default function PollPage() {
               >
                 Vote Again
               </button>
-              <Link href="/redflags" className="bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all">
+              <Link href="/redflags" className="bg-gray-700 hover:bg-gray-600 text-gray-200 font-semibold py-3 px-6 rounded-lg border border-gray-600 transition-all">
                 More Polls
               </Link>
               <button
@@ -147,7 +115,7 @@ export default function PollPage() {
                     alert("Copied!");
                   }
                 }}
-                className="bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all"
+                className="bg-gray-700 hover:bg-gray-600 text-gray-200 font-semibold py-3 px-6 rounded-lg border border-gray-600 transition-all"
               >
                 Share
               </button>
@@ -163,54 +131,40 @@ export default function PollPage() {
   const userVote = votes[item.id];
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/">
-            <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
-          </Link>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-500 font-medium">{currentIndex + 1}/{poll.items.length}</span>
-            <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
-              🚩 Red Flags
-            </Link>
-          </div>
-        </div>
-      </nav>
-
+    <div className="min-h-screen bg-gray-900">
       <div className="max-w-4xl mx-auto px-6 py-8">
         {currentIndex === 0 && !showResult && (
           <div className="text-center mb-8">
             <span className="text-4xl block mb-3">{poll.emoji}</span>
-            <h1 className="text-xl font-bold text-gray-900 mb-2">{poll.title}</h1>
-            <p className="text-gray-500 text-sm">{poll.description}</p>
+            <h1 className="text-xl font-bold text-gray-100 mb-2">{poll.title}</h1>
+            <p className="text-gray-400 text-sm">{poll.description}</p>
           </div>
         )}
 
         {/* Progress Bar */}
-        <div className="h-1 bg-gray-200 rounded-full mb-8 overflow-hidden">
+        <div className="h-1 bg-gray-700 rounded-full mb-8 overflow-hidden">
           <div className="h-full bg-red-500 rounded-full transition-all duration-300" style={{ width: `${progress}%` }} />
         </div>
 
-        <div className="bg-white rounded-xl p-6 border border-gray-200">
+        <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
           <div className="flex items-center justify-center gap-2 mb-4">
             <span>🚩</span>
-            <span className="text-sm font-semibold text-red-500 uppercase tracking-wide">Is this a red flag?</span>
+            <span className="text-sm font-semibold text-red-400 uppercase tracking-wide">Is this a red flag?</span>
           </div>
 
-          <div className="text-lg font-semibold text-gray-900 text-center mb-6">{item.text}</div>
+          <div className="text-lg font-semibold text-gray-100 text-center mb-6">{item.text}</div>
 
           {!showResult ? (
             <div className="flex gap-3">
               <button
                 onClick={() => handleVote("yes")}
-                className="flex-1 py-4 bg-red-50 border border-red-200 text-red-600 font-semibold rounded-lg hover:bg-red-500 hover:text-white hover:border-red-500 transition-all"
+                className="flex-1 py-4 bg-red-900/30 border border-red-800 text-red-400 font-semibold rounded-lg hover:bg-red-500 hover:text-white hover:border-red-500 transition-all"
               >
                 🚩 Red Flag
               </button>
               <button
                 onClick={() => handleVote("no")}
-                className="flex-1 py-4 bg-green-50 border border-green-200 text-green-600 font-semibold rounded-lg hover:bg-green-500 hover:text-white hover:border-green-500 transition-all"
+                className="flex-1 py-4 bg-green-900/30 border border-green-800 text-green-400 font-semibold rounded-lg hover:bg-green-500 hover:text-white hover:border-green-500 transition-all"
               >
                 ✓ Not a Flag
               </button>
@@ -231,9 +185,9 @@ export default function PollPage() {
                   {100 - item.yesPercent}%
                 </div>
               </div>
-              <div className="flex justify-between text-sm text-gray-500">
-                <span className={userVote === "yes" ? "font-bold text-gray-900" : ""}>🚩 Red Flag</span>
-                <span className={userVote === "no" ? "font-bold text-gray-900" : ""}>✓ Not a Flag</span>
+              <div className="flex justify-between text-sm text-gray-400">
+                <span className={userVote === "yes" ? "font-bold text-gray-100" : ""}>🚩 Red Flag</span>
+                <span className={userVote === "no" ? "font-bold text-gray-100" : ""}>✓ Not a Flag</span>
               </div>
             </div>
           )}

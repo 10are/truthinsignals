@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+body {
+  background-color: #111827;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}

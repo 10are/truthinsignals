@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 import AdBlockDetector from "./components/AdBlockDetector";
 
@@ -59,6 +61,57 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Script>
 
         <AdBlockDetector />
+
+        {/* Global Navbar */}
+        <nav className="bg-gray-900/95 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+          <div className="max-w-5xl mx-auto px-6 py-3">
+            <div className="flex items-center justify-between">
+              {/* Logo */}
+              <Link href="/" className="flex items-center gap-3 group">
+                <Image
+                  src="/logo.png"
+                  alt="Truth In Signals"
+                  width={736}
+                  height={808}
+                  className="h-9 w-auto"
+                  priority
+                />
+                <span className="hidden sm:block text-lg font-bold text-gray-100">
+                  Truth<span className="text-red-400">In</span>Signals
+                </span>
+              </Link>
+
+              {/* Navigation Links */}
+              <div className="flex items-center gap-1">
+                <Link
+                  href="/"
+                  className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg transition-all"
+                >
+                  Home
+                </Link>
+                <Link
+                  href="/"
+                  className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg transition-all"
+                >
+                  Quizzes
+                </Link>
+                <Link
+                  href="/redflags"
+                  className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-red-400 hover:bg-gray-800 rounded-lg transition-all"
+                >
+                  Red Flags
+                </Link>
+                <Link
+                  href="/redflags/my-flags"
+                  className="px-4 py-2 text-sm font-medium bg-red-500 text-white hover:bg-red-600 rounded-lg transition-all"
+                >
+                  My Flags
+                </Link>
+              </div>
+            </div>
+          </div>
+        </nav>
+
         {children}
       </body>
     </html>

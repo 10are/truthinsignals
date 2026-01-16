@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import redflagData from "@/data/redflags.json";
 import RelaxedAd from "@/app/components/RelaxedAd";
 
@@ -70,35 +69,20 @@ export default function SharedFlagsPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-gray-500">Loading...</div>
+      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+        <div className="text-gray-400">Loading...</div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-          <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-            <Link href="/">
-              <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
-            </Link>
-            <div className="flex items-center gap-4">
-              <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
-                🚩 Red Flags
-              </Link>
-              <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
-                My Flags
-              </Link>
-            </div>
-          </div>
-        </nav>
+      <div className="min-h-screen bg-gray-900">
         <div className="max-w-4xl mx-auto px-6 py-16">
-          <div className="bg-white rounded-xl p-8 text-center border border-gray-200">
+          <div className="bg-gray-800 rounded-xl p-8 text-center border border-gray-700">
             <div className="text-5xl mb-4">🤔</div>
-            <h2 className="text-xl font-bold text-gray-900 mb-2">Invalid or expired link</h2>
-            <p className="text-gray-500 mb-6">Create your own flags instead!</p>
+            <h2 className="text-xl font-bold text-gray-100 mb-2">Invalid or expired link</h2>
+            <p className="text-gray-400 mb-6">Create your own flags instead!</p>
             <Link
               href="/redflags/my-flags"
               className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all"
@@ -112,44 +96,28 @@ export default function SharedFlagsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/">
-            <Image src="/logo.png" alt="TruthInSignals" width={160} height={40} className="h-10 w-auto" priority />
-          </Link>
-          <div className="flex items-center gap-4">
-            <Link href="/redflags" className="text-sm font-medium text-gray-600 hover:text-red-500 transition-colors">
-              🚩 Red Flags
-            </Link>
-            <Link href="/redflags/my-flags" className="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">
-              My Flags
-            </Link>
-          </div>
-        </div>
-      </nav>
-
+    <div className="min-h-screen bg-gray-900">
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Shared Card */}
-        <div className="bg-white rounded-xl p-6 border border-gray-200 mb-6">
+        <div className="bg-gray-800 rounded-xl p-6 border border-gray-700 mb-6">
           <div className="text-center mb-6">
-            <h1 className="text-xl font-bold text-gray-900 mb-1">My Flags</h1>
-            <p className="text-gray-500 text-sm">Here are my honest red & green flags</p>
+            <h1 className="text-xl font-bold text-gray-100 mb-1">My Flags</h1>
+            <p className="text-gray-400 text-sm">Here are my honest red & green flags</p>
           </div>
 
           {redFlags.length > 0 && (
             <div className="mb-6">
-              <div className="text-sm font-semibold text-red-500 uppercase tracking-wide mb-3">
+              <div className="text-sm font-semibold text-red-400 uppercase tracking-wide mb-3">
                 🚩 My Red Flags ({redFlags.length})
               </div>
               <div className="flex flex-wrap gap-2">
                 {redFlags.map((flag) => (
                   <div
                     key={flag.id}
-                    className="flex items-center gap-2 px-3 py-2 bg-red-50 border border-red-200 rounded-full text-sm"
+                    className="flex items-center gap-2 px-3 py-2 bg-red-900/30 border border-red-800 rounded-full text-sm"
                   >
                     <span>{flag.emoji}</span>
-                    <span className="text-red-700">{flag.text}</span>
+                    <span className="text-red-300">{flag.text}</span>
                   </div>
                 ))}
               </div>
@@ -158,24 +126,24 @@ export default function SharedFlagsPage() {
 
           {greenFlags.length > 0 && (
             <div className="mb-6">
-              <div className="text-sm font-semibold text-green-500 uppercase tracking-wide mb-3">
+              <div className="text-sm font-semibold text-green-400 uppercase tracking-wide mb-3">
                 💚 My Green Flags ({greenFlags.length})
               </div>
               <div className="flex flex-wrap gap-2">
                 {greenFlags.map((flag) => (
                   <div
                     key={flag.id}
-                    className="flex items-center gap-2 px-3 py-2 bg-green-50 border border-green-200 rounded-full text-sm"
+                    className="flex items-center gap-2 px-3 py-2 bg-green-900/30 border border-green-800 rounded-full text-sm"
                   >
                     <span>{flag.emoji}</span>
-                    <span className="text-green-700">{flag.text}</span>
+                    <span className="text-green-300">{flag.text}</span>
                   </div>
                 ))}
               </div>
             </div>
           )}
 
-          <div className="flex gap-3 pt-4 border-t border-gray-100">
+          <div className="flex gap-3 pt-4 border-t border-gray-700">
             <button
               onClick={handleShare}
               className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition-all"
@@ -184,7 +152,7 @@ export default function SharedFlagsPage() {
             </button>
             <Link
               href="/redflags/my-flags"
-              className="flex-1 text-center bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-lg border border-gray-200 transition-all"
+              className="flex-1 text-center bg-gray-700 hover:bg-gray-600 text-gray-200 font-semibold py-3 px-6 rounded-lg border border-gray-600 transition-all"
             >
               Create My Own
             </Link>

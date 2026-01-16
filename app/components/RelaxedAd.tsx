@@ -43,11 +43,15 @@ export default function RelaxedAd() {
     };
   }, [shouldRender]);
 
+  // Reklam gelmezse hiç yer kaplamasın
+  if (!adLoaded && !shouldRender) {
+    return <div ref={containerRef} className="min-h-0" />;
+  }
+
   return (
     <div
       ref={containerRef}
-      className={adLoaded ? "my-6" : ""}
-      style={{ minHeight: shouldRender && !adLoaded ? "1px" : undefined }}
+      className={adLoaded ? "my-6" : "min-h-0 overflow-hidden"}
     >
       {shouldRender && (
         <ins
